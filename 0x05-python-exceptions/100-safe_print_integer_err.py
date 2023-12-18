@@ -3,7 +3,7 @@
 import sys
 
 
-def safe_print_integer_err(value): # Safe integer print with error message
+def safe_print_integer_err(value):  # Safe integer print with error message
     try:
         print("{:d}".format(value))
         return (True)
