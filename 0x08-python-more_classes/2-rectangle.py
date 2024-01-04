@@ -4,9 +4,10 @@
 A class Rectangle that defines a rectangle by: (based on 1-rectangle.py)
 """
 
+
 class Rectangle:
     """
-    A rectangle class
+    Area and Perimeter
     """
 
     def __init__(self, width=0, height=0):
@@ -55,12 +56,12 @@ class Rectangle:
         """
         Returns the area of the rectangle
         """
-        return (self.__width * self.__height)
+        return self.__width * self.__height
 
     def perimeter(self):
         """
         Returns the perimeter of the rectangle
         """
         if self.__width == 0 or self.__height == 0:
-            return (0)
-        return ((self.__width * 2) + (self.__height * 2))
+            return 0
+        return (self.__width * 2) + (self.__height * 2)
