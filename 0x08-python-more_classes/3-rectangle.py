@@ -4,9 +4,10 @@
 A class Rectangle that defines a rectangle by: (based on 2-rectangle.py)
 """
 
+
 class Rectangle:
     """
-    A rectangle class
+    String representation
     """
 
     def __init__(self, width=0, height=0):
@@ -58,7 +59,7 @@ class Rectangle:
         Returns the area of the rectangle
         """
 
-        return (self.__width * self.__height)
+        return self.__width * self.__height
 
     def perimeter(self):
         """
@@ -66,8 +67,8 @@ class Rectangle:
         """
 
         if self.__width == 0 or self.__height == 0:
-            return (0)
-        return ((self.__width * 2) + (self.__height * 2))
+            return 0
+        return (self.__width * 2) + (self.__height * 2)
 
     def __str__(self):
         """
@@ -77,11 +78,11 @@ class Rectangle:
         """
 
         if self.__width == 0 or self.__height == 0:
-            return ("")
+            return ""
 
         rectangle = []
         for h in range(self.__height):
-            [rectangle.append('#') for w in range(self.__width)]
+            [rectangle.append("#") for w in range(self.__width)]
             if h != self.__height - 1:
                 rectangle.append("\n")
-        return ("".join(rectangle))
+        return "".join(rectangle)
