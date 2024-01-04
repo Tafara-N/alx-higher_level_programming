@@ -4,9 +4,10 @@
 An empty class Rectangle that defines a rectangle.
 """
 
+
 class Rectangle:
     """
-    A rectangle class
+    Simple rectangle
     """
 
     pass
