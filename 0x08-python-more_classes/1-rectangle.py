@@ -4,9 +4,10 @@
 A class Rectangle that defines a rectangle by: (based on 0-rectangle.py)
 """
 
+
 class Rectangle:
     """
-    A rectangle class
+    Real definition of a rectangle
     """
 
     def __init__(self, width=0, height=0):
@@ -50,4 +51,3 @@ class Rectangle:
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
-
