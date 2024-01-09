@@ -38,11 +38,11 @@ def matrix_mul(m_a, m_b):
     if not all(isinstance(row, list) for row in m_b):
         raise TypeError("m_b must be a list of lists")
 
-    if not all((isinstance(element, int) or isinstance(element, float))
-               for element in [number for row in m_a for number in row]):
+    if not all((isinstance(elem, int) or isinstance(elem, float))
+               for elem in [numb for row in m_a for numb in row]):
         raise TypeError("m_a should contain only integers or floats")
-    if not all((isinstance(element, int) or isinstance(element, float))
-               for ele in [number for row in m_b for number in row]):
+    if not all((isinstance(elem, int) or isinstance(elem, float))
+               for elem in [numb for row in m_b for numb in row]):
         raise TypeError("m_b should contain only integers or floats")
 
     if not all(len(row) == len(m_a[0]) for row in m_a):
@@ -53,21 +53,22 @@ def matrix_mul(m_a, m_b):
     if len(m_a[0]) != len(m_b):
         raise ValueError("m_a and m_b can't be multiplied")
 
-    inverted_b = []
+    inverted = []
     for rw in range(len(m_b[0])):
         curr_row = []
         for clm in range(len(m_b)):
             curr_row.append(m_b[clm][rw])
-        inverted_b.append(curr_row)
+        inverted.append(curr_row)
 
     curr_matrix = []
     for row in m_a:
         curr_row = []
-        for column in inverted_b:
+        for col in inverted:
             prod = 0
-            for x in range(len(inverted_b[0])):
+            for x in range(len(inverted[0])):
                 prod += row[x] * col[x]
             curr_row.append(prod)
         curr_matrix.append(curr_row)
 
     return curr_matrix
+
