@@ -13,7 +13,7 @@ class Base:
     """
     Base model
 
-    Represents the "base" for all other classes of this project
+    Represents the 'base' for all other classes of this project
 
     Private Class Attributes:
         __nb_object (int): Instantiated Bases
@@ -71,7 +71,8 @@ class Base:
         Returning the deserialization of a JSON string
 
         Args:
-            json_string (str): A JSON string representation of a list of dictionaries
+            json_string (str): A JSON string representation of a
+            list of dictionaries
 
         Returns:
             An empty list if json_string is None or empty
@@ -88,7 +89,8 @@ class Base:
         Returning a class instantied from a dict of attributes
 
         Args:
-            **dictionary (dict): Key:value pairs of attributes to be initialized
+            **dictionary (dict): Key:value pairs of attributes to
+            be initialized
         """
 
         if dictionary and dictionary != {}:
