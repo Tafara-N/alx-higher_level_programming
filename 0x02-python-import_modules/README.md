@@ -321,7 +321,7 @@ guillaume@ubuntu:~/0x02$
 ```
 
 Remember how you did (or did not) do it in C? `#pythoniscool`
-- ![Python is cool](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/621c6dd72e1acff708141f3fab6dfa6ff37c5ee6.jpg)
+- ![Python is cool](https://github.com/pich4ya)
 
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
