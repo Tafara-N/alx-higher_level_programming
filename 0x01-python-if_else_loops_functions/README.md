@@ -838,6 +838,7 @@ guillaume@ubuntu:~/0x01$
 
 Write the Python function `def magic_calculation(a, b, c):` that does exactly the same as the following Python bytecode:
 
+```shell
   3           0 LOAD_FAST                0 (a)
               3 LOAD_FAST                1 (b)
               6 COMPARE_OP               0 (<)
@@ -862,9 +863,11 @@ Write the Python function `def magic_calculation(a, b, c):` that does exactly th
              43 LOAD_FAST                2 (c)
              46 BINARY_SUBTRACT
              47 RETURN_VALUE
+```
+
 [tips - ByteCode](https://intranet.alxswe.com/rltoken/BO9a7nq6424lGmtmwyB4cQ)
 
 **Repo:**
--GitHub repository: `alx-higher_level_programming`
--Directory: `0x01-python-if_else_loops_functions`
--File: `102-magic_calculation.py`
+- GitHub repository: `alx-higher_level_programming`
+- Directory: `0x01-python-if_else_loops_functions`
+- File: `102-magic_calculation.py`
