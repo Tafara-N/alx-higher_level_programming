@@ -1,9 +1,9 @@
 # Resources
 ## Read or watch:
 
-[3.1.3. Lists](https://intranet.alxswe.com/rltoken/VarQbHxfmbnpGnaGp3Nb_A)
-[Data structures](https://intranet.alxswe.com/rltoken/2aa8Mp-V2eSieGeX3OX8yQ) (until `5.3. Tuples and Sequences` included)
-[Learn to Program 6 : Lists](https://intranet.alxswe.com/rltoken/BX2_CuHj1sq4eYGiXbCYSg)
+- [3.1.3. Lists](https://intranet.alxswe.com/rltoken/VarQbHxfmbnpGnaGp3Nb_A)
+- [Data structures](https://intranet.alxswe.com/rltoken/2aa8Mp-V2eSieGeX3OX8yQ) (until `5.3. Tuples and Sequences` included)
+- [Learn to Program 6 : Lists](https://intranet.alxswe.com/rltoken/BX2_CuHj1sq4eYGiXbCYSg)
 
 ## Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/qZrNhvUqi5zcqE4cMFGU6Q), **without the help of Google:**
@@ -627,8 +627,6 @@ CPython is the reference implementation of the Python programming language. Writ
 Since we now know a bit of C, we can look at what is happening under the hood of Python. Let’s have fun with Python and C, and let’s look at what makes Python so easy to use.
 
 - All your files will be interpreted/compiled on Ubuntu 14.04 LTS
-
-![CPython](![alt text](image.png))
 
 Create a C function that prints some basic info about Python lists.
 
