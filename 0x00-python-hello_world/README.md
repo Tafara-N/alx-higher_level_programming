@@ -5,6 +5,8 @@
 [Python programming](https://intranet.alxswe.com/concepts/550)
 
 ## Author’s disclaimer
+
+[](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/231/48a9fdbd67c84a328a9df9ec8d93b9ac2458ac37721d7d53e51a27fb2bdc5263.jpg)
 ---
 ```
 Welcome to the Python world!
@@ -53,7 +55,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ## Requirements  
 **Python Scripts**  
-- Allowed editors: `vi, vim, emacs`
+- Allowed editors: `vi`, `vim`, `emacs`
 - All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
 - All your files should end with a new line
 - The first line of all your files should be exactly `#!/usr/bin/python3`
@@ -64,15 +66,15 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - The length of your files will be tested using `wc`
 
 **Shell Scripts**  
-- Allowed editors: `vi, vim, emacs`
+- Allowed editors: `vi`, `vim`, `emacs`
 - All your scripts will be tested on Ubuntu 20.04 LTS
 - All your scripts should be exactly two lines long (`wc -l file` should print 2)
 - All your files should end with a new line
-- The first line of all your files should be exactly *#!/bin/bash*
+- The first line of all your files should be exactly `#!/bin/bash`
 - All your files must be executable
 
 **C Scripts**  
-- Allowed editors: `vi, vim, emacs`
+- Allowed editors: `vi`, `vim`, `emacs`
 - All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 - All your files should end with a new line
 - Your code should use the `Betty` style. It will be checked using [betty-style.pl](https://github.com/alx-tools/Betty/blob/master/betty-style.pl) and [betty-doc.pl](https://github.com/alx-tools/Betty/blob/master/betty-doc.pl)
@@ -109,7 +111,9 @@ If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 ```
 **Pycodestyle**  
-*Pycodestyle* is now the [new standard of Python style code](https://intranet.alxswe.com/rltoken/UQ25jC6sA5XqZl6ZZIdAaw)
+`Pycodestyle` is now the [new standard of Python style code](https://intranet.alxswe.com/rltoken/UQ25jC6sA5XqZl6ZZIdAaw)
+
+[](https://miro.medium.com/v2/resize:fit:640/format:webp/1*ZSykfSA9hTOCc2PETCa8mA.jpeg)
 
 **Quiz questions**
 
