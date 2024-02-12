@@ -22,6 +22,185 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - What is sequence unpacking
 - What is the `del` statement and how to use it
 
+## Quiz questions
+
+### Question #0
+
+What do these lines print?
+
+```python
+>>> a = [1, 2, 3, 4]
+>>> b = a
+>>> b
+```
+
+- [ ] a
+
+- [ ] [1, 2, 3, 4]
+
+- [ ] [1]
+
+- [ ] 1
+
+### Question #1
+
+What do these lines print?
+
+```python
+>>> a = [1, 2, 3, 4]
+>>> b = a
+>>> a[2] = 10
+>>> a
+```
+
+- [ ] b
+
+- [ ] [1]
+
+- [ ] [1, 2, 10, 4]
+
+- [ ] a
+
+- [ ] [1, 2, 3, 4]
+
+### Question #2
+
+What do these lines print?
+
+```python
+>>> a = [1, 2, 3, 4]
+>>> a[0]
+```
+
+- [ ] [1, 2, 3, 4]
+
+- [ ] 1
+
+- [ ] 2
+
+- [ ] [1, 2]
+
+- [ ] [1]
+
+### Question #3
+
+What do these lines print?
+
+```python
+>>> a = [1, 2, 3, 4]
+>>> len(a)
+```
+
+- [ ] 8
+
+- [ ]2
+
+- [ ] 4
+
+- [ ] 6
+
+### Question #4
+
+What do these lines print?
+
+```python
+>>> a = [1, 2, 3, 4]
+>>> a[-1]
+```
+
+- [ ] [4, 3, 2, 1]
+
+- [ ] -1
+
+- [ ] 2
+
+- [ ] 4
+
+### Question #5
+
+What do these lines print?
+
+```python
+>>> a = [1, 2, 3, 4]
+>>> b = a
+>>> a[2] = 10
+>>> b
+```
+
+- [ ] b
+
+- [ ] [1]
+
+- [ ] [1, 2, 10, 4]
+
+- [ ] a
+
+- [ ] [1, 2, 3, 4]
+
+### Question #6
+
+What do these lines print?
+
+```python
+>>> a = [1, 2, 3, 4]
+>>> a[-3]
+```
+
+- [ ] -3
+
+- [ ] [4, 3]
+
+- [ ] 2
+
+### Question #7
+
+What do these lines print?
+
+```python
+>>> a = [1, 2, 3, 4]
+>>> a.append(5)
+>>> len(a)
+```
+
+- [ ] 2
+
+- [ ] 5
+
+- [ ] 6
+
+### Question #8
+
+What do these lines print?
+
+```python
+>>> a = [1, 2, 3, 4]
+>>> a[2] = 10
+>>> a
+```
+
+- [ ] [1, 2, 10, 10]
+
+- [ ] [1, 2, 3, 4]
+
+- [ ] [1, 10, 3, 4]
+
+- [ ] [1, 2, 10, 4]
+
+### Question #9
+
+What do these lines print?
+
+```python
+>>> a = [1, 2, 3, 4]
+>>> a[1:3]
+```
+
+- [ ] [1, 2, 3]
+
+- [ ] [1, 2]
+
+- [ ] [2, 3]
+
 ## Tasks
 
 ### 0. Print a list of integers
