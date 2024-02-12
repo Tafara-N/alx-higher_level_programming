@@ -321,7 +321,7 @@ guillaume@ubuntu:~/0x02$
 ```
 
 Remember how you did (or did not) do it in C? `#pythoniscool`
-![Python is cool](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/621c6dd72e1acff708141f3fab6dfa6ff37c5ee6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T101127Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=a6a7fd9406d95ec7362819a2e8580b100d0b75da2ed937851d8d88de9fc1789c)
+- ![Python is cool](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/621c6dd72e1acff708141f3fab6dfa6ff37c5ee6.jpg)
 
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
