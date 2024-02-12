@@ -6,7 +6,7 @@
 
 ## Author’s disclaimer
 
-[](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/231/48a9fdbd67c84a328a9df9ec8d93b9ac2458ac37721d7d53e51a27fb2bdc5263.jpg)
+[Python](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/231/48a9fdbd67c84a328a9df9ec8d93b9ac2458ac37721d7d53e51a27fb2bdc5263.jpg)
 ---
 ```
 Welcome to the Python world!
@@ -113,7 +113,7 @@ Namespaces are one honking great idea -- let's do more of those!
 **Pycodestyle**  
 `Pycodestyle` is now the [new standard of Python style code](https://intranet.alxswe.com/rltoken/UQ25jC6sA5XqZl6ZZIdAaw)
 
-[](https://miro.medium.com/v2/resize:fit:640/format:webp/1*ZSykfSA9hTOCc2PETCa8mA.jpeg)
+[Monty](https://miro.medium.com/v2/resize:fit:640/format:webp/1*ZSykfSA9hTOCc2PETCa8mA.jpeg)
 
 **Quiz questions**
 
