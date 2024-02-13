@@ -459,7 +459,7 @@ a is b
 - Directory: `0x09-python-everything_is_object`
 - File: `24-answer.txt`
 
-###25. Tuple or not
+### 25. Tuple or not
 
 What does this script print?
 
@@ -652,7 +652,7 @@ Assuming we are using a CPython implementation of Python3 with default options/c
 
 - Before the execution of line 2 (`print("Love")`), how many int objects have been created and are still in memory? (`105-line1.txt`)
 - Why? (optional blog post :))
-Hint: `NSMALLPOSINTS`, `NSMALLNEGINTS`
+- Hint: `NSMALLPOSINTS`, `NSMALLNEGINTS`
 
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
