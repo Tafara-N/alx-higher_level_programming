@@ -88,7 +88,7 @@ print(User.id)
 
 What do these lines print?
 
-```
+```python
 class User:
     id = 1
 
@@ -109,7 +109,7 @@ print(u.id)
 
 What do these lines print?
 
-```
+```python
 class User:
     id = 1
 
@@ -130,7 +130,7 @@ print(u.id)
 
 What do these lines print?
 
-```
+```python
 class User:
     id = 1
 
