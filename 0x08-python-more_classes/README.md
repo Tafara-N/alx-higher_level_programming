@@ -902,8 +902,7 @@ guillaume@ubuntu:~/0x08$
 
 ### 10. N queens
 
-![Judith Polgar](http://www.crestbook.com/files/Judit-photo1_602x433.jpg)
-
+![Judith Polgar](http://www.crestbook.com/files/Judit-photo1_602x433.jpg)  
 Chess grandmaster [Judit Polgár](https://intranet.alxswe.com/rltoken/bsRwbt64OvYjWaClriv0jg), the strongest female chess player of all time
 
 
