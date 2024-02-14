@@ -4,7 +4,7 @@
 
 - [Databases](https://intranet.alxswe.com/concepts/37)
 
-![SQL](https://www.google.com/imgres?imgurl=http%3A%2F%2Fwww.tridiondeveloper.com%2Fwp-content%2Fuploads%2F2017%2F11%2Frtcwz.jpg&tbnid=anQ4BGb8xVzw0M&vet=12ahUKEwj_trCTrqiEAxUlBfsDHTvrAMcQMygFegQIARBA..i&imgrefurl=http%3A%2F%2Fwww.tridiondeveloper.com%2Fsdl-web-8-5-broker-performance-woes&docid=Re09Lfezf-XxlM&w=620&h=342&q=sql%20query%20sql%20meme&ved=2ahUKEwj_trCTrqiEAxUlBfsDHTvrAMcQMygFegQIARBA)
+![SQL](https://benjdd.com/assets/memes/sql-meme-1.jpg)
 
 ## Resources
 ## Read or watch:
