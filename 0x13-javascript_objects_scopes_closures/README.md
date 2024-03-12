@@ -12,13 +12,13 @@
 - [Modern JS](https://intranet.alxswe.com/rltoken/rU_q2J3qGWfvTYNllW8JnA)
 
 ## Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/Eo6JxX0bkDywq4IxT8wRew), **without the help of Google:**
 
 ## General
 - Why JavaScript programming is amazing
 - How to create an object in JavaScript
-- What this means
-- What undefined means
+- What `this` means
+- What `undefined` means
 - Why the variable type and scope is important
 - What is a closure
 - What is a prototype
