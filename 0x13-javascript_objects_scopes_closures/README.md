@@ -383,7 +383,7 @@ guillaume@ubuntu:~/0x13$
 Write a function that returns the reversed version of a list:
 
 - Prototype: `exports.esrever = function (list)`
-- You are not allow to use the built-in method reverse
+- You are not allow to use the built-in method `reverse`
 
 ```
 guillaume@ubuntu:~/0x13$ cat 8-main.js
