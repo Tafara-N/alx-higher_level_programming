@@ -1,4 +1,4 @@
-# Resources
+# Resources  
 ## Read or watch:
 - [JavaScript object basics]()
 - [Object-oriented JavaScript]() (read all examples!)
