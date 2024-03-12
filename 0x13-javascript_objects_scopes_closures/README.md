@@ -355,7 +355,7 @@ guillaume@ubuntu:~/0x13$
 
 Write a function that returns the number of occurrences in a list:
 
-Prototype: `exports.nbOccurences = function (list, searchElement)`
+- Prototype: `exports.nbOccurences = function (list, searchElement)`
 
 ```
 guillaume@ubuntu:~/0x13$ cat 7-main.js
