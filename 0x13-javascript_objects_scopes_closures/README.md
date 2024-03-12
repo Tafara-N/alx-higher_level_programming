@@ -58,7 +58,7 @@ $ sudo npm install semistandard --global
 
 Write an empty class `Rectangle` that defines a rectangle:
 
-- You must use the class notation for defining your class
+- You must use the `class` notation for defining your class
 
 ```
 guillaume@ubuntu:~/0x13$ cat 0-main.js
@@ -84,10 +84,10 @@ guillaume@ubuntu:~/0x13$
 
 Write a class Rectangle that defines a rectangle:
 
-- You must use the class notation for defining your class
-- The constructor must take 2 arguments w and h
-- Initialize the instance attribute width with the value of w
-- Initialize the instance attribute height with the value of h
+- You must use the `class` notation for defining your class
+- The constructor must take 2 arguments `w` and `h`
+- Initialize the instance attribute `width` with the value of `w`
+- Initialize the instance attribute `height` with the value of `h`
 
 ```
 guillaume@ubuntu:~/0x13$ cat 1-main.js
