@@ -31,7 +31,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - All your files should end with a new line
 - The first line of all your files should be exactly `#!/usr/bin/node`
 - A `README.md` file, at the root of the folder of the project, is mandatory
-- Your code should be semistandard compliant. [Rules of Standard]() + [semicolons on top](). Also as reference: [AirBnB style]()
+- Your code should be `semistandard` compliant. [Rules of Standard](https://intranet.alxswe.com/rltoken/CAKkGG6pUDtpu3T2rn4MXw) + [semicolons on top](https://intranet.alxswe.com/rltoken/oc1-9XTUtCiIyZkdAFvoUQ). Also as reference: [AirBnB style](https://intranet.alxswe.com/rltoken/JvqqQQrEPtGjP-57CZSEaQ)
 - All your files must be executable
 - The length of your files will be tested using `wc`
 - You are not allowed to use `var`
@@ -46,7 +46,7 @@ $ sudo apt-get install -y nodejs
 
 ## Install semi-standard
 
-[Documentation]()
+[Documentation](https://intranet.alxswe.com/rltoken/oc1-9XTUtCiIyZkdAFvoUQ)
 
 ```
 $ sudo npm install semistandard --global
