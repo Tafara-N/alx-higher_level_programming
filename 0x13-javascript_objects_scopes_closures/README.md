@@ -125,7 +125,7 @@ guillaume@ubuntu:~/0x13$
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x13-javascript_objects_scopes_closures`
-- File: 1-rectangle.js
+- File: `1-rectangle.js`
 
 ### 2. Rectangle #2
 
