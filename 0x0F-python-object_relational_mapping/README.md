@@ -479,17 +479,19 @@ guillaume@ubuntu:~/0x0F$
 - Directory: `0x0F-python-object_relational_mapping`
 - File: model_state.py
 
-7. All states via SQLAlchemy
-mandatory
-Write a script that lists all State objects from the database hbtn_0e_6_usa
+### 7. All states via SQLAlchemy
 
-Your script should take 3 arguments: mysql username, mysql password and database name
-You must use the module SQLAlchemy
-You must import State and Base from model_state - from model_state import Base, State
-Your script should connect to a MySQL server running on localhost at port 3306
-Results must be sorted in ascending order by states.id
-The results must be displayed as they are in the example below
-Your code should not be executed when imported
+Write a script that lists all `State` objects from the database `hbtn_0e_6_usa`
+
+- Your script should take 3 arguments: `mysql username`, `mysql password` and `database name`
+- You must use the module `SQLAlchemy`
+- You must import `State` and `Base` from `model_state` - `from model_state import Base, State`
+- Your script should connect to a MySQL server running on `localhost` at port `3306`
+- Results must be sorted in ascending order by `states.id`
+- The results must be displayed as they are in the example below
+- Your code should not be executed when imported
+
+```
 guillaume@ubuntu:~/0x0F$ cat 7-model_state_fetch_all.sql
 -- Insert states
 INSERT INTO states (name) VALUES ("California"), ("Arizona"), ("Texas"), ("New York"), ("Nevada");
@@ -503,13 +505,14 @@ guillaume@ubuntu:~/0x0F$ ./7-model_state_fetch_all.py root root hbtn_0e_6_usa
 4: New York
 5: Nevada
 guillaume@ubuntu:~/0x0F$
-No test cases needed
+```
+
+**No test cases needed**
 
 **Repo:**
-
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0F-python-object_relational_mapping`
-- File: 7-model_state_fetch_all.py
+- File: `7-model_state_fetch_all.py`
 
 8. First state
 mandatory
