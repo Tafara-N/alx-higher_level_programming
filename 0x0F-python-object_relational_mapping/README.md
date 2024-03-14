@@ -306,17 +306,19 @@ guillaume@ubuntu:~/0x0F$
 - Directory: `0x0F-python-object_relational_mapping`
 - File: `3-my_safe_filter_states.py`
 
-4. Cities by states
-mandatory
-Write a script that lists all cities from the database hbtn_0e_4_usa
+### 4. Cities by states
 
-Your script should take 3 arguments: mysql username, mysql password and database name
-You must use the module MySQLdb (import MySQLdb)
-Your script should connect to a MySQL server running on localhost at port 3306
-Results must be sorted in ascending order by cities.id
-You can use only execute() once
-Results must be displayed as they are in the example below
-Your code should not be executed when imported
+Write a script that lists all `cities` from the database `hbtn_0e_4_usa`
+
+- Your script should take 3 arguments: `mysql username`, `mysql password` and `database name`
+- You must use the module `MySQLdb` (`import MySQLdb`)
+- Your script should connect to a MySQL server running on `localhost` at port `3306`
+- Results must be sorted in ascending order by `cities.id`
+- You can use only `execute()` once
+- Results must be displayed as they are in the example below
+- Your code should not be executed when imported
+
+```
 guillaume@ubuntu:~/0x0F$ cat 4-cities_by_state.sql
 -- Create states table in hbtn_0e_4_usa with some data
 CREATE DATABASE IF NOT EXISTS hbtn_0e_4_usa;
@@ -360,13 +362,14 @@ guillaume@ubuntu:~/0x0F$ ./4-cities_by_state.py root root hbtn_0e_4_usa
 (14, 'Henderson', 'Nevada')
 (15, 'Carson City', 'Nevada')
 guillaume@ubuntu:~/0x0F$
-No test cases needed
+```
+
+**No test cases needed**
 
 **Repo:**
-
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0F-python-object_relational_mapping`
-- File: 4-cities_by_state.py
+- File: `4-cities_by_state.py`
 
 5. All cities by state
 mandatory
