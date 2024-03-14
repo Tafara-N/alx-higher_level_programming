@@ -597,16 +597,18 @@ guillaume@ubuntu:~/0x0F$
 - Directory: `0x0F-python-object_relational_mapping`
 - File: `10-model_state_my_get.py`
 
-11. Add a new state
-mandatory
-Write a script that adds the State object “Louisiana” to the database hbtn_0e_6_usa
+### 11. Add a new state
 
-Your script should take 3 arguments: mysql username, mysql password and database name
-You must use the module SQLAlchemy
-You must import State and Base from model_state - from model_state import Base, State
-Your script should connect to a MySQL server running on localhost at port 3306
-Print the new states.id after creation
-Your code should not be executed when imported
+Write a script that adds the `State` object “Louisiana” to the database `hbtn_0e_6_usa`
+
+- Your script should take 3 arguments: `mysql username`, `mysql password` and `database name`
+- You must use the module `SQLAlchemy`
+- You must import `State` and `Base` from `model_state` - `from model_state import Base, State`
+- Your script should connect to a MySQL server running on `localhost` at port `3306`
+- Print the new `states.id` after creation
+- Your code should not be executed when imported
+
+```
 guillaume@ubuntu:~/0x0F$ ./11-model_state_insert.py root root hbtn_0e_6_usa
 6
 guillaume@ubuntu:~/0x0F$ ./7-model_state_fetch_all.py root root hbtn_0e_6_usa
@@ -617,13 +619,14 @@ guillaume@ubuntu:~/0x0F$ ./7-model_state_fetch_all.py root root hbtn_0e_6_usa
 5: Nevada
 6: Louisiana
 guillaume@ubuntu:~/0x0F$
-No test cases needed
+```
+
+**No test cases needed**
 
 **Repo:**
-
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0F-python-object_relational_mapping`
-- File: 11-model_state_insert.py
+- File: `11-model_state_insert.py`
 
 12. Update a state
 mandatory
