@@ -178,7 +178,7 @@ guillaume@ubuntu:~/0x0F$
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0F-python-object_relational_mapping`
-- File: 0-select_states.py
+- File: `0-select_states.py`
 
 ### 1. Filter states
 
