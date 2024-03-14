@@ -750,13 +750,14 @@ Nevada: (13) Reno
 Nevada: (14) Henderson
 Nevada: (15) Carson City
 guillaume@ubuntu:~/0x0F$
-No test cases needed
+```
+
+**No test cases needed**
 
 **Repo:**
-
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0F-python-object_relational_mapping`
-- File: model_city.py, 14-model_city_fetch_by_state.py
+- File: `model_city.py, 14-model_city_fetch_by_state.py`
 
 15. City relationship
 #advanced
