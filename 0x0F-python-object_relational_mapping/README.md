@@ -426,20 +426,22 @@ guillaume@ubuntu:~/0x0F$
 - Directory: `0x0F-python-object_relational_mapping`
 - File: `5-filter_cities.py`
 
-6. First state model
-mandatory
+### 6. First state model
 
+![IGNORE SQL]()
 
-Write a python file that contains the class definition of a State and an instance Base = declarative_base():
+Write a python file that contains the class definition of a `State` and an instance `Base = declarative_base()`:
 
-State class:
-inherits from Base Tips
-links to the MySQL table states
-class attribute id that represents a column of an auto-generated, unique integer, can’t be null and is a primary key
-class attribute name that represents a column of a string with maximum 128 characters and can’t be null
-You must use the module SQLAlchemy
-Your script should connect to a MySQL server running on localhost at port 3306
-WARNING: all classes who inherit from Base must be imported before calling Base.metadata.create_all(engine)
+`State` class:
+inherits from `Base` [Tips](https://intranet.alxswe.com/rltoken/SFKIwNZ3IG6_4TL6dEsIuA)
+links to the MySQL table `states`
+class attribute `id` that represents a column of an auto-generated, unique integer, can’t be null and is a primary key
+class attribute `name` that represents a column of a string with maximum 128 characters and can’t be null
+You must use the module `SQLAlchemy`
+Your script should connect to a MySQL server running on `localhost` at port `3306`
+**WARNING**: all classes who inherit from `Base` **must** be imported before calling `Base.metadata.create_all(engine)`
+
+```
 guillaume@ubuntu:~/0x0F$ cat 6-model_state.sql
 -- Create database hbtn_0e_6_usa
 CREATE DATABASE IF NOT EXISTS hbtn_0e_6_usa;
@@ -468,10 +470,11 @@ Enter password:
 Table   Create Table
 states  CREATE TABLE `states` (\n  `id` int(11) NOT NULL AUTO_INCREMENT,\n  `name` varchar(128) NOT NULL,\n  PRIMARY KEY (`id`)\n) ENGINE=InnoDB DEFAULT CHARSET=latin1
 guillaume@ubuntu:~/0x0F$
-No test cases needed
+```
+
+**No test cases needed**
 
 **Repo:**
-
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0F-python-object_relational_mapping`
 - File: model_state.py
