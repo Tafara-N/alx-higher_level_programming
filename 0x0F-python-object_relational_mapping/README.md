@@ -593,7 +593,6 @@ guillaume@ubuntu:~/0x0F$
 **No test cases needed**
 
 **Repo:**
-
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0F-python-object_relational_mapping`
 - File: `10-model_state_my_get.py`
