@@ -180,16 +180,18 @@ guillaume@ubuntu:~/0x0F$
 - Directory: `0x0F-python-object_relational_mapping`
 - File: 0-select_states.py
 
-1. Filter states
-mandatory
-Write a script that lists all states with a name starting with N (upper N) from the database hbtn_0e_0_usa:
+### 1. Filter states
 
-Your script should take 3 arguments: mysql username, mysql password and database name (no argument validation needed)
-You must use the module MySQLdb (import MySQLdb)
-Your script should connect to a MySQL server running on localhost at port 3306
-Results must be sorted in ascending order by states.id
-Results must be displayed as they are in the example below
-Your code should not be executed when imported
+Write a script that lists all `states` with a `name` starting with `N` (upper N) from the database `hbtn_0e_0_usa`:
+
+- Your script should take 3 arguments: `mysql username`, `mysql password` and `database name` (no argument validation needed)
+- You must use the module `MySQLdb` (`import MySQLdb`)
+- Your script should connect to a MySQL server running on `localhost` at port `3306`
+- Results must be sorted in ascending order by `states.id`
+- Results must be displayed as they are in the example below
+- Your code should not be executed when imported
+
+```
 guillaume@ubuntu:~/0x0F$ cat 0-select_states.sql
 -- Create states table in hbtn_0e_0_usa with some data
 CREATE DATABASE IF NOT EXISTS hbtn_0e_0_usa;
@@ -207,13 +209,14 @@ guillaume@ubuntu:~/0x0F$ ./1-filter_states.py root root hbtn_0e_0_usa
 (4, 'New York')
 (5, 'Nevada')
 guillaume@ubuntu:~/0x0F$
-No test cases needed
+```
+
+**No test cases needed**
 
 **Repo:**
-
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0F-python-object_relational_mapping`
-- File: 1-filter_states.py
+- File: `1-filter_states.py`
 
 2. Filter states by user input
 mandatory
