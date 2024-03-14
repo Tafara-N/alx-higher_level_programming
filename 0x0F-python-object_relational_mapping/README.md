@@ -428,7 +428,7 @@ guillaume@ubuntu:~/0x0F$
 
 ### 6. First state model
 
-![IGNORE SQL]()
+![IGNORE SQL](https://github.com/Tafara-N/Project-Images/blob/main/alx-higher_level_programming/0x0F-python-object_relational_mapping/images/ignore_sql.jpg)
 
 Write a python file that contains the class definition of a `State` and an instance `Base = declarative_base()`:
 
