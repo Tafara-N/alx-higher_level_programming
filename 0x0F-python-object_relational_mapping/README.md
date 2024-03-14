@@ -53,9 +53,9 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 - [Flask SQLAlchemy]()
 - [10 common stumbling blocks for SQLAlchemy newbies]()
 - [Python SQLAlchemy Cheatsheet]()
-- [SQLAlchemy ORM Tutorial for Python Developers]() (**Warning**: *This tutorial is with PostgreSQL, but the concept of SQLAlchemy is the same with MySQL*)
-- [SQLAlchemy Tutorial]()
-- [Python Virtual Environments: A primer]()
+- [SQLAlchemy ORM Tutorial for Python Developers](https://intranet.alxswe.com/rltoken/hNxBKC8lHge5XjsRO8ksHQ) (**Warning**: *This tutorial is with PostgreSQL, but the concept of SQLAlchemy is the same with MySQL*)
+- [SQLAlchemy Tutorial](https://intranet.alxswe.com/rltoken/5G_R2NmQRFqiZb84qxYERQ)
+- [Python Virtual Environments: A primer](https://intranet.alxswe.com/rltoken/OXle6kXpmD88D0WbgbTWqg)
 
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
