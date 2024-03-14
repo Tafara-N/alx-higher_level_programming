@@ -628,16 +628,18 @@ guillaume@ubuntu:~/0x0F$
 - Directory: `0x0F-python-object_relational_mapping`
 - File: `11-model_state_insert.py`
 
-12. Update a state
-mandatory
-Write a script that changes the name of a State object from the database hbtn_0e_6_usa
+### 12. Update a state
 
-Your script should take 3 arguments: mysql username, mysql password and database name
-You must use the module SQLAlchemy
-You must import State and Base from model_state - from model_state import Base, State
-Your script should connect to a MySQL server running on localhost at port 3306
-Change the name of the State where id = 2 to New Mexico
-Your code should not be executed when imported
+Write a script that changes the name of a `State` object from the database `hbtn_0e_6_usa`
+
+- Your script should take 3 arguments: `mysql username`, `mysql password` and `database name`
+- You must use the module `SQLAlchemy`
+- You must import `State` and `Base` from `model_state` - `from model_state import Base, State`
+- Your script should connect to a MySQL server running on `localhost` at port `3306`
+- Change the name of the `State` where `id = 2` to `New Mexico`
+- Your code should not be executed when imported
+
+```
 guillaume@ubuntu:~/0x0F$ ./12-model_state_update_id_2.py root root hbtn_0e_6_usa
 guillaume@ubuntu:~/0x0F$ ./7-model_state_fetch_all.py root root hbtn_0e_6_usa
 1: California
@@ -647,13 +649,14 @@ guillaume@ubuntu:~/0x0F$ ./7-model_state_fetch_all.py root root hbtn_0e_6_usa
 5: Nevada
 6: Louisiana
 guillaume@ubuntu:~/0x0F$
-No test cases needed
+```
+
+**No test cases needed**
 
 **Repo:**
-
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0F-python-object_relational_mapping`
-- File: 12-model_state_update_id_2.py
+- File: `12-model_state_update_id_2.py`
 
 13. Delete states
 mandatory
