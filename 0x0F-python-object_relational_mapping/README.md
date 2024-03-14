@@ -218,8 +218,8 @@ guillaume@ubuntu:~/0x0F$
 - Directory: `0x0F-python-object_relational_mapping`
 - File: `1-filter_states.py`
 
-2. Filter states by user input
-mandatory
+### 2. Filter states by user input
+
 Write a script that takes in an argument and displays all values in the states table of hbtn_0e_0_usa where name matches the argument.
 
 Your script should take 4 arguments: `mysql username`, `mysql password`, `database name` and `state name searched` (no argument validation needed)
