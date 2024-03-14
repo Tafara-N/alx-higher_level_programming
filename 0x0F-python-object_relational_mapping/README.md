@@ -808,19 +808,23 @@ guillaume@ubuntu:~/0x0F$
 
 ### 16. List relationship
 
-Write a script that lists all State objects, and corresponding City objects, contained in the database hbtn_0e_101_usa
+Write a script that lists all `State` objects, and corresponding `City` objects, contained in the database `hbtn_0e_101_usa`
 
-Your script should take 3 arguments: mysql username, mysql password and database name
-You must use the module SQLAlchemy
-The connection to your MySQL server must be to localhost on port 3306
-You must only use one query to the database
-You must use the cities relationship for all State objects
-Results must be sorted in ascending order by states.id and cities.id
-Results must be displayed as they are in the example below
-Your code should not be executed when imported
+- Your script should take 3 arguments: `mysql username`, `mysql password` and `database name`
+- You must use the module `SQLAlchemy`
+- The connection to your MySQL server must be to `localhost` on port `3306`
+- You must only use one query to the database
+- You must use the `cities` relationship for all `State` objects
+- Results must be sorted in ascending order by `states.id` and `cities.id`
+- Results must be displayed as they are in the example below
+- Your code should not be executed when imported
+
+```
 <state id>: <state name>
 <tabulation><city id>: <city name>
-guillaume@ubuntu:~/0x0F$ cat 101-relationship_states_cities_list.sql
+```
+
+```guillaume@ubuntu:~/0x0F$ cat 101-relationship_states_cities_list.sql
 -- Create states table in hbtn_0e_101_usa with some data
 CREATE DATABASE IF NOT EXISTS hbtn_0e_101_usa;
 USE hbtn_0e_101_usa;
@@ -867,13 +871,14 @@ guillaume@ubuntu:~/0x0F$ ./101-relationship_states_cities_list.py root root hbtn
     14: Henderson
     15: Carson City
 guillaume@ubuntu:~/0x0F$
-No test cases needed
+```
+
+**No test cases needed**
 
 **Repo:**
-
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0F-python-object_relational_mapping`
-- File: 101-relationship_states_cities_list.py
+- File: `101-relationship_states_cities_list.py`
 
 ### 17. From city
 
