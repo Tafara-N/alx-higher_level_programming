@@ -22,11 +22,11 @@ if __name__ == '__main__':
         port=3306
         )
 
-    cur = db.cursor()
+    cursor = db.cursor()
 
-    cur.execute("SELECT * FROM states ORDER BY id ASC")
+    cursor.execute("SELECT * FROM states ORDER BY id ASC")
 
-    records = cur.fetchall()
+    records = cursor.fetchall()
 
     for record in records:
         print(record)
