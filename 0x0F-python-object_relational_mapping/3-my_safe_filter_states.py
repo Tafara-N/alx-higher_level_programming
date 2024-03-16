@@ -17,8 +17,7 @@ if __name__ == '__main__':
 
     if len(argv) != 5:
         print("Usage: ./script.py <username> <password>\
-            <database> <name_to_search>"
-        )
+            <database> <name_to_search>")
         exit(1)
 
     db = MySQLdb.connect(
@@ -33,8 +32,7 @@ if __name__ == '__main__':
 
     # String formated to prevent SQL injection
     query = ("SELECT * FROM `states` WHERE `name` LIKE\
-        BINARY %(name)s ORDER BY states.id ASC", {'name': argv[4]}
-    )
+        BINARY %(name)s ORDER BY states.id ASC", {'name': argv[4]})
 
     cursor.execute(query)
 
