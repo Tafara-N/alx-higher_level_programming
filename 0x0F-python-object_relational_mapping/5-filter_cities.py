@@ -46,5 +46,5 @@ if __name__ == '__main__':
     print(", ".join(city_names))
 
     # Close the cursor and the database connection
-    cur.close()
+    cursor.close()
     db.close()
