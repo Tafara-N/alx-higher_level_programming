@@ -31,17 +31,19 @@ if __name__ == '__main__':
     cursor = db.cursor()
 
     # String formated to prevent SQL injection
-    cursor.execute("SELECT cities.name \
-        FROM `cities` JOIN states ON cities.state_id = states.id \
-        WHERE states.name LIKE BINARY %(name)s \
-        ORDER BY cities.id ASC", {'name': argv[4]})
+    query = "SELECT cities.name \
+        FROM `states` \
+        INNER JOIN cities ON states.id = cities.state_id \
+        WHERE states.name = %s \
+        ORDER BY cities.id ASC"
+
+    cursor.execute(query, (argv[4],))
 
     records = cursor.fetchall()
 
     city_names = [record[0] for record in records]
-    city_list = ", ".join(city_names)
 
-    print(city_list)
+    print(", ".join(city_list))
 
     # Close the cursor and the database connection
     cur.close()
