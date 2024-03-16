@@ -16,8 +16,7 @@ if __name__ == "__main__":
     """
 
     if len(argv) != 5:
-        print(
-            "Usage: ./script.py <username> <password>\
+        print("Usage: ./script.py <username> <password>\
             <database> <name_to_search>"
         )
         exit(1)
