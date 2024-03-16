@@ -43,7 +43,7 @@ if __name__ == '__main__':
 
     city_names = [record[0] for record in records]
 
-    print(", ".join(city_list))
+    print(", ".join(city_names))
 
     # Close the cursor and the database connection
     cur.close()
