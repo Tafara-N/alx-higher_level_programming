@@ -42,5 +42,5 @@ if __name__ == "__main__":
     for record in records:
         print(record)
 
-    cur.close()
+    cursor.close()
     db.close()
