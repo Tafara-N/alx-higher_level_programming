@@ -31,14 +31,14 @@ if __name__ == '__main__':
 
     cursor = db.cursor()
 
-    # Query with string formatting to prevent an SQL injection
+    # String formated to prevent SQL injection
     query = ("SELECT * FROM `states` WHERE `name` LIKE\
         BINARY %(name)s ORDER BY states.id ASC", {'name': argv[4]}
     )
 
     cursor.execute(query)
 
-    rows = cur.fetchall()
+    records = cur.fetchall()
 
     for record in records:
         print(record)
