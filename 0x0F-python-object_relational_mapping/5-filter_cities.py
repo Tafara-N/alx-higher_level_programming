@@ -42,8 +42,9 @@ if __name__ == '__main__':
     records = cursor.fetchall()
 
     city_names = [record[0] for record in records]
+    names = ", ".join(city_names)
 
-    print(", ".join(city_names))
+    print(names)
 
     # Close the cursor and the database connection
     cursor.close()
