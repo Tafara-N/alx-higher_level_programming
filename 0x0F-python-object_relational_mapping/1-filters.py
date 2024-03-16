@@ -29,7 +29,7 @@ if __name__ == '__main__':
         ORDER BY `id` ASC"
         )
 
-    rows = cursor.fetchall()
+    records = cursor.fetchall()
 
     for record in records:
         print(record)
