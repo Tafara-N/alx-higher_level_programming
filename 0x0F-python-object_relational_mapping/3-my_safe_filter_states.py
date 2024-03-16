@@ -34,10 +34,11 @@ if __name__ == '__main__':
     cursor.execute("SELECT * FROM `states` WHERE `name` LIKE\
         BINARY %(name)s ORDER BY states.id ASC", {'name': argv[4]})
 
-    records = cur.fetchall()
+    records = cursor.fetchall()
 
     for record in records:
         print(record)
 
+    # Close cursor and database connection
     cursor.close()
     db.close()
