@@ -31,10 +31,8 @@ if __name__ == '__main__':
     cursor = db.cursor()
 
     # String formated to prevent SQL injection
-    query = ("SELECT * FROM `states` WHERE `name` LIKE\
+    cursor.execute("SELECT * FROM `states` WHERE `name` LIKE\
         BINARY %(name)s ORDER BY states.id ASC", {'name': argv[4]})
-
-    cursor.execute(query)
 
     records = cur.fetchall()
 
