@@ -32,4 +32,8 @@ if __name__ == '__main__':
     records = cursor.fetchall()
 
     for record in records:
-        print(records)
+        print(record)
+
+    # Close cursor and database connection
+    cursor.close()
+    db.close()
