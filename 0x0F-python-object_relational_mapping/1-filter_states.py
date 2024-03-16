@@ -33,3 +33,7 @@ if __name__ == '__main__':
 
     for record in records:
         print(record)
+
+    # Close cursor and database connection
+    cursor.close()
+    db.close()
