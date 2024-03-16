@@ -2,7 +2,7 @@
 
 """
 Script takes arguments and displays all values in the `states` table
-from the database 'hbtn_0e_0_usa' where name matches the argument
+from the database 'hbtn_0e_0_usa' where `name` matches the argument
 """
 
 import MySQLdb
@@ -12,7 +12,7 @@ from sys import argv
 if __name__ == "__main__":
     """
     Connects to the 'hbtn_0e_0_usa' database and execute a query that
-    fetches all data from the `states` table where name matches the argument
+    fetches all data from the `states` table where `name` matches the argument
     """
 
     if len(argv) != 5:
@@ -23,20 +23,25 @@ if __name__ == "__main__":
         exit(1)
 
     db = MySQLdb.connect(
-        host="localhost", user=argv[1], port=3306, passwd=argv[2], db=argv[3]
+        host="localhost",
+        user=argv[1],
+        passwd=argv[2],
+        db=argv[3],
+        port=3306
     )
 
     cur = db.cursor()
 
-    query = "SELECT * FROM states WHERE name LIKE BINARY '{}'\
-        ORDER BY id ASC".format(argv[4])
+    query = "SELECT * FROM `states`\
+        WHERE `name` LIKE BINARY '{}'\
+        ORDER BY `id` ASC".format(argv[4])
 
-    cur.execute(query)
+    cursor.execute(query)
 
-    rows = cur.fetchall()
+    records = cursor.fetchall()
 
-    for row in rows:
-        print(row)
+    for record in records:
+        print(record)
 
     cur.close()
     db.close()
