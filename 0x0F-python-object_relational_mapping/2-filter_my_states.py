@@ -30,7 +30,7 @@ if __name__ == "__main__":
         port=3306
     )
 
-    cur = db.cursor()
+    cursor = db.cursor()
 
     query = "SELECT * FROM `states`\
         WHERE `name` LIKE BINARY '{}'\
