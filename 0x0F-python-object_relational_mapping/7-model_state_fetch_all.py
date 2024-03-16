@@ -10,7 +10,7 @@ from sqlalchemy.orm import sessionmaker
 from model_state import Base, State
 
 if __name__ == "__main__":
-    # Connect to database
+    # Connect to the 'hbtn_0e_6_usa' database
     user = argv[1]
     passwd = argv[2]
     db = argv[3]
