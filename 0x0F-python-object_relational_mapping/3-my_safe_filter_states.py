@@ -16,7 +16,7 @@ if __name__ == '__main__':
     """
 
     if len(argv) != 5:
-        print("Usage: ./script.py <username> <password>\
+        print("Usage: ./script.py <username> <password> \
             <database> <name_to_search>")
         exit(1)
 
@@ -31,7 +31,7 @@ if __name__ == '__main__':
     cursor = db.cursor()
 
     # String formated to prevent SQL injection
-    cursor.execute("SELECT * FROM `states` WHERE `name` LIKE\
+    cursor.execute("SELECT * FROM `states` WHERE `name` LIKE \
         BINARY %(name)s ORDER BY states.id ASC", {'name': argv[4]})
 
     records = cursor.fetchall()
