@@ -13,6 +13,7 @@ if __name__ == '__main__':
     Connects to the 'hbtn_0e_4_usa' database and executes a querry that
     fetches all `cities` from 'hbtn_0e_4_usa'
     """
+
     db = MySQLdb.connect(
         host="localhost",
         user=argv[1],
@@ -23,7 +24,7 @@ if __name__ == '__main__':
 
     cursor = db.cursor()
 
-    cur.execute("SELECT cities.id, cities.name, states.name\
+    cursor.execute("SELECT cities.id, cities.name, states.name\
         FROM `cities`\
         JOIN `states` ON cities.state_id = states.id\
         ORDER BY `id` ASC")
