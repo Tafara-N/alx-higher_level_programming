@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 
 """
 Script sends an HTTP Request to a URL and prinyt out the response
