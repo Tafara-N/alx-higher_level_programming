@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 
 """
 Script takes user's GitHub credentials and uses the GitHub API
