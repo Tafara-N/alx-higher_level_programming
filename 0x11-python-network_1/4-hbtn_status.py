@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 """
 Script sends an HTTP Request to a URL and prinyt out the response
@@ -6,7 +6,9 @@ Script sends an HTTP Request to a URL and prinyt out the response
 
 import requests
 
-response = requests.get("http://intranet.hbtn.io/status")
-print("Body response:")
-print("\t- type: {}".format(type(response.text)))
-print("\t- content: {}".format(response.text))
+if __name__ == "__main__":
+    req = requests.get('https://alx-intranet.hbtn.io/status')
+    the_text = req.text
+    print('Body response:')
+    print('\t- type: {}'.format(type(the_text)))
+    print('\t- content: {}'.format(the_text))
