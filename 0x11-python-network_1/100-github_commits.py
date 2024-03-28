@@ -14,6 +14,7 @@ if __name__ == "__main__":
     url = "https://api.github.com/repos/{}/{}/commits".format(
         repo_owner,
         repo_name)
+
     req = requests.get(url)
     commits = req.json()
     try:
