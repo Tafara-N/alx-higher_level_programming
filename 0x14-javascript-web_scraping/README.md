@@ -44,14 +44,18 @@ $ sudo npm install request --global
 $ export NODE_PATH=/usr/lib/node_modules
 Notes: Request module has been deprecated since February 2020 - the team is considering alternative to replace this module - however, it’s a really simple and powerful module for practicing web-scraping in JavaScript (and still used a lot in the industry).
 
-Tasks
-0. Readme
-mandatory
+
+## Tasks
+
+### 0. Readme
+
 Write a script that reads and prints the content of a file.
 
-The first argument is the file path
-The content of the file must be read in utf-8
-If an error occurred during the reading, print the error object
+- The first argument is the file path
+- The content of the file must be read in `utf-8`
+- If an error occurred during the reading, print the error object
+
+```
 guillaume@ubuntu:~/0x14$ cat cisfun
 C is super fun!
 guillaume@ubuntu:~/0x14$ ./0-readme.js cisfun
@@ -93,8 +97,8 @@ guillaume@ubuntu:~/0x14$
 - Directory: `0x14-javascript-web_scraping`
 - File: `1-writeme.js`
 
-2. Status code
-mandatory
+### 2. Status code
+
 Write a script that display the status code of a `GET` request.
 
 - The first argument is the URL to request (`GET`)
