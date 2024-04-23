@@ -125,21 +125,24 @@ guillaume@ubuntu:~/0x14$
 - Directory: `0x14-javascript-web_scraping`
 - File: 3-starwars_title.js
 
-4. Star wars Wedge Antilles
-mandatory
+### 4. Star wars Wedge Antilles
+
 Write a script that prints the number of movies where the character “Wedge Antilles” is present.
 
-The first argument is the API URL of the Star wars API: https://swapi-api.alx-tools.com/api/films/
-Wedge Antilles is character ID 18 - your script must use this ID for filtering the result of the API
-You must use the module request
+- The first argument is the API URL of the [Star wars API](https://intranet.alxswe.com/rltoken/HwLU2L7tJ4TEjzfTBc7zTA): `https://swapi-api.alx-tools.com/api/films/`
+- Wedge Antilles is character ID `18` - your script **must** use this ID for filtering the result of the API
+- You must use the module `request`
+
+```
 guillaume@ubuntu:~/0x14$ ./4-starwars_count.js https://swapi-api.alx-tools.com/api/films
 3
 guillaume@ubuntu:~/0x14$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x14-javascript-web_scraping`
-- File: 4-starwars_count.js
+- File: `4-starwars_count.js`
 
 ### 5. Loripsum
 
