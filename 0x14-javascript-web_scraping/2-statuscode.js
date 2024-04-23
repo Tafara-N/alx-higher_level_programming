@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/node
 // Script display the status code of a GET request
 
 const request = require('request');
