@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/node
 // Script reads and prints the contents of a file
 
 const filesys = require('fs');
