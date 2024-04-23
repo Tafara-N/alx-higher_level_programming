@@ -114,7 +114,7 @@ Write a script that prints the title of a Star Wars movie where the episode numb
 
 - The first argument is the movie ID
 - You must use the [Star wars API](https://intranet.alxswe.com/rltoken/HwLU2L7tJ4TEjzfTBc7zTA) with the endpoint `https://swapi-api.alx-tools.com/api/films/:id`
-- You must use the module request
+- You must use the module `request`
 
 ```
 guillaume@ubuntu:~/0x14$ ./3-starwars_title.js 1
