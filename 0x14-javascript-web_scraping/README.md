@@ -141,14 +141,14 @@ guillaume@ubuntu:~/0x14$
 - Directory: `0x14-javascript-web_scraping`
 - File: 4-starwars_count.js
 
-5. Loripsum
-mandatory
+### 5. Loripsum
+
 Write a script that gets the contents of a webpage and stores it in a file.
 
-The first argument is the URL to request
-The second argument the file path to store the body response
-The file must be UTF-8 encoded
-You must use the module request
+- The first argument is the URL to request
+- The second argument the file path to store the body response
+- The file must be UTF-8 encoded
+- You must use the module `request`
 
 ```
 guillaume@ubuntu:~/0x14$ ./5-request_store.js http://loripsum.net/api loripsum
