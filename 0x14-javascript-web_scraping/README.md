@@ -173,9 +173,9 @@ guillaume@ubuntu:~/0x14$
 
 Write a script that computes the number of tasks completed by user id.
 
-The first argument is the API URL: https://jsonplaceholder.typicode.com/todos
-Only print users with completed task
-You must use the module request
+- The first argument is the API URL: `https://jsonplaceholder.typicode.com/todos`
+- Only print users with completed task
+- You must use the module `request`
 
 ```
 guillaume@ubuntu:~/0x14$ ./6-completed_tasks.js https://jsonplaceholder.typicode.com/todos
@@ -201,10 +201,10 @@ guillaume@ubuntu:~/0x14$
 
 Write a script that prints all characters of a Star Wars movie:
 
-The first argument is the Movie ID - example: 3 = “Return of the Jedi”
-Display one character name by line
-You must use the Star wars API
-You must use the module request
+- The first argument is the Movie ID - example: `3` = “Return of the Jedi”
+- Display one character name by line
+- You must use the [Star wars API](https://intranet.alxswe.com/rltoken/HwLU2L7tJ4TEjzfTBc7zTA)
+- You must use the module `request`
 
 ```
 guillaume@ubuntu:~/0x14$ ./100-starwars_characters.js 3
