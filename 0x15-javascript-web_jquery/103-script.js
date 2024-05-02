@@ -1,6 +1,7 @@
 #!/usr/bin/node
 
 // Script fetches and prints how to say “Hello” depending on the language
+
 $('document').ready(function () {
   $('INPUT#btn_translator').click(translator);
   $('INPUT#language_code').focus(function () {
