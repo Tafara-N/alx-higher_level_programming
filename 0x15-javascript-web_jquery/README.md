@@ -411,20 +411,24 @@ guillaume@ubuntu:~/0x15$ cat 9-main.html
   </body>
 </html>
 guillaume@ubuntu:~/0x15$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x15-javascript-web_jquery`
-- File: 9-script.js
-10. No jQuery - document loaded
-#advanced
-Write a JavaScript script that updates the text color of the <header> element to red (#FF0000):
+- File: `9-script.js`
 
-You must use document.querySelector to select the HTML tag
-You can’t use the jQuery API
-Note: Your script must be imported from the <head> tag, not at the end of the HTML
+### 10. No jQuery - document loaded
+
+Write a JavaScript script that updates the text color of the `<header>` element to red (`#FF0000`):
+
+- You must use `document.querySelector` to select the HTML tag
+- You can’t use the jQuery API
+- Note: Your script must be imported from the `<head>` tag, not at the end of the HTML
+
 Please test with this HTML file in your browser:
 
+```
 guillaume@ubuntu:~/0x15$ cat 100-main.html
 <!DOCTYPE html>
 <html lang="en">
