@@ -231,21 +231,25 @@ guillaume@ubuntu:~/0x15$ cat 4-main.html
   </body>
 </html>
 guillaume@ubuntu:~/0x15$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x15-javascript-web_jquery`
-- File: 4-script.js
-5. List of elements
-mandatory
-Write a JavaScript script that adds a <li> element to a list when the user clicks on the tag DIV#add_item:
+- File: `4-script.js`
 
-The new element must be: <li>Item</li>
-The new element must be added to UL.my_list
-You can’t use document.querySelector to select the HTML tag
-You must use the JQuery API
+### 5. List of elements
+
+Write a JavaScript script that adds a `<li>` element to a list when the user clicks on the tag `DIV#add_item`:
+
+- The new element must be: `<li>Item</li>`
+- The new element must be added to `UL.my_list`
+- You can’t use `document.querySelector` to select the HTML tag
+- You must use the JQuery API
+
 Please test with this HTML file in your browser:
 
+```
 guillaume@ubuntu:~/0x15$ cat 5-main.html
 <!DOCTYPE html>
 <html lang="en">
@@ -270,8 +274,9 @@ guillaume@ubuntu:~/0x15$ cat 5-main.html
   </body>
 </html>
 guillaume@ubuntu:~/0x15$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x15-javascript-web_jquery`
 - File: `5-script.js`
