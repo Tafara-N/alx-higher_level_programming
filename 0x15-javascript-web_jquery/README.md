@@ -274,15 +274,18 @@ guillaume@ubuntu:~/0x15$
 
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x15-javascript-web_jquery`
-- File: 5-script.js
-6. Change the text
-mandatory
-Write a JavaScript script that updates the text of the <header> element to New Header!!! when the user clicks on DIV#update_header
+- File: `5-script.js`
 
-You can’t use document.querySelector to select the HTML tag
-You must use the JQuery API
+### 6. Change the text
+
+Write a JavaScript script that updates the text of the `<header>` element to `New Header!!!` when the user clicks on `DIV#update_header`
+
+- You can’t use `document.querySelector` to select the HTML tag
+- You must use the JQuery API
+
 Please test with this HTML file in your browser:
 
+```
 guillaume@ubuntu:~/0x15$ cat 6-main.html
 <!DOCTYPE html>
 <html lang="en">
@@ -304,8 +307,9 @@ guillaume@ubuntu:~/0x15$ cat 6-main.html
   </body>
 </html>
 guillaume@ubuntu:~/0x15$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x15-javascript-web_jquery`
 - File: `6-script.js`
