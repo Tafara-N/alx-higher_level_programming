@@ -3,6 +3,7 @@
 - [JavaScript in the browser](https://intranet.alxswe.com/concepts/3)
 - [Dealing with data statically versus dynamically](https://intranet.alxswe.com/concepts/35)
 
+![Did someone say jQuery?!](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/305/4724718.jpg)
 
 # Resources
 ## Read or watch:
