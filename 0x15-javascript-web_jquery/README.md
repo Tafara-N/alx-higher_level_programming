@@ -442,25 +442,29 @@ guillaume@ubuntu:~/0x15$ cat 100-main.html
   </body>
 </html>
 guillaume@ubuntu:~/0x15$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x15-javascript-web_jquery`
-- File: 100-script.js
-11. List, add, remove
-#advanced
-Write a JavaScript script that adds, removes and clears LI elements from a list when the user clicks:
+- File: `100-script.js`
 
-The new element must be: <li>Item</li>
-The new element must be added to UL.my_list
-When the user clicks on DIV#add_item: a new element is added to the list
-When the user clicks on DIV#remove_item: the last element is removed from the list
-When the user clicks on DIV#clear_list: all elements of the list are removed
-You can’t use document.querySelector to select the HTML tag
-You must use the JQuery API
-You script must work when it imported from the HEAD tag
+### 11. List, add, remove
+
+Write a JavaScript script that adds, removes and clears `LI` elements from a list when the user clicks:
+
+- The new element must be: `<li>Item</li>`
+- The new element must be added to `UL.my_list`
+- When the user clicks on `DIV#add_item`: a new element is added to the list
+- When the user clicks on `DIV#remove_item`: the last element is removed from the list
+- When the user clicks on `DIV#clear_list`: all elements of the list are removed
+- You can’t use `document.querySelector` to select the HTML tag
+- You must use the JQuery API
+- You script must work when it imported from the `HEAD` tag
+
 Please test with this HTML file in your browser:
 
+```
 guillaume@ubuntu:~/0x15$ cat 101-main.html
 <!DOCTYPE html>
 <html lang="en">
