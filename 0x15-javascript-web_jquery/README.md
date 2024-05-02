@@ -308,16 +308,19 @@ guillaume@ubuntu:~/0x15$
 
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x15-javascript-web_jquery`
-- File: 6-script.js
-7. Star wars character
-mandatory
-Write a JavaScript script that fetches the character name from this URL: https://swapi-api.alx-tools.com/api/people/5/?format=json
+- File: `6-script.js`
 
-The name must be displayed in the HTML tag DIV#character
-You can’t use document.querySelector to select the HTML tag
-You must use the JQuery API
+### 7. Star wars character
+
+Write a JavaScript script that fetches the character `name` from this URL: `https://swapi-api.alx-tools.com/api/people/5/?format=json`
+
+- The name must be displayed in the HTML tag `DIV#character`
+- You can’t use `document.querySelector` to select the HTML tag
+- You must use the JQuery API
+
 Please test with this HTML file in your browser:
 
+```
 guillaume@ubuntu:~/0x15$ cat 7-main.html
 <!DOCTYPE html>
 <html lang="en">
