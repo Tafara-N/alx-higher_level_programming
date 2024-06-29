@@ -60,6 +60,10 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - The prototypes of all your functions should be included in your header file called `lists.h`
 - Don’t forget to push your header file
 
+# More Info
+
+`**Note:**` you do not need to understand lists yet.
+
 ### Quiz questions
 
 ## Question #0
