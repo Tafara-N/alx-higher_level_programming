@@ -1,6 +1,6 @@
 ![`if`, `else`, `loops`, `functions`](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/233/code.png)
 
-# Resources  
+# Resources
 
 ## Read or watch:
 
@@ -15,7 +15,7 @@
 
 - `python3`
 
-## Learning Objectives  
+## Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/SdBJUMTPS5VW3cQNkhaeSg), without the help of Google:
 
 ### General
@@ -35,6 +35,18 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - Scope of variables
 - What’s a traceback
 - What are the arithmetic operators and how to use them
+
+# C Scripts
+- Allowed editors: `vi`, `vim`, `emacs`
+- All your files will be compiled on Ubuntu 20.04 LTS using `gcc`, using the options `-Wall -Werror -Wextra -pedantic -std=gnu89`
+- All your files should end with a new line
+- A `README.md` file, at the root of the folder of the project is mandatory
+- Your code should use the `Betty` style. It will be checked using [betty-style.pl](https://github.com/alx-tools/Betty/blob/master/betty-style.pl) and [betty-doc.pl](https://github.com/alx-tools/Betty/blob/master/betty-doc.pl)
+- You are not allowed to use global variables
+- No more than 5 functions per file
+- In the following examples, the `main.c` files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own `main.c` files at compilation. Our `main.c` files might be different from the one shown in the examples
+- The prototypes of all your functions should be included in your header file called `lists.h`
+- Don’t forget to push your header file
 
 ### Quiz questions
 
@@ -207,32 +219,32 @@ This program will assign a random signed number to the variable `number` each ti
         - followed by a new line
 
 ```shell
-guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py 
+guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py
 -4 is negative
-guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py 
+guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py
 0 is zero
-guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py 
+guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py
 -3 is negative
-guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py 
+guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py
 -10 is negative
-guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py 
+guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py
 10 is positive
-guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py 
+guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py
 -5 is negative
-guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py 
+guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py
 6 is positive
-guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py 
+guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py
 7 is positive
-guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py 
+guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py
 5 is positive
-guillaume@ubuntu:~/0x01$ 
+guillaume@ubuntu:~/0x01$
 ```
 
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x01-python-if_else_loops_functions`
 - File: `0-positive_or_negative.py`
- 
+
 ### 1. The last digit
 
 This program will assign a random signed number to the variable `number` each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable `number`.
@@ -272,14 +284,14 @@ guillaume@ubuntu:~/0x01$ ./1-last_digit.py
 Last digit of 3850 is 0 and is 0
 guillaume@ubuntu:~/0x01$ ./1-last_digit.py
 Last digit of 5169 is 9 and is greater than 5
-guillaume@ubuntu:~/0x01$ 
+guillaume@ubuntu:~/0x01$
 ```
 
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x01-python-if_else_loops_functions`
 - File: `1-last_digit.py`
-     
+
 ### 2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
 
 Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
@@ -298,7 +310,7 @@ abcdefghijklmnopqrstuvwxyzguillaume@ubuntu:~/0x01$
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x01-python-if_else_loops_functions`
 - File: `2-print_alphabet.py`
-     
+
 ### 3. When I was having that alphabet soup, I never thought that it would pay off
 
 Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
@@ -360,7 +372,7 @@ guillaume@ubuntu:~/0x01$
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x01-python-if_else_loops_functions`
 - File: 4-print_hexa.py
-     
+
 ### 5. 00...99
 
 Write a program that prints numbers from `0` to `99`.
@@ -376,14 +388,14 @@ Write a program that prints numbers from `0` to `99`.
 ```shell
 guillaume@ubuntu:~/0x01$ ./5-print_comb2.py
 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99
-guillaume@ubuntu:~/0x01$ 
+guillaume@ubuntu:~/0x01$
 ```
 
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x01-python-if_else_loops_functions`
 - File: `5-print_comb2.py`
-     
+
 ### 6. Inventing is a combination of brains and materials. The more brains you use, the less material you need
 
 Write a program that prints all possible different combinations of two digits.
@@ -402,14 +414,14 @@ Write a program that prints all possible different combinations of two digits.
 ```shell
 guillaume@ubuntu:~/0x01$ ./6-print_comb3.py
 01, 02, 03, 04, 05, 06, 07, 08, 09, 12, 13, 14, 15, 16, 17, 18, 19, 23, 24, 25, 26, 27, 28, 29, 34, 35, 36, 37, 38, 39, 45, 46, 47, 48, 49, 56, 57, 58, 59, 67, 68, 69, 78, 79, 89
-guillaume@ubuntu:~/0x01$ 
+guillaume@ubuntu:~/0x01$
 ```
 
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x01-python-if_else_loops_functions`
 - File: `6-print_comb3.py`
-     
+
 ### 7. islower
 
 Write a function that checks for lowercase character.
@@ -439,14 +451,14 @@ H is upper
 A is upper
 3 is upper
 g is lower
-guillaume@ubuntu:~/0x01$ 
+guillaume@ubuntu:~/0x01$
 ```
 
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x01-python-if_else_loops_functions`
 - File: `7-islower.py`
-     
+
 ### 8. To uppercase
 
 Write a function that prints a string in uppercase followed by a new line.
@@ -470,14 +482,14 @@ uppercase("Best School 98 Battery street")
 guillaume@ubuntu:~/0x01$ ./8-main.py
 BEST
 BEST SCHOOL 98 BATTERY STREET
-guillaume@ubuntu:~/0x01$ 
+guillaume@ubuntu:~/0x01$
 ```
 
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x01-python-if_else_loops_functions`
 - File: `8-uppercase.py`
-     
+
 ### 9. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important
 
 Write a function that prints the last digit of a number.
@@ -506,7 +518,7 @@ guillaume@ubuntu:~/0x01$
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x01-python-if_else_loops_functions`
 - File: `9-print_last_digit.py`
-     
+
 ### 10. a + b
 
 Write a function that adds two integers and returns the result.
@@ -529,14 +541,14 @@ guillaume@ubuntu:~/0x01$ ./10-main.py
 3
 98
 98
-guillaume@ubuntu:~/0x01$ 
+guillaume@ubuntu:~/0x01$
 ```
 
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x01-python-if_else_loops_functions`
 - File: `10-add.py`
-     
+
 ### 11. a ^ b
 
 Write a function that computes `a` to the power of `b` and return the value.
@@ -570,7 +582,7 @@ guillaume@ubuntu:~/0x01$
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x01-python-if_else_loops_functions`
 - File: `11-pow.py`
-     
+
 ### 12. Fizz Buzz
 
 Write a function that prints the numbers from 1 to 100 separated by a space.
@@ -599,7 +611,7 @@ guillaume@ubuntu:~/0x01$
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x01-python-if_else_loops_functions`
 - File: `12-fizzbuzz.py`
-     
+
 ### 13. Insert in sorted linked list
 
 **Technical interview preparation:**
@@ -612,7 +624,7 @@ Write a function in C that inserts a number into a sorted singly linked list.
 - Return: the address of the new node, or `NULL` if it failed
 
 ```shell
-carrie@ubuntu:0x01$ cat lists.h 
+carrie@ubuntu:0x01$ cat lists.h
 #ifndef LISTS_H
 #define LISTS_H
 
@@ -637,7 +649,7 @@ void free_listint(listint_t *head);
 listint_t *insert_node(listint_t **head, int number);
 
 #endif /* LISTS_H */
-carrie@ubuntu:0x01$ cat linked_lists.c 
+carrie@ubuntu:0x01$ cat linked_lists.c
 #include <stdio.h>
 #include <stdlib.h>
 #include "lists.h"
@@ -716,7 +728,7 @@ void free_listint(listint_t *head)
     }
 }
 
-carrie@ubuntu:0x01$ cat 13-main.c 
+carrie@ubuntu:0x01$ cat 13-main.c
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
@@ -781,7 +793,7 @@ carrie@ubuntu:0x01$
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x01-python-if_else_loops_functions`
 - File: `13-insert_number.c, lists.h`
-     
+
 ### 14. Smile in the mirror
 
 Write a program that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (`z` in lowercase and `Y` in uppercase) , not followed by a new line.
@@ -800,13 +812,13 @@ zYxWvUtSrQpOnMlKjIhGfEdCbAguillaume@ubuntu:~/0x01$
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x01-python-if_else_loops_functions`
 - File: `100-print_tebahpla.py`
-     
+
 ### 15. Remove at position
 
 Write a function that creates a copy of the string, removing the character at the position `n` (not the Python way, the “C array index”).
 
 - Prototype: `def remove_char_at(str, n):`
-- You are not allowed to import any module  
+- You are not allowed to import any module
 You don’t need to understand `__import__`
 
 ```shell
@@ -833,7 +845,7 @@ guillaume@ubuntu:~/0x01$
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x01-python-if_else_loops_functions`
 - File: `101-remove_char_at.py`
-     
+
 ### 16. ByteCode -> Python #2
 
 Write the Python function `def magic_calculation(a, b, c):` that does exactly the same as the following Python bytecode:
