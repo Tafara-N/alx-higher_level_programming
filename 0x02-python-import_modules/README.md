@@ -30,7 +30,7 @@ What do these lines print?
 ```python
 >>> def my_function():
 >>>     print("In my function")
->>> 
+>>>
 >>> my_function()
 ```
 
@@ -49,7 +49,7 @@ What do these lines print?
 ```python
 >>> def my_function(counter=89):
 >>>     print("Counter: {}".format(counter))
->>> 
+>>>
 >>> my_function(12)
 ```
 
@@ -66,7 +66,7 @@ What do these lines print?
 ```python
 >>> def my_function():
 >>>     print("In my function")
->>> 
+>>>
 >>> my_function
 ```
 
@@ -85,7 +85,7 @@ What do these lines print?
 ```python
 >>> def my_function(counter):
 >>>     print("Counter: {}".format(counter))
->>> 
+>>>
 >>> my_function(12)
 ```
 
@@ -102,7 +102,7 @@ What do these lines print?
 ```python
 >>> def my_function(counter=89):
 >>>     print("Counter: {}".format(counter))
->>> 
+>>>
 >>> my_function()
 ```
 
@@ -119,7 +119,7 @@ What do these lines print?
 ```python
 >>> def my_function(counter=89):
 >>>     return counter + 1
->>> 
+>>>
 >>> print(my_function())
 ```
 
@@ -167,7 +167,7 @@ guillaume@ubuntu:~/0x02$ ./0-add.py
 1 + 2 = 3
 guillaume@ubuntu:~/0x02$ cat 0-import_add.py
 __import__("0-add")
-guillaume@ubuntu:~/0x02$ python3 0-import_add.py 
+guillaume@ubuntu:~/0x02$ python3 0-import_add.py
 guillaume@ubuntu:~/0x02$
 ```
 
@@ -273,7 +273,7 @@ Write a program that prints the number of and the list of its arguments.
 - You do not have to fully understand lists yet, but imagine that `argv` can be used just like a C array: you can use an index to walk through it. There are other ways (which will be preferred for future project tasks), if you know them you can use them.
 
 ```shell
-guillaume@ubuntu:~/0x02$ ./2-args.py 
+guillaume@ubuntu:~/0x02$ ./2-args.py
 0 arguments.
 guillaume@ubuntu:~/0x02$ ./2-args.py Hello
 1 argument:
@@ -307,9 +307,9 @@ guillaume@ubuntu:~/0x02$ ./3-infinite_add.py
 0
 guillaume@ubuntu:~/0x02$ ./3-infinite_add.py 79 10
 89
-guillaume@ubuntu:~/0x02$ ./3-infinite_add.py 79 10 -40 -300 89 
+guillaume@ubuntu:~/0x02$ ./3-infinite_add.py 79 10 -40 -300 89
 -162
-guillaume@ubuntu:~/0x02$ 
+guillaume@ubuntu:~/0x02$
 ```
 
 Last but not least, your program should also handle big numbers. And the good news is: if your program works for the above example, it will work for the following example:
@@ -477,7 +477,7 @@ Write a program that prints `#pythoniscool`, followed by a new line, in the stan
 ```shell
 guillaume@ubuntu:~/0x02$ ./101-easy_print.py
 #pythoniscool
-guillaume@ubuntu:~/0x02$ 
+guillaume@ubuntu:~/0x02$
 ```
 
 **Repo:**
@@ -486,11 +486,10 @@ guillaume@ubuntu:~/0x02$
 - File: 101-easy_print.py
 
 ### 8. ByteCode -> Python #3
-#advanced
-Score: 100.0% (Checks completed: 100.0%)
+
 Write the Python function `def magic_calculation(a, b):` that does exactly the same as the following Python bytecode:
 
-```shell
+```python
   3           0 LOAD_CONST               1 (0)
               3 LOAD_CONST               2 (('add', 'sub'))
               6 IMPORT_NAME              0 (magic_calculation_102)
