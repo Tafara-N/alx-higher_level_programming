@@ -176,14 +176,14 @@ Write a Shell script that runs a Python script.
 The Python file name will be saved in the environment variable `$PYFILE`
 
 ```shell
-guillaume@ubuntu:~/py/0x00$ cat main.py 
+guillaume@ubuntu:~/py/0x00$ cat main.py
 #!/usr/bin/python3
 print("Best School")
 
 guillaume@ubuntu:~/py/0x00$ export PYFILE=main.py
 guillaume@ubuntu:~/py/0x00$ ./0-run
 Best School
-guillaume@ubuntu:~/py/0x00$ 
+guillaume@ubuntu:~/py/0x00$
 ```
 
 **Repo:**
@@ -198,16 +198,16 @@ Write a Shell script that runs Python code.
 The Python code will be saved in the environment variable *$PYCODE*
 ```shell
 guillaume@ubuntu:~/py/0x00$ export PYCODE='print(f"Best School: {88+10}")'
-guillaume@ubuntu:~/py/0x00$ ./1-run_inline 
+guillaume@ubuntu:~/py/0x00$ ./1-run_inline
 Best School: 98
-guillaume@ubuntu:~/py/0x00$ 
+guillaume@ubuntu:~/py/0x00$
 ```
 
 **Repo:**
 - GitHub repository: ``alx-python-higher_level_programming``
 - Directory: ``0x00-python-hello_world``
 - File: `1-run_inline`
-   
+
 ## 2. Hello, print
 
 Write a Python script that prints exactly `"Programming is like building a multilingual puzzle`, followed by a new line.
@@ -215,7 +215,7 @@ Write a Python script that prints exactly `"Programming is like building a multi
 - Use the function `print`
 
 ```shell
-guillaume@ubuntu:~/py/0x00$ ./2-print.py 
+guillaume@ubuntu:~/py/0x00$ ./2-print.py
 "Programming is like building a multilingual puzzle
 guillaume@ubuntu:~/py/0x00$
 ```
@@ -224,7 +224,7 @@ guillaume@ubuntu:~/py/0x00$
 - GitHub repository: ``alx-python-higher_level_programming``
 - Directory: ``0x00-python-hello_world``
 - File: `2-print.py`
-     
+
 ## 3. Print integer
 
 Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/3-print_number.py) in order to print the integer stored in the variable `number`, followed by `Battery street`, followed by a new line.
@@ -240,13 +240,13 @@ Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/3-p
 ```shell
 guillaume@ubuntu:~/py/0x00$ ./3-print_number.py
 98 Battery street
-guillaume@ubuntu:~/py/0x00$ 
+guillaume@ubuntu:~/py/0x00$
 ```
 **Repo:**
 - GitHub repository: ``alx-python-higher_level_programming``
 - Directory: ``0x00-python-hello_world``
 - File: `3-print_number.py`
-     
+
 ## 4. Print float
 
 Complete the source code in order to print the float stored in the variable `number` with a precision of 2 digits.
@@ -261,13 +261,13 @@ Complete the source code in order to print the float stored in the variable `num
 ```shell
 guillaume@ubuntu:~/py/0x00$ ./4-print_float.py
 Float: 3.14
-guillaume@ubuntu:~/py/0x00$ 
+guillaume@ubuntu:~/py/0x00$
 ```
 **Repo:**
 - GitHub repository: ``alx-python-higher_level_programming``
 - Directory: ``0x00-python-hello_world``
 - File: `4-print_float.py`
-     
+
 ## 5. Print string
 
 Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/5-print_string.py) in order to print 3 times a string stored in the variable `str`, followed by its first 9 characters.
@@ -282,17 +282,17 @@ Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/5-p
 - Your program should be maximum 5 lines long
 
 ```shell
-guillaume@ubuntu:~/py/0x00$ ./5-print_string.py 
+guillaume@ubuntu:~/py/0x00$ ./5-print_string.py
 Holberton SchoolHolberton SchoolHolberton School
 Holberton
-guillaume@ubuntu:~/py/0x00$ 
+guillaume@ubuntu:~/py/0x00$
 ```
 
 **Repo:**
 - GitHub repository: `alx-python-higher_level_programming`
 - Directory: `0x00-python-hello_world`
 - File: 5-print_string.py
-     
+
 ## 6. Play with strings
 
 Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/6-concat.py) to print Welcome to Holberton School!
@@ -307,7 +307,7 @@ guillaume@ubuntu:~/py/0x00$ ./6-concat.py
 Welcome to Holberton School!
 guillaume@ubuntu:~/py/0x00$ wc -l 6-concat.py
 5 6-concat.py
-guillaume@ubuntu:~/py/0x00$ 
+guillaume@ubuntu:~/py/0x00$
 ```
 
 **Repo:**
@@ -340,7 +340,7 @@ guillaume@ubuntu:~/py/0x00$
 - GitHub repository: `alx-python-higher_level_programming`
 - Directory: `0x00-python-hello_world`
 - File: `7-edges.py`
-    
+
 ## 8. Create a new sentence
 
 Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/8-concat_edges.py) to print `object-oriented programming with Python`, followed by a new line.
@@ -363,13 +363,13 @@ guillaume@ubuntu:~/py/0x00$
 - GitHub repository: `alx-python-higher_level_programming`
 - Directory: `0x00-python-hello_world`
 - File: `8-concat_edges.py`
-    
+
 ## 9. Easter Egg
 
 Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
 - Your script should be maximum 98 characters long (please check with `wc -m 9-easter_egg.py`)
 
-```
+```bash
 guillaume@ubuntu:~/py/0x00$ ./9-easter_egg.py
 The Zen of Python, by Tim Peters
 
@@ -399,7 +399,7 @@ guillaume@ubuntu:~/py/0x00$
 - GitHub repository: `alx-python-higher_level_programming`
 - Directory: `0x00-python-hello_world`
 - File: `9-easter_egg.py`
-    
+
 ## 10. Linked list cycle
 
 ## Technical interview preparation:
@@ -428,7 +428,7 @@ carrie@ubuntu:~/0x00$ cat lists.h
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- * 
+ *
  */
 
 typedef struct listint_s
@@ -568,7 +568,7 @@ int main(void)
 }
 
 carrie@ubuntu:~/0x00$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 10-main.c 10-check_cycle.c 10-linked_lists.c -o cycle
-carrie@ubuntu:~/0x00$$ ./cycle 
+carrie@ubuntu:~/0x00$$ ./cycle
 1024
 402
 98
@@ -613,7 +613,7 @@ guillaume@ubuntu:~/py/0x00$
 - GitHub repository: `alx-python-higher_level_programming`
 - Directory: `0x00-python-hello_world`
 - File: `100-write.py`
-     
+
 ## 12. Compile
 
 Write a script that compiles a Python script file.
@@ -623,7 +623,7 @@ The Python file name will be stored in the environment variable `$PYFILE`
 The output filename has to be `$PYFILEc` (ex: `export PYFILE=my_main.py` => output filename: `my_main.pyc)`
 
 ```shell
-guillaume@ubuntu:~/py/0x00$ cat main.py 
+guillaume@ubuntu:~/py/0x00$ cat main.py
 #!/usr/bin/python3
 print("Best School")
 
@@ -645,13 +645,13 @@ guillaume@ubuntu:~/py/0x00$ od -t x1 main.pyc # SYSTEM DEPENDANT => CAN BE DIFFE
 0000160 3e 02 00 00 00 73 00 00 00 00
 0000172
 guillaume@ubuntu:~/py/0x00$
-``` 
+```
 
 **Repo:**
 - GitHub repository: ``alx-python-higher_level_programming``
 - Directory: ``0x00-python-hello_world``
 - File: `101-compile`
-     
+
 ## 13. ByteCode -> Python #1
 
 Write the Python function `def magic_calculation(a, b):` that does exactly the same as the following Python bytecode:
