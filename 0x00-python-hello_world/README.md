@@ -472,7 +472,7 @@ guillaume@ubuntu:~/py/0x00$
 
 ## 10. Linked list cycle
 
-## Technical interview preparation:
+**Technical interview preparation:**
 
 - You are not allowed to google anything
 - Whiteboard first
