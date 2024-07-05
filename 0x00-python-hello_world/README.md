@@ -344,7 +344,7 @@ Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/5-p
 
 - You can find the source [code here](https://github.com/alx-tools/0x00.py/blob/master/5-print_string.py)
 - The output of the program should be:
-  - 3 times the value of str
+  - 3 times the value of `str`
   - followed by a new line
   - followed by the 9 first characters of `str`
   - followed by a new line
