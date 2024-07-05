@@ -361,7 +361,7 @@ guillaume@ubuntu:~/py/0x00$
 **Repo:**
 - GitHub repository: `alx-python-higher_level_programming`
 - Directory: `0x00-python-hello_world`
-- File: 5-print_string.py
+- File: `5-print_string.py`
 
 ## 6. Play with strings
 
