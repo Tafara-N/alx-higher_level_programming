@@ -258,7 +258,7 @@ guillaume@ubuntu:~/py/0x00$
 
 **Repo:**
 - GitHub repository: `alx-python-higher_level_programming`
-- Directory: ``0x00-python-hello_world``
+- Directory: `0x00-python-hello_world`
 - File: `0-run`
 
 ## 1. Run inline
@@ -275,7 +275,7 @@ guillaume@ubuntu:~/py/0x00$
 
 **Repo:**
 - GitHub repository: `alx-python-higher_level_programming`
-- Directory: ``0x00-python-hello_world``
+- Directory: `0x00-python-hello_world`
 - File: `1-run_inline`
 
 ## 2. Hello, print
@@ -292,7 +292,7 @@ guillaume@ubuntu:~/py/0x00$
 
 **Repo:***
 - GitHub repository: `alx-python-higher_level_programming`
-- Directory: ``0x00-python-hello_world``
+- Directory: `0x00-python-hello_world`
 - File: `2-print.py`
 
 ## 3. Print integer
@@ -314,7 +314,7 @@ guillaume@ubuntu:~/py/0x00$
 ```
 **Repo:**
 - GitHub repository: `alx-python-higher_level_programming`
-- Directory: ``0x00-python-hello_world``
+- Directory: `0x00-python-hello_world`
 - File: `3-print_number.py`
 
 ## 4. Print float
@@ -335,7 +335,7 @@ guillaume@ubuntu:~/py/0x00$
 ```
 **Repo:**
 - GitHub repository: `alx-python-higher_level_programming`
-- Directory: ``0x00-python-hello_world``
+- Directory: `0x00-python-hello_world`
 - File: `4-print_float.py`
 
 ## 5. Print string
@@ -721,7 +721,7 @@ guillaume@ubuntu:~/py/0x00$
 
 **Repo:**
 - GitHub repository: `alx-python-higher_level_programming`
-- Directory: ``0x00-python-hello_world``
+- Directory: `0x00-python-hello_world`
 - File: `101-compile`
 
 ## 13. ByteCode -> Python #1
@@ -741,5 +741,5 @@ Write the Python function `def magic_calculation(a, b):` that does exactly the s
 
 **Repo:**
 - GitHub repository: `alx-python-higher_level_programming`
-- Directory: ``0x00-python-hello_world``
+- Directory: `0x00-python-hello_world`
 - File: `102-magic_calculation.py`
