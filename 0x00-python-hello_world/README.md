@@ -580,6 +580,7 @@ void free_listint(listint_t *head)
         free(current);
     }
 }
+```
 
 carrie@ubuntu:~/0x00$ cat 10-main.c
 #include <stdlib.h>
