@@ -781,7 +781,9 @@ int main(void)
 
     return (0);
 }
+```
 
+```bash
 carrie@ubuntu:0x01$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 13-main.c linked_lists.c 13-insert_number.c -o insert
 carrie@ubuntu:0x01$ ./insert
 0
