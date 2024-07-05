@@ -746,6 +746,7 @@ void free_listint(listint_t *head)
         free(current);
     }
 }
+```
 
 carrie@ubuntu:0x01$ cat 13-main.c
 #include <stdlib.h>
