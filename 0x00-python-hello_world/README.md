@@ -257,7 +257,7 @@ guillaume@ubuntu:~/py/0x00$
 ```
 
 **Repo:**
-- GitHub repository: ``alx-python-higher_level_programming``
+- GitHub repository: `alx-python-higher_level_programming`
 - Directory: ``0x00-python-hello_world``
 - File: `0-run`
 
@@ -274,7 +274,7 @@ guillaume@ubuntu:~/py/0x00$
 ```
 
 **Repo:**
-- GitHub repository: ``alx-python-higher_level_programming``
+- GitHub repository: `alx-python-higher_level_programming`
 - Directory: ``0x00-python-hello_world``
 - File: `1-run_inline`
 
@@ -291,7 +291,7 @@ guillaume@ubuntu:~/py/0x00$
 ```
 
 **Repo:***
-- GitHub repository: ``alx-python-higher_level_programming``
+- GitHub repository: `alx-python-higher_level_programming`
 - Directory: ``0x00-python-hello_world``
 - File: `2-print.py`
 
@@ -313,7 +313,7 @@ guillaume@ubuntu:~/py/0x00$ ./3-print_number.py
 guillaume@ubuntu:~/py/0x00$
 ```
 **Repo:**
-- GitHub repository: ``alx-python-higher_level_programming``
+- GitHub repository: `alx-python-higher_level_programming`
 - Directory: ``0x00-python-hello_world``
 - File: `3-print_number.py`
 
@@ -334,7 +334,7 @@ Float: 3.14
 guillaume@ubuntu:~/py/0x00$
 ```
 **Repo:**
-- GitHub repository: ``alx-python-higher_level_programming``
+- GitHub repository: `alx-python-higher_level_programming`
 - Directory: ``0x00-python-hello_world``
 - File: `4-print_float.py`
 
@@ -720,7 +720,7 @@ guillaume@ubuntu:~/py/0x00$
 ```
 
 **Repo:**
-- GitHub repository: ``alx-python-higher_level_programming``
+- GitHub repository: `alx-python-higher_level_programming`
 - Directory: ``0x00-python-hello_world``
 - File: `101-compile`
 
@@ -740,6 +740,6 @@ Write the Python function `def magic_calculation(a, b):` that does exactly the s
 - Tip: [Python bytecode](https://intranet.alxswe.com/rltoken/B38QeZHREbvgq-wY7Ze3vQ)
 
 **Repo:**
-- GitHub repository: ``alx-python-higher_level_programming``
+- GitHub repository: `alx-python-higher_level_programming`
 - Directory: ``0x00-python-hello_world``
 - File: `102-magic_calculation.py`
