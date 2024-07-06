@@ -162,7 +162,7 @@ What do these lines print?
 
 - [ ] 89
 
-## Question #8
+### Question #8
 
 What do these lines print?
 
