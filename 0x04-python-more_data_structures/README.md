@@ -219,7 +219,7 @@ What do these lines print?
 
 - [ ] [1, 2, 3, 4]
 
-## Question #11
+### Question #11
 
 What do these lines print?
 
