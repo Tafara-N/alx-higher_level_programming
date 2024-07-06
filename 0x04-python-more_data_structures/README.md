@@ -126,7 +126,7 @@ What do these lines print?
 
 - [ ] a[‘id’]
 
-## Question #6
+### Question #6
 
 What do these lines print?
 
