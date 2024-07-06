@@ -200,7 +200,7 @@ What do these lines print?
 
 - [ ] Amy
 
-## Question #10
+### Question #10
 
 What do these lines print?
 
