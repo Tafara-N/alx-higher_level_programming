@@ -174,7 +174,7 @@ guillaume@ubuntu:~/0x02$
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x02-python-import_modules`
-- File: 0-add.py
+- File: `0-add.py`
 
 ### 1. My first toolbox!
 
