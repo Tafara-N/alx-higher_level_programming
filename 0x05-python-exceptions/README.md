@@ -17,9 +17,9 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - How to raise a builtin exception
 - When do we need to implement a clean-up action after an exception
 
-#Requirements
+# Requirements
 
-General
+## General
 Allowed editors: `vi`, `vim`, `emacs`
 All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version `3.8.5`)
 All your files should end with a new line
