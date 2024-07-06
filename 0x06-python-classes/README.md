@@ -75,7 +75,7 @@ What do these lines print?
 
 - [ ] John
 
-## Question #1
+### Question #1
 
 In this following code, what is User?
 
