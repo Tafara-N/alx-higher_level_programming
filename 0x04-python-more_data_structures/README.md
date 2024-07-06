@@ -24,7 +24,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - What is a lambda function
 - What are the map, reduce and filter functions
 
-### Quiz questions
+## Quiz questions
 
 ## Question #0
 
