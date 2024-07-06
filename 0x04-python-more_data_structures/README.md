@@ -107,7 +107,7 @@ What do these lines print?
 
 - [ ] 0
 
-## Question #5
+### Question #5
 
 What do these lines print?
 
