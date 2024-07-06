@@ -788,7 +788,7 @@ guillaume@ubuntu:~/0x06$
 
 Write the Python class `MagicClass` that does exactly the same as the following Python bytecode:
 
-```
+```python
 Disassembly of __init__:
  10           0 LOAD_CONST               1 (0)
               3 LOAD_FAST                0 (self)
