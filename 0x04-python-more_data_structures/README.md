@@ -41,7 +41,7 @@ What do these lines print?
 
 - [ ] Hello Holberton School 98
 
-## Question #1
+### Question #1
 
 What do these lines print?
 
