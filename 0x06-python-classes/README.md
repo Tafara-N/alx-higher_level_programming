@@ -46,7 +46,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 # More Info
 **Documentation is now mandatory!** Each module, class, and method must contain docstring as comments. [Example Google Style Python Docstrings](https://intranet.alxswe.com/rltoken/dOO785g5EQYkRU2E1wri0g)
 
-### Quiz questions
+## Quiz questions
 
 ## Question #0
 
