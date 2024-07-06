@@ -181,7 +181,7 @@ What do these lines print?
 
 - [ ] [1]
 
-## Question #9
+### Question #9
 
 What do these lines print?
 
