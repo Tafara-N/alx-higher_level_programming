@@ -671,7 +671,7 @@ guillaume@ubuntu:~/0x04$
 
 ### 12. Roman to Integer
 
-## Technical interview preparation:
+**Technical interview preparation:**
 
 - You are not allowed to google anything
 - Whiteboard first
