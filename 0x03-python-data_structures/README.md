@@ -659,6 +659,9 @@ int is_palindrome(listint_t **head);
 
 #endif /* LISTS_H */
 carrie@ubuntu:0x03$
+```
+
+```bash
 carrie@ubuntu:0x03$ cat linked_lists.c
 #include <stdio.h>
 #include <stdlib.h>
