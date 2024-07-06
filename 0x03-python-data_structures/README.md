@@ -778,6 +778,9 @@ int main(void)
 }
 
 carrie@ubuntu:0x03$
+```
+
+```bash
 carrie@ubuntu:0x03$ gcc -Wall -Werror -Wextra -pedantic 13-main.c linked_lists.c 13-is_palindrome.c -o palindrome
 carrie@ubuntu:0x03$ ./palindrome
 1
