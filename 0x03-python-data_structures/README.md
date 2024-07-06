@@ -739,6 +739,8 @@ void free_listint(listint_t *head)
 }
 
 carrie@ubuntu:0x03$
+
+```bash
 carrie@ubuntu:0x03$ cat 13-main.c
 #include <stdio.h>
 #include <stdlib.h>
