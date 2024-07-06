@@ -256,7 +256,7 @@ guillaume@ubuntu:~/0x02$
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x02-python-import_modules`
-- File: 1-calculation.py
+- File: `1-calculation.py`
 
 ### 2. How to make a script dynamic!
 
