@@ -21,7 +21,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - How to prevent code in your script from being executed when imported
 - How to use command line arguments with your Python programs
 
-### Quiz questions
+## Quiz questions
 
 ### Question #0
 
