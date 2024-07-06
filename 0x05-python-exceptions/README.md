@@ -1,6 +1,6 @@
 # Resources
-## Read or watch:
 
+**Read or watch:**
 - [Errors and Exceptions](https://intranet.alxswe.com/rltoken/Yj7sDOzmKwICSHr7WEAW3A)
 - [Learn to Program 11 Static & Exception Handling](https://intranet.alxswe.com/rltoken/xASzXarhF1sBhzYkJ14LvQ) (*starting at minute 7*)
 
@@ -152,7 +152,7 @@ nb_print: 5
   File "/0x05/2-safe_print_list_integers.py", line 7, in safe_print_list_integers
     print("{:d}".format(my_list[i]), end="")
 IndexError: list index out of range
-guillaume@ubuntu:~/0x05$ 
+guillaume@ubuntu:~/0x05$
 ```
 
 **Repo:**
@@ -536,7 +536,7 @@ NOTE:
 julien@ubuntu:~/CPython$ python3 --version
 Python 3.4.3
 julien@ubuntu:~/CPython$ gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,libPython.so -o libPython.so -fPIC -I/usr/include/python3.4 103-python.c
-julien@ubuntu:~/CPython$ cat 103-tests.py 
+julien@ubuntu:~/CPython$ cat 103-tests.py
 #!/usr/bin/python3 -u
 
 import ctypes
@@ -578,7 +578,7 @@ print(l)
 lib.print_python_list(l);
 lib.print_python_float(l);
 lib.print_python_list(f);
-julien@ubuntu:~/CPython$ ./103-tests.py 
+julien@ubuntu:~/CPython$ ./103-tests.py
 [.] bytes object info
   size: 5
   trying string: Hello
