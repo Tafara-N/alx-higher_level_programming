@@ -620,7 +620,7 @@ guillaume@ubuntu:~/py/0x03$
 
 ### 13. Linked list palindrome
 
-## Technical interview preparation:
+**Technical interview preparation:**
 
 - You are not allowed to google anything
 - Whiteboard first
