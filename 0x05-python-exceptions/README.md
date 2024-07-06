@@ -501,7 +501,8 @@ Write the Python function `def magic_calculation(a, b):` that does exactly the s
 
 Create three C functions that print some basic info about Python lists, Python bytes an Python float objects.
 
-![Monty Python](https://www.google.com/search?q=Monty+Python+Flying+Circus+Olympics&ved=0EPf4CwgAKAAwAA&hl=en&gl=US)
+![Confusion](confusion.gif)
+
 
 Python lists:
 - Prototype: `void print_python_list(PyObject *p);`
