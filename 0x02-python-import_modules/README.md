@@ -484,7 +484,7 @@ guillaume@ubuntu:~/0x02$
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x02-python-import_modules`
-- File: 101-easy_print.py
+- File: `101-easy_print.py`
 
 ### 8. ByteCode -> Python #3
 
