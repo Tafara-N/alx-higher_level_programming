@@ -48,7 +48,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ## Quiz questions
 
-## Question #0
+### Question #0
 
 What do these lines print?
 
