@@ -143,7 +143,7 @@ What do these lines print?
 
 - [ ] 1 2 3
 
-## Question #7
+### Question #7
 
 What do these lines print?
 
