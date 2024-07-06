@@ -43,6 +43,9 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - How does Python find the attributes of an object or class
 - How to use the `getattr` function
 
+# More Info
+**Documentation is now mandatory!** Each module, class, and method must contain docstring as comments. [Example Google Style Python Docstrings](https://intranet.alxswe.com/rltoken/dOO785g5EQYkRU2E1wri0g)
+
 ### Quiz questions
 
 ## Question #0
