@@ -212,7 +212,7 @@ What do these lines print?
 
 - [ ] False
 
-## Question #6
+### Question #6
 
 What do these lines print?
 
