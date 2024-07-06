@@ -9,7 +9,8 @@ As usual, make sure you type (never copy and paste), test, understand all exampl
 Read or watch the below resources in the order presented.
 
 ## Resources
-## Read or watch:
+
+**Read or watch:**
 - [Object Oriented Programming](https://intranet.alxswe.com/rltoken/i49z6HxrBGRNnixo7ZWbEQ) (*Read everything until the paragraph “Inheritance” excluded. You do NOT have to learn about class attributes, `classmethod` and `staticmethod` yet*)
 - [Object-Oriented Programming](https://intranet.alxswe.com/rltoken/qz3KSn154ia4H2DPaabOzg) (*Please **be careful**: in most of the following paragraphs, the author shows things the way you should not use or write a class in order to help you better understand some concepts and how everything works in Python 3. Make sure you read everything in the following paragraphs: General Introduction, First-class Everything, A Minimal Class in Python, Attributes (You DON’T have to learn about class attributes), Methods, The `__init__` Method, “Data Abstraction, Data Encapsulation, and Information Hiding,” “Public, Protected, and Private Attributes”*)
 - [Properties vs. Getters and Setters](https://intranet.alxswe.com/rltoken/Wy2djWXK5b4rnnYlAq_wlA)
@@ -53,12 +54,12 @@ What do these lines print?
 >>>     id = 89
 >>>     name = "no name"
 >>>     __password = None
->>>     
+>>>
 >>>     def __init__(self, new_name=None):
 >>>         self.is_new = True
 >>>         if new_name is not None:
 >>>             self.name = new_name
->>> 
+>>>
 >>> u = User()
 >>> u.name
 ```
@@ -190,12 +191,12 @@ What do these lines print?
 >>>     id = 89
 >>>     name = "no name"
 >>>     __password = None
->>>     
+>>>
 >>>     def __init__(self, new_name=None):
 >>>         self.is_new = True
 >>>         if new_name is not None:
 >>>             self.name = new_name
->>> 
+>>>
 >>> u = User()
 >>> u.is_new
 ```
@@ -217,12 +218,12 @@ What do these lines print?
 >>>     id = 89
 >>>     name = "no name"
 >>>     __password = None
->>>     
+>>>
 >>>     def __init__(self, new_name=None):
 >>>         self.is_new = True
 >>>         if new_name is not None:
 >>>             self.name = new_name
->>> 
+>>>
 >>> u = User("John")
 >>> u.name
 ```
@@ -244,12 +245,12 @@ What do these lines print?
 >>>     id = 89
 >>>     name = "no name"
 >>>     __password = None
->>>     
+>>>
 >>>     def __init__(self, new_name=None):
 >>>         self.is_new = True
 >>>         if new_name is not None:
 >>>             self.name = new_name
->>> 
+>>>
 >>> u = User()
 >>> u.id
 ```
@@ -282,7 +283,7 @@ print(my_square.__dict__)
 guillaume@ubuntu:~/0x06$ ./0-main.py
 <class '0-square.Square'>
 {}
-guillaume@ubuntu:~/0x06$ 
+guillaume@ubuntu:~/0x06$
 ```
 
 **Repo:**
@@ -457,7 +458,7 @@ Write a class `Square` that defines a square by: (based on `3-square.py`)
 - Public instance method: `def area(self):` that returns the current square area
 - You are not allowed to import any module
 
-**Why?**  
+**Why?**
 Why a getter and setter?
 
 Reminder: `size` is a private attribute. We did that to make sure we control the type and value. Getter and setter methods are not 100% Python, but more OOP. With them, you will be able to validate the assignment of a private attribute and also define how getting the attribute value will be available from outside - by copy? by assignment? etc. Also, adding type/value validation in the setter will centralize the logic, since you will do it in only one place.
@@ -669,7 +670,7 @@ guillaume@ubuntu:~/0x06$ ./100-main.py
 5
 10
 12
-guillaume@ubuntu:~/0x06$ 
+guillaume@ubuntu:~/0x06$
 ```
 
 **Repo:**
