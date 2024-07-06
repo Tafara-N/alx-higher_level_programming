@@ -503,7 +503,6 @@ Create three C functions that print some basic info about Python lists, Python b
 
 ![Confusion](confusion.gif)
 
-
 Python lists:
 - Prototype: `void print_python_list(PyObject *p);`
 - Format: see example
