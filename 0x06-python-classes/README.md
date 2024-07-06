@@ -101,7 +101,7 @@ class User:
 
 - [ ] An attribute
 
-## Question #2
+### Question #2
 
 In this following code, what is is_new?
 
