@@ -27,7 +27,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - A `README.md` file, at the root of the folder of the project, is mandatory
 - Your code should use the pycodestyle (version `2.8.*`)
 - All your files must be executable
-The length of your files will be tested using `wc`
+- The length of your files will be tested using `wc`
 
 ## Tasks
 
