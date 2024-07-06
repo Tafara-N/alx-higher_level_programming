@@ -433,7 +433,7 @@ guillaume@ubuntu:~/0x05$
 
 Write the Python function `def magic_calculation(a, b):` that does exactly the same as the following Python bytecode:
 
-```shell
+```python
   3           0 LOAD_CONST               1 (0)
               3 STORE_FAST               2 (result)
 
