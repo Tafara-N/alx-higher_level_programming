@@ -257,7 +257,7 @@ print("Element at index {:d} is {}".format(idx, element_at(my_list, idx)))
 
 guillaume@ubuntu:~/0x03$ ./1-main.py
 Element at index 3 is 4
-guillaume@ubuntu:~/0x03$ 
+guillaume@ubuntu:~/0x03$
 ```
 
 **Repo:**:
@@ -291,7 +291,7 @@ print(my_list)
 guillaume@ubuntu:~/0x03$ ./2-main.py
 [1, 2, 3, 9, 5]
 [1, 2, 3, 9, 5]
-guillaume@ubuntu:~/0x03$ 
+guillaume@ubuntu:~/0x03$
 ```
 
 **Repo:**:
@@ -324,7 +324,7 @@ guillaume@ubuntu:~/0x03$ ./3-main.py
 3
 2
 1
-guillaume@ubuntu:~/0x03$ 
+guillaume@ubuntu:~/0x03$
 ```
 
 **Repo:**:
@@ -358,7 +358,7 @@ print(my_list)
 guillaume@ubuntu:~/0x03$ ./4-main.py
 [1, 2, 3, 9, 5]
 [1, 2, 3, 4, 5]
-guillaume@ubuntu:~/0x03$ 
+guillaume@ubuntu:~/0x03$
 ```
 
 **Repo:**:
@@ -388,7 +388,7 @@ guillaume@ubuntu:~/0x03$ ./5-main.py
 Best Shool
 hiago
  is fun!
-guillaume@ubuntu:~/0x03$ 
+guillaume@ubuntu:~/0x03$
 ```
 
 **Repo:**:
@@ -428,7 +428,7 @@ guillaume@ubuntu:~/0x03$ ./6-main.py | cat -e
 7 8 9$
 --$
 $
-guillaume@ubuntu:~/0x03$ 
+guillaume@ubuntu:~/0x03$
 ```
 
 **Repo:**:
@@ -466,7 +466,7 @@ guillaume@ubuntu:~/0x03$ ./7-main.py
 (89, 100)
 (2, 89)
 (1, 89)
-guillaume@ubuntu:~/0x03$ 
+guillaume@ubuntu:~/0x03$
 ```
 
 **Repo:**:
@@ -493,7 +493,7 @@ print("Length: {:d} - First character: {}".format(length, first))
 
 guillaume@ubuntu:~/0x03$ ./8-main.py
 Length: 22 - First character: A
-guillaume@ubuntu:~/0x03$ 
+guillaume@ubuntu:~/0x03$
 
 ```
 **Repo:**:
@@ -522,7 +522,7 @@ print("Max: {}".format(max_value))
 
 guillaume@ubuntu:~/0x03$ ./9-main.py
 Max: 90
-guillaume@ubuntu:~/0x03$ 
+guillaume@ubuntu:~/0x03$
 ```
 
 **Repo:**:
@@ -560,7 +560,7 @@ guillaume@ubuntu:~/0x03$ ./10-main.py
 4 is divisible by 2
 5 is not divisible by 2
 6 is divisible by 2
-guillaume@ubuntu:~/0x03$ 
+guillaume@ubuntu:~/0x03$
 ```
 
 **Repo:**:
@@ -591,7 +591,7 @@ print(my_list)
 guillaume@ubuntu:~/0x03$ ./11-main.py
 [1, 2, 3, 5]
 [1, 2, 3, 5]
-guillaume@ubuntu:~/0x03$ 
+guillaume@ubuntu:~/0x03$
 ```
 **Repo:**:
 - GitHub repository: `alx-higher_level_programming`
@@ -611,7 +611,7 @@ guillaume@ubuntu:~/py/0x03$ ./12-switch.py
 a=10 - b=89
 guillaume@ubuntu:~/py/0x03$ wc -l 12-switch.py
 5 12-switch.py
-guillaume@ubuntu:~/py/0x03$ 
+guillaume@ubuntu:~/py/0x03$
 ```
 **Repo:**:
 - GitHub repository: `alx-higher_level_programming`
@@ -632,7 +632,7 @@ Write a function in C that checks if a singly linked list is a palindrome.
 - An empty list is considered a palindrome
 
 ```shell
-carrie@ubuntu:0x03$ cat lists.h 
+carrie@ubuntu:0x03$ cat lists.h
 #ifndef LISTS_H
 #define LISTS_H
 
@@ -659,7 +659,7 @@ int is_palindrome(listint_t **head);
 
 #endif /* LISTS_H */
 carrie@ubuntu:0x03$
-carrie@ubuntu:0x03$ cat linked_lists.c 
+carrie@ubuntu:0x03$ cat linked_lists.c
 #include <stdio.h>
 #include <stdlib.h>
 #include "lists.h"
@@ -806,6 +806,8 @@ Since we now know a bit of C, we can look at what is happening under the hood of
 
 - All your files will be interpreted/compiled on Ubuntu 14.04 LTS
 
+![Aww](aww.gif)
+
 Create a C function that prints some basic info about Python lists.
 
 - Prototype: `void print_python_list_info(PyObject *p);`
@@ -821,7 +823,7 @@ Create a C function that prints some basic info about Python lists.
 
 ```shell
 julien@ubuntu:~/CPython$ gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,PyList -o libPyList.so -fPIC -I/usr/include/python3.4 100-print_python_list_info.c
-julien@ubuntu:~/CPython$ cat 100-test_lists.py 
+julien@ubuntu:~/CPython$ cat 100-test_lists.py
 import ctypes
 
 lib = ctypes.CDLL('./libPyList.so')
@@ -843,7 +845,7 @@ l.append(4)
 lib.print_python_list_info(l)
 l.pop()
 lib.print_python_list_info(l)
-julien@ubuntu:~/CPython$ python3 100-test_lists.py 
+julien@ubuntu:~/CPython$ python3 100-test_lists.py
 [*] Size of the Python List = 2
 [*] Allocated = 2
 Element 0: str
@@ -878,7 +880,7 @@ Element 0: int
 Element 1: int
 Element 2: int
 Element 3: int
-julien@CPython:~/CPython$ 
+julien@CPython:~/CPython$
 ```
 
 **Repo:**:
