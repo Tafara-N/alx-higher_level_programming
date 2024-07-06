@@ -1,6 +1,6 @@
 # Resources
-## Read or watch:
 
+**Read or watch:**
 - [Data structures](https://intranet.alxswe.com/rltoken/GmgoSUtBbHBW8suWkws51g)
 - [Lambda, filter, reduce and map](https://intranet.alxswe.com/rltoken/53f4kKVT0-jyzrJstOSJWg)
 - [Learn to Program 12 Lambda Map Filter Reduce](https://intranet.alxswe.com/rltoken/v9eyFryhkYmxDI13iTx2VA)
@@ -303,7 +303,7 @@ print(my_list)
 guillaume@ubuntu:~/0x04$ ./1-main.py
 [1, 89, 3, 4, 5, 4, 89, 1, 1, 4, 89]
 [1, 2, 3, 4, 5, 4, 2, 1, 1, 4, 89]
-guillaume@ubuntu:~/0x04$ 
+guillaume@ubuntu:~/0x04$
 ```
 
 **Repo:**
@@ -383,7 +383,7 @@ print(sorted(list(od_set)))
 
 guillaume@ubuntu:~/0x04$ ./4-main.py
 ['Bash', 'Javascript', 'Perl', 'Python', 'Ruby']
-guillaume@ubuntu:~/0x04$ 
+guillaume@ubuntu:~/0x04$
 ```
 
 **Repo:**
@@ -409,7 +409,7 @@ print("Number of keys: {:d}".format(nb_keys))
 
 guillaume@ubuntu:~/0x04$ ./5-main.py
 Number of keys: 3
-guillaume@ubuntu:~/0x04$ 
+guillaume@ubuntu:~/0x04$
 ```
 
 **Repo:**
@@ -560,7 +560,7 @@ guillaume@ubuntu:~/0x04$
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x04-python-more_data_structures`
 - File: `8-simple_delete.py`
-    
+
 ### 9. Multiply by 2
 
 Write a function that returns a new dictionary with all values multiplied by 2
@@ -602,7 +602,7 @@ guillaume@ubuntu:~/0x04$
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x04-python-more_data_structures`
 - File: `9-multiply_by_2.py`
-    
+
 ### 10. Best score
 
 Write a function that returns a key with the biggest integer value.
@@ -628,7 +628,7 @@ print("Best score: {}".format(best_key))
 guillaume@ubuntu:~/0x04$ ./10-main.py
 Best score: Molly
 Best score: None
-guillaume@ubuntu:~/0x04$ 
+guillaume@ubuntu:~/0x04$
 ```
 
 **Repo:**
@@ -662,14 +662,14 @@ print(my_list)
 guillaume@ubuntu:~/0x04$ ./11-main.py
 [4, 8, 12, 16, 24]
 [1, 2, 3, 4, 6]
-guillaume@ubuntu:~/0x04$ 
+guillaume@ubuntu:~/0x04$
 ```
 
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x04-python-more_data_structures`
 - File: `11-multiply_list_map.py`
-     
+
 ### 12. Roman to Integer
 
 ## Technical interview preparation:
@@ -781,7 +781,7 @@ print(matrix)
 guillaume@ubuntu:~/0x04$ ./101-main.py
 [[1, 4, 9], [16, 25, 36], [49, 64, 81]]
 [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-guillaume@ubuntu:~/0x04$ 
+guillaume@ubuntu:~/0x04$
 ```
 
 **Repo:**
@@ -831,7 +831,7 @@ track: Low
 --
 ids: [1, 2, 3]
 track: Low
-guillaume@ubuntu:~/0x04$ 
+guillaume@ubuntu:~/0x04$
 ```
 
 **Repo:**
@@ -841,7 +841,7 @@ guillaume@ubuntu:~/0x04$
 
 ### 16. CPython #1: PyBytesObject
 
-Create two C functions that print some basic info about Python lists and 
+Create two C functions that print some basic info about Python lists and
 Python bytes objects.
 
 Python lists:
@@ -869,7 +869,7 @@ About:
 julien@ubuntu:~/CPython$ python3 --version
 Python 3.4.3
 julien@ubuntu:~/CPython$ gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,libPython.so -o libPython.so -fPIC -I/usr/include/python3.4 103-python.c
-julien@ubuntu:~/CPython$ cat 103-tests.py 
+julien@ubuntu:~/CPython$ cat 103-tests.py
 import ctypes
 
 lib = ctypes.CDLL('./libPython.so')
@@ -901,7 +901,7 @@ lib.print_python_list(l)
 l = ["Holberton"]
 lib.print_python_list(l)
 lib.print_python_bytes(l);
-julien@ubuntu:~/CPython$ python3 103-tests.py 
+julien@ubuntu:~/CPython$ python3 103-tests.py
 [.] bytes object info
   size: 5
   trying string: Hello
@@ -982,7 +982,7 @@ Element 3: int
 Element 0: str
 [.] bytes object info
   [ERROR] Invalid Bytes Object
-julien@ubuntu:~/CPython$ 
+julien@ubuntu:~/CPython$
 ```
 
 **Repo:**
