@@ -56,7 +56,7 @@ What do these lines print?
 
 - [ ] 0 1 2
 
-## Question #2
+### Question #2
 
 What do these lines print?
 
