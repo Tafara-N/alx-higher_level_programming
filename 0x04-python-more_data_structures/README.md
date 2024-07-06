@@ -9,7 +9,6 @@
 - `python3`
 
 ## Learning Objectives
-
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/nbatZmfQyeB03w9ipyFhSw), **without the help of Google:**
 
 ## General
