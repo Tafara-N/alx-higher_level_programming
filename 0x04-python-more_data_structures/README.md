@@ -71,7 +71,7 @@ What do these lines print?
 
 - [ ] 1 2 3 4
 
-## Question #3
+### Question #3
 
 What do these lines print?
 
