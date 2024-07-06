@@ -75,7 +75,7 @@ What do these lines print?
 
 What do these lines print?
 
-```
+```python
 >>> a = { 'id': 89, 'name': "John" }
 >>> a['id']
 ```
