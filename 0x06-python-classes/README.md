@@ -239,7 +239,7 @@ What do these lines print?
 
 - [ ] John
 
-## Question #7
+### Question #7
 
 What do these lines print?
 
