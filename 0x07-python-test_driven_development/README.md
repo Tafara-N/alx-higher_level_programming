@@ -15,9 +15,9 @@ Starting from today:
 - We strongly encourage you to work together on test cases, so that you don’t miss any edge case. **But not in the implementation of them!**
 - **Don’t trust the user**, always think about all possible edge cases
 
-## Resources
-## Read or watch:
+# Resources
 
+**Read or watch:**
 - [doctest — Test interactive Python examples](https://intranet.alxswe.com/rltoken/BwZJVq2MQ1_Vg_3gphoitQ) (*until “26.2.3.7. Warnings” included*)
 - [doctest – Testing through documentation](https://intranet.alxswe.com/rltoken/96kLRRIOHzsn3VDDXT21HA)
 - [Unit Tests in Python](https://intranet.alxswe.com/rltoken/wfuUl81Q3Nku1qCzdDHAfA)
@@ -102,7 +102,7 @@ Is this module correctly commented?
 
 ```python
 #!/usr/bin/python3
-""" 
+"""
     My calculation module
 """
 import sys
@@ -149,7 +149,7 @@ Is this module correctly commented?
 #!/usr/bin/python3
 import sys
 
-""" 
+"""
     My calculation module
 """
 ...
@@ -451,7 +451,7 @@ def max_integer(list=[]):
         i += 1
     return result
 
-guillaume@ubuntu:~/0x07$ 
+guillaume@ubuntu:~/0x07$
 guillaume@ubuntu:~/0x07$ cat 6-main.py
 #!/usr/bin/python3
 max_integer = __import__('6-max_integer').max_integer
@@ -466,7 +466,7 @@ guillaume@ubuntu:~/0x07$
 guillaume@ubuntu:~/0x07$ python3 -m unittest tests.6-max_integer_test 2>&1 | tail -1
 OK
 guillaume@ubuntu:~/0x07$
-guillaume@ubuntu:~/0x07$ head -7 tests/6-max_integer_test.py 
+guillaume@ubuntu:~/0x07$ head -7 tests/6-max_integer_test.py
 #!/usr/bin/python3
 """Unittest for max_integer([..])
 """
@@ -511,13 +511,13 @@ matrix_mul = __import__('100-matrix_mul').matrix_mul
 print(matrix_mul([[1, 2], [3, 4]], [[1, 2], [3, 4]]))
 print(matrix_mul([[1, 2]], [[3, 4], [5, 6]]))
 
-guillaume@ubuntu:~/0x07$ ./100-main.py 
+guillaume@ubuntu:~/0x07$ ./100-main.py
 [[7, 10], [15, 22]]
 [[13, 16]]
 guillaume@ubuntu:~/0x07$ python3 -m doctest -v ./tests/100-matrix_mul.txt | tail -2
 6 passed and 0 failed.
 Test passed.
-guillaume@ubuntu:~/0x07$ 
+guillaume@ubuntu:~/0x07$
 ```
 
 **Repo:**
@@ -542,11 +542,11 @@ lazy_matrix_mul = __import__('101-lazy_matrix_mul').lazy_matrix_mul
 print(lazy_matrix_mul([[1, 2], [3, 4]], [[1, 2], [3, 4]]))
 print(lazy_matrix_mul([[1, 2]], [[3, 4], [5, 6]]))
 
-guillaume@ubuntu:~/0x07$ ./101-main.py 
+guillaume@ubuntu:~/0x07$ ./101-main.py
 [[ 7 10]
  [15 22]]
 [[13 16]]
-guillaume@ubuntu:~/0x07$ python3 -m doctest -v ./tests/101-lazy_matrix_mul.txt 
+guillaume@ubuntu:~/0x07$ python3 -m doctest -v ./tests/101-lazy_matrix_mul.txt
 guillaume@ubuntu:~/0x07$
 ```
 
@@ -619,7 +619,7 @@ julien@ubuntu:~/0x07. Pyhton Strings$ python3 ./102-tests.py
   value: スプーンは存在しない
 [.] string object info
   [ERROR] Invalid String Object
-julien@ubuntu:~/0x07. Pyhton Strings$ 
+julien@ubuntu:~/0x07. Pyhton Strings$
 ```
 
 **Repo:**
