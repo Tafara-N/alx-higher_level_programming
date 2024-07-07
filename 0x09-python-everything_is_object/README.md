@@ -79,9 +79,9 @@ All your files must be executable
 The length of your files will be tested using `wc`
 
 **`.txt` Answer Files**
-Only one line
-No Shebang
-All your files should end with a new line
+- Only one line
+- No Shebang
+- All your files should end with a new line
 
 ## Tasks
 
