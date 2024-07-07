@@ -160,7 +160,7 @@ What is `__init__`?
 
 - [ ] The instance method called when a new object is created
 
-## Question #6
+### Question #6
 
 What is `__del__`?
 
