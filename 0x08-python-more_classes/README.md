@@ -1,5 +1,6 @@
-# Resources  
-## Read or watch:
+# Resources
+
+**Read or watch:**
 - [Object Oriented Programming](https://intranet.alxswe.com/rltoken/M-MFweENpRdEfRto_Gzlvg) (*Read everything until the paragraph “Inheritance” (excluded)*)
 - [Object-Oriented Programming](https://intranet.alxswe.com/rltoken/_Awd8Gn4SBdq2FRd_bY8KA) (*Please be careful: in most of the following paragraphs, the author shows the way you should not use or write a class, in order to help you better understand some concepts and how everything works in Python 3. Make sure you read only the following paragraphs: “General Introduction,” “First-class Everything,” “A Minimal Class in Python,” “Attributes,” “Methods,” “The `__init__` Method,” “Data Abstraction, Data Encapsulation, and Information Hiding,” “`__str__`- and `__repr__`-Methods,” “Public- Protected- and Private Attributes,” & “Destructor”*)
 - [Class and Instance Attributes](https://intranet.alxswe.com/rltoken/SGQIevRxW6lTgr4jGDzXbw)
@@ -281,7 +282,7 @@ print(u.id)
 
 - [ ] 89
 
-## Tasks  
+## Tasks
 ### 1. Simple rectangle
 
 Write an empty class `Rectangle` that defines a rectangle:
@@ -754,7 +755,7 @@ CCCCCCC
 Bye rectangle...
 Bye rectangle...
 Bye rectangle...
-guillaume@ubuntu:~/0x08$ 
+guillaume@ubuntu:~/0x08$
 ```
 
 **No test cases needed**
@@ -902,7 +903,7 @@ guillaume@ubuntu:~/0x08$
 
 ### 10. N queens
 
-![Judith Polgar](http://www.crestbook.com/files/Judit-photo1_602x433.jpg)  
+![Judith Polgar](http://www.crestbook.com/files/Judit-photo1_602x433.jpg)
 Chess grandmaster [Judit Polgár](https://intranet.alxswe.com/rltoken/bsRwbt64OvYjWaClriv0jg), the strongest female chess player of all time
 
 
@@ -929,7 +930,7 @@ julien@ubuntu:~/0x08. N Queens$ ./101-nqueens.py 6
 [[0, 2], [1, 5], [2, 1], [3, 4], [4, 0], [5, 3]]
 [[0, 3], [1, 0], [2, 4], [3, 1], [4, 5], [5, 2]]
 [[0, 4], [1, 2], [2, 0], [3, 5], [4, 3], [5, 1]]
-julien@ubuntu:~/0x08. N Queens$ 
+julien@ubuntu:~/0x08. N Queens$
 ```
 
 **Repo:**
