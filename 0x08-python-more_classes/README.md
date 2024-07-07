@@ -283,6 +283,7 @@ print(u.id)
 - [ ] 89
 
 ## Tasks
+
 ### 1. Simple rectangle
 
 Write an empty class `Rectangle` that defines a rectangle:
@@ -903,7 +904,8 @@ guillaume@ubuntu:~/0x08$
 
 ### 10. N queens
 
-![Judith Polgar](http://www.crestbook.com/files/Judit-photo1_602x433.jpg)
+![Hudith Polgar](Judit-photo1_602x433.jpg)
+
 Chess grandmaster [Judit Polgár](https://intranet.alxswe.com/rltoken/bsRwbt64OvYjWaClriv0jg), the strongest female chess player of all time
 
 
@@ -919,6 +921,7 @@ where N must be an integer greater or equal to `4`
     - Format: see example
     - You don’t have to print the solutions in a specific order
 - You are only allowed to import the `sys` module
+
 Read: [Queen](https://intranet.alxswe.com/rltoken/dAQmi8RxMnLH-iHBzkz-lw), [Backtracking](https://intranet.alxswe.com/rltoken/TGXZXdY2Awg8m4mSjlrjjA)
 
 ```shell
