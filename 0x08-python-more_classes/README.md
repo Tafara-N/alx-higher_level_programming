@@ -39,9 +39,9 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - How does Python find the attributes of an object or class
 - How to use the `getattr` function
 
-### Quiz questions
+## Quiz questions
 
-## Question #0
+### Question #0
 
 What do these lines print?
 
