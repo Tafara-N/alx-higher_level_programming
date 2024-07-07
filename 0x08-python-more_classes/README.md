@@ -170,7 +170,7 @@ What is `__del__`?
 
 - [ ] Instance method called when an instance is deleted
 
-## Question #7
+### Question #7
 
 What is `__str__`?
 
