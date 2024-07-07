@@ -67,9 +67,10 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - What are the built-in immutable types
 - How does Python pass variables to functions
 
-Requirements
-Python Scripts
-Allowed editors: vi, vim, emacs
+# Requirements
+
+## Python Scripts
+- Allowed editors: `vi`, `vim`, `emacs
 All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
 All your files should end with a newline character
 The first line of all your script files should be exactly #!/usr/bin/python3
