@@ -11,7 +11,7 @@ BTW, have you ever modified a variable without knowing it or wanting to? I mean:
 >>> a = 2
 >>> b
 1
->>> 
+>>>
 ```
 
 OK. But what about this?
@@ -22,7 +22,7 @@ OK. But what about this?
 >>> l[0] = 'x'
 >>> m
 ['x', 2, 3]
->>> 
+>>>
 ```
 
 This project is a little bit different than the usual projects. The first part is only questions about Python’s specificity like “What would be the result of…”. You should **read all documentation first (as usual :))**, then take the time to ***think and brainstorm with your peers** about what you think and why. **Try to do this without coding anything for a few hours**.
@@ -35,8 +35,9 @@ Note that during interviews for Python positions, **you will most likely have to
 
 All your answers should be only one line in a file. No space before or after the answer.
 
-## Resources  
-## Read or watch:
+# Resources
+
+**Read or watch:**
 - [9.10. Objects and values](https://intranet.alxswe.com/rltoken/MrtBogRzYETxnSKG97E7Sg)
 - [9.11. Aliasing](https://intranet.alxswe.com/rltoken/Ro-7kVXtmWyAeOXEw7RhSg)
 - [Immutable vs mutable types](https://intranet.alxswe.com/rltoken/X1lEmkwQRWI3fP4W7bq_qw)
@@ -209,7 +210,7 @@ What do these 3 lines print?
 
 ```python
 >>> l1 = [1, 2, 3]
->>> l2 = [1, 2, 3] 
+>>> l2 = [1, 2, 3]
 >>> print(l1 == l2)
 ```
 
@@ -224,7 +225,7 @@ What do these 3 lines print?
 
 ```python
 >>> l1 = [1, 2, 3]
->>> l2 = [1, 2, 3] 
+>>> l2 = [1, 2, 3]
 >>> print(l1 is l2)
 ```
 
@@ -349,7 +350,7 @@ print(l1)
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x09-python-everything_is_object`
 - File: `18-answer.txt`
- 
+
 ### 19. Copy a list object
 
 Write a function `def copy_list(l):` that returns a **copy** of a list.
@@ -380,7 +381,7 @@ guillaume@ubuntu:~/0x09$ ./19-main.py
 [1, 2, 3]
 True
 False
-guillaume@ubuntu:~/0x09$ wc -l 19-copy_list.py 
+guillaume@ubuntu:~/0x09$ wc -l 19-copy_list.py
 3 19-copy_list.py
 guillaume@ubuntu:~/0x09$
 ```
@@ -552,7 +553,7 @@ BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestScho
 BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
 BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
 BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
-guillaume@ubuntu:~/0x09$ wc -l 100-magic_string.py 
+guillaume@ubuntu:~/0x09$ wc -l 100-magic_string.py
 4 100-magic_string.py
 guillaume@ubuntu:~/0x09$
 ```
@@ -584,7 +585,7 @@ except Exception as e:
 
 guillaume@ubuntu:~/0x09$ ./101-main.py
 [AttributeError] 'LockedClass' object has no attribute 'last_name'
-guillaume@ubuntu:~/0x09$ 
+guillaume@ubuntu:~/0x09$
 ```
 
 **No test cases needed**
@@ -597,7 +598,7 @@ guillaume@ubuntu:~/0x09$
 ### 31. int 1/3
 
 ```shell
-julien@ubuntu:/python3$ cat int.py 
+julien@ubuntu:/python3$ cat int.py
 a = 1
 b = 1
 julien@ubuntu:/python3$
@@ -616,7 +617,7 @@ Assuming we are using a CPython implementation of Python3 with default options/c
 ## 32. int 2/3
 
 ```shell
-julien@ubuntu:/python3$ cat int.py 
+julien@ubuntu:/python3$ cat int.py
 a = 1024
 b = 1024
 del a
@@ -641,7 +642,7 @@ Assuming we are using a CPython implementation of Python3 with default options/c
 ### 33. int 3/3
 
 ```shell
-julien@twix:/tmp/so$ cat int.py 
+julien@twix:/tmp/so$ cat int.py
 print("I")
 print("Love")
 print("Python")
@@ -662,7 +663,7 @@ Assuming we are using a CPython implementation of Python3 with default options/c
 ### 34. Clear strings
 
 ```shell
-guillaume@ubuntu:/python3$ cat string.py 
+guillaume@ubuntu:/python3$ cat string.py
 a = "SCHL"
 b = "SCHL"
 del a
