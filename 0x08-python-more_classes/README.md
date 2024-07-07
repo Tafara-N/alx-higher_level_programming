@@ -180,7 +180,7 @@ What is `__str__`?
 
 - [ ] Instance method that prints an “informal” and nicely printable string representation of an instance
 
-## Question #8
+### Question #8
 
 What do these lines print?
 
