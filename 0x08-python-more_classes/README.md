@@ -241,7 +241,7 @@ print(u.id)
 
 - [ ] 89
 
-## Question #12
+### Question #12
 
 What do these lines print?
 
