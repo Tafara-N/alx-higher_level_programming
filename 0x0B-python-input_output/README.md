@@ -501,18 +501,19 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
 File: 8-class_to_json.py
 
-9. Student to JSON
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-Write a class Student that defines a student by:
+### 9. Student to JSON
 
-Public instance attributes:
-first_name
-last_name
-age
-Instantiation with first_name, last_name and age: def __init__(self, first_name, last_name, age):
-Public method def to_json(self): that retrieves a dictionary representation of a Student instance (same as 8-class_to_json.py)
-You are not allowed to import any module
+Write a class `Student` that defines a student by:
+
+- Public instance attributes:
+	- `first_name`
+	- `last_name`
+	- `age`
+- Instantiation with `first_name`, `last_name` and `age`: `def __init__(self, first_name, last_name, age):`
+- Public method def to_json(self): that retrieves a dictionary representation of a `Student` instance (same as `8-class_to_json.py`)
+- You are not allowed to import any module
+
+```bash
 guillaume@ubuntu:~/0x0B$ cat 9-main.py
 #!/usr/bin/python3
 Student = __import__('9-student').Student
@@ -539,13 +540,14 @@ Bob
 27
 <class 'int'>
 guillaume@ubuntu:~/0x0B$
-No test cases needed
+```
+
+**No test cases needed**
 
 Repo:
-
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
-File: 9-student.py
+File: `9-student.py`
 
 ### 10. Student to JSON with filter
 
