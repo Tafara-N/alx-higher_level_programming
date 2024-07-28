@@ -310,15 +310,16 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
 File: 5-save_to_json_file.py
 
-6. Create object from a JSON file
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+### 6. Create object from a JSON file
+
 Write a function that creates an Object from a “JSON file”:
 
-Prototype: def load_from_json_file(filename):
-You must use the with statement
-You don’t need to manage exceptions if the JSON string doesn’t represent an object.
-You don’t need to manage file permissions / exceptions.
+- Prototype: `def load_from_json_file(filename):`
+- You must use the `with` statement
+- You don’t need to manage exceptions if the JSON string doesn’t represent an object.
+- You don’t need to manage file permissions / exceptions.
+
+```bash
 guillaume@ubuntu:~/0x0B$ cat my_fake.json
 {"is_active": true, 12 }
 guillaume@ubuntu:~/0x0B$ cat 6-main.py
@@ -365,13 +366,14 @@ guillaume@ubuntu:~/0x0B$ ./6-main.py
 [FileNotFoundError] [Errno 2] No such file or directory: 'my_set_doesnt_exist.json'
 [ValueError] Expecting property name enclosed in double quotes: line 1 column 21 (char 20)
 guillaume@ubuntu:~/0x0B$
-No test cases needed
+```
+
+**No test cases needed**
 
 Repo:
-
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
-File: 6-load_from_json_file.py
+File: `6-load_from_json_file.py`
 
 ### 7. Load, add, save
 
