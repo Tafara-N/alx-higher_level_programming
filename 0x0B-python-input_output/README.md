@@ -51,16 +51,19 @@ All your classes should have a documentation (python3 -c 'print(__import__("my_m
 All your functions (inside and outside a class) should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
 A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
 We strongly encourage you to work together on test cases, so that you don’t miss any edge case
-Tasks
-0. Read file
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-Write a function that reads a text file (UTF8) and prints it to stdout:
 
-Prototype: def read_file(filename=""):
-You must use the with statement
-You don’t need to manage file permission or file doesn't exist exceptions.
-You are not allowed to import any module
+## Tasks
+
+### 0. Read file
+
+Write a function that reads a text file (`UTF8`) and prints it to stdout:
+
+- Prototype: `def read_file(filename=""):`
+- You must use the `with` statement
+- You don’t need to manage `file permission` or `file doesn't exist` exceptions.
+- You are not allowed to import any module
+
+```bash
 guillaume@ubuntu:~/0x0B$ cat 0-main.py
 #!/usr/bin/python3
 read_file = __import__('0-read_file').read_file
@@ -78,13 +81,14 @@ focus on building reliable applications and scalable systems, take on real-world
 
 A school every software engineer would have dreamt of!
 guillaume@ubuntu:~/0x0B$
-No test cases needed
+```
+
+**No test cases needed**
 
 Repo:
-
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
-File: 0-read_file.py
+File: `0-read_file.py`
 
 ### 1. Write to a file
 
