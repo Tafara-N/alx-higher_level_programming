@@ -403,15 +403,16 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
 File: 7-add_item.py
 
-8. Class to JSON
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+### 8. Class to JSON
+
 Write a function that returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object:
 
-Prototype: def class_to_json(obj):
-obj is an instance of a Class
-All attributes of the obj Class are serializable: list, dictionary, string, integer and boolean
-You are not allowed to import any module
+- Prototype: `def class_to_json(obj):`
+- obj is an instance of a Class
+- All attributes of the `obj` Class are serializable: list, dictionary, string, integer and boolean
+- You are not allowed to import any module
+
+```bash
 guillaume@ubuntu:~/0x0B$ cat 8-my_class.py
 #!/usr/bin/python3
 """ My class module
@@ -493,13 +494,14 @@ guillaume@ubuntu:~/0x0B$ ./8-main_2.py
 <class 'dict'>
 {'number': 4, '_MyClass__name': 'John', 'is_team_red': True, 'score': 1}
 guillaume@ubuntu:~/0x0B$
-No test cases needed
+```
+
+**No test cases needed**
 
 Repo:
-
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
-File: 8-class_to_json.py
+File: `8-class_to_json.py`
 
 ### 9. Student to JSON
 
