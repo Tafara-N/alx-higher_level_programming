@@ -86,17 +86,18 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
 File: 0-read_file.py
 
-1. Write to a file
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-Write a function that writes a string to a text file (UTF8) and returns the number of characters written:
+### 1. Write to a file
 
-Prototype: def write_file(filename="", text=""):
-You must use the with statement
-You don’t need to manage file permission exceptions.
-Your function should create the file if doesn’t exist.
-Your function should overwrite the content of the file if it already exists.
-You are not allowed to import any module
+Write a function that writes a string to a text file (`UTF8`) and returns the number of characters written:
+
+- Prototype: `def write_file(filename="", text=""):`
+- You must use the `with` statement
+- You don’t need to manage file permission exceptions.
+- Your function should create the file if doesn’t exist.
+- Your function should overwrite the content of the file if it already exists.
+- You are not allowed to import any module
+
+```bash
 guillaume@ubuntu:~/0x0B$ cat 1-main.py
 #!/usr/bin/python3
 write_file = __import__('1-write_file').write_file
@@ -109,13 +110,14 @@ guillaume@ubuntu:~/0x0B$ ./1-main.py
 guillaume@ubuntu:~/0x0B$ cat my_first_file.txt
 This School is so cool!
 guillaume@ubuntu:~/0x0B$
-No test cases needed
+```
+
+**No test cases needed**
 
 Repo:
-
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
-File: 1-write_file.py
+File: `1-write_file.py`
 
 ### 2. Append to a file
 
