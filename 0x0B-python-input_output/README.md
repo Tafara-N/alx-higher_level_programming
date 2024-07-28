@@ -154,13 +154,14 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
 File: 2-append_write.py
 
-3. To JSON string
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+### 3. To JSON string
+
 Write a function that returns the JSON representation of an object (string):
 
-Prototype: def to_json_string(my_obj):
-You don’t need to manage exceptions if the object can’t be serialized.
+- Prototype: `def to_json_string(my_obj):`
+- You don’t need to manage exceptions if the object can’t be serialized.
+
+```bash
 guillaume@ubuntu:~/0x0B$ cat 3-main.py
 #!/usr/bin/python3
 to_json_string = __import__('3-to_json_string').to_json_string
@@ -199,13 +200,14 @@ guillaume@ubuntu:~/0x0B$ ./3-main.py
 <class 'str'>
 [TypeError] {3, 132} is not JSON serializable
 guillaume@ubuntu:~/0x0B$
-No test cases needed
+```
+
+**No test cases needed**
 
 Repo:
-
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
-File: 3-to_json_string.py
+File: `3-to_json_string.py`
 
 ### 4. From JSON string to Object
 
