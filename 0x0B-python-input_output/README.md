@@ -547,20 +547,21 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
 File: 9-student.py
 
-10. Student to JSON with filter
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-Write a class Student that defines a student by: (based on 9-student.py)
+### 10. Student to JSON with filter
 
-Public instance attributes:
-first_name
-last_name
-age
-Instantiation with first_name, last_name and age: def __init__(self, first_name, last_name, age):
-Public method def to_json(self, attrs=None): that retrieves a dictionary representation of a Student instance (same as 8-class_to_json.py):
-If attrs is a list of strings, only attribute names contained in this list must be retrieved.
-Otherwise, all attributes must be retrieved
-You are not allowed to import any module
+Write a class `Student` that defines a student by: (based on `9-student.py`)
+
+- Public instance attributes:
+	- first_name
+	- last_name
+	- age
+- Instantiation with `first_name`, `last_name` and `age`: `def __init__(self, first_name, last_name, age):`
+- Public method `def to_json(self, attrs=None):` that retrieves a dictionary representation of a `Student` instance (same as `8-class_to_json.py`):
+	- If `attrs` is a list of strings, only attribute names contained in this list must be retrieved.
+	- Otherwise, all attributes must be retrieved
+- You are not allowed to import any module
+
+```bash
 guillaume@ubuntu:~/0x0B$ cat 10-main.py
 #!/usr/bin/python3
 Student = __import__('10-student').Student
@@ -581,13 +582,14 @@ guillaume@ubuntu:~/0x0B$ ./10-main.py
 {'age': 27, 'first_name': 'Bob'}
 {'age': 27}
 guillaume@ubuntu:~/0x0B$
-No test cases needed
+```
+
+**No test cases needed**
 
 Repo:
-
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
-File: 10-student.py
+File: `10-student.py`
 
 ### 11. Student to disk and reload
 
