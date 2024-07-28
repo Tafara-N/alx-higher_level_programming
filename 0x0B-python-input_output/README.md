@@ -207,13 +207,14 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
 File: 3-to_json_string.py
 
-4. From JSON string to Object
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+### 4. From JSON string to Object
+
 Write a function that returns an object (Python data structure) represented by a JSON string:
 
-Prototype: def from_json_string(my_str):
-You don’t need to manage exceptions if the JSON string doesn’t represent an object.
+- Prototype: `def from_json_string(my_str):`
+- You don’t need to manage exceptions if the JSON string doesn’t represent an object.
+
+```bash
 guillaume@ubuntu:~/0x0B$ cat 4-main.py
 #!/usr/bin/python3
 from_json_string = __import__('4-from_json_string').from_json_string
@@ -248,13 +249,14 @@ guillaume@ubuntu:~/0x0B$ ./4-main.py
 <class 'dict'>
 [ValueError] Expecting property name enclosed in double quotes: line 2 column 25 (char 25)
 guillaume@ubuntu:~/0x0B$
-No test cases needed
+```
+
+**No test cases needed**
 
 Repo:
-
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
-File: 4-from_json_string.py
+File: `4-from_json_string.py`
 
 ### 5. Save Object to a file
 
