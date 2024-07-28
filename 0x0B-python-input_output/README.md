@@ -8,8 +8,9 @@ JSON encoder and decoder
 Learn to Program 8 : Reading / Writing Files
 Automate the Boring Stuff with Python (ch. 8 p 180-183 and ch. 14 p 326-333)
 All about py-file I/O
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+
+# Learning Objectives
+At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/x2TxSf8LF65dpNOPSGtXgQ), **without the help of Google:**
 
 ## General
 - Why Python programming is awesome
