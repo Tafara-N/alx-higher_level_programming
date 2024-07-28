@@ -724,15 +724,16 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
 File: 12-pascal_triangle.py
 
-13. Search and update
-#advanced
-Score: 100.0% (Checks completed: 100.0%)
+### 13. Search and update
+
 Write a function that inserts a line of text to a file, after each line containing a specific string (see example):
 
-Prototype: def append_after(filename="", search_string="", new_string=""):
-You must use the with statement
-You don’t need to manage file permission or file doesn't exist exceptions.
-You are not allowed to import any module
+- Prototype: `def append_after(filename="", search_string="", new_string=""):`
+- You must use the `with` statement
+- You don’t need to manage `file permission` or `file doesn't exist` exceptions.
+- You are not allowed to import any module
+
+```bash
 guillaume@ubuntu:~/0x0B$ cat 100-main.py
 #!/usr/bin/python3
 append_after = __import__('100-append_after').append_after
@@ -766,13 +767,14 @@ But it can be very hard if:
 "C is fun!"
 - You don't have strong C knowledge.
 guillaume@ubuntu:~/0x0B$
-No test cases needed
+```
+
+**No test cases needed**
 
 Repo:
-
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
-File: 100-append_after.py
+File: `100-append_after.py`
 
 ### 14. Log parsing
 
