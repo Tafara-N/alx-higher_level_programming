@@ -589,26 +589,27 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
 File: 10-student.py
 
-11. Student to disk and reload
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-Write a class Student that defines a student by: (based on 10-student.py)
+### 11. Student to disk and reload
 
-Public instance attributes:
-first_name
-last_name
-age
-Instantiation with first_name, last_name and age: def __init__(self, first_name, last_name, age):
-Public method def to_json(self, attrs=None): that retrieves a dictionary representation of a Student instance (same as 8-class_to_json.py):
-If attrs is a list of strings, only attributes name contain in this list must be retrieved.
-Otherwise, all attributes must be retrieved
-Public method def reload_from_json(self, json): that replaces all attributes of the Student instance:
-You can assume json will always be a dictionary
-A dictionary key will be the public attribute name
-A dictionary value will be the value of the public attribute
-You are not allowed to import any module
+Write a class `Student` that defines a student by: (based on `10-student.py`)
+
+- Public instance attributes:
+	- first_name
+	- last_name
+	- age
+- Instantiation with `first_name`, `last_name` and `age`: `def __init__(self, first_name, last_name, age):`
+- Public method `def to_json(self, attrs=None):` that retrieves a dictionary representation of a `Student` instance (same as `8-class_to_json.py`):
+	- If `attrs` is a list of strings, only attributes name contain in this list must be retrieved.
+	- Otherwise, all attributes must be retrieved
+- Public method `def reload_from_json(self, json):` that replaces all attributes of the `Student` instance:
+	- You can assume `json` will always be a dictionary
+	- A dictionary key will be the public attribute name
+	- A dictionary value will be the value of the public attribute
+- You are not allowed to import any module
+
 Now, you have a simple implementation of a serialization and deserialization mechanism (concept of representation of an object to another format, without losing any information and allow us to rebuild an object based on this representation)
 
+```bash
 guillaume@ubuntu:~/0x0B$ cat 11-main.py
 #!/usr/bin/python3
 import os
@@ -672,13 +673,14 @@ John Doe 23
 guillaume@ubuntu:~/0x0B$ cat student.json ; echo ""
 {"last_name": "Doe", "first_name": "John", "age": 23}
 guillaume@ubuntu:~/0x0B$
-No test cases needed
+```
+
+**No test cases needed**
 
 Repo:
-
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
-File: 11-student.py
+File: `11-student.py`
 
 ### 12. Pascal's Triangle
 
