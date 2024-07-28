@@ -373,16 +373,17 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
 File: 6-load_from_json_file.py
 
-7. Load, add, save
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+### 7. Load, add, save
+
 Write a script that adds all arguments to a Python list, and then save them to a file:
 
-You must use your function save_to_json_file from 5-save_to_json_file.py
-You must use your function load_from_json_file from 6-load_from_json_file.py
-The list must be saved as a JSON representation in a file named add_item.json
-If the file doesn’t exist, it should be created
-You don’t need to manage file permissions / exceptions.
+- You must use your function `save_to_json_file` from `5-save_to_json_file.py`
+- You must use your function `load_from_json_file` from `6-load_from_json_file.py`
+- The list must be saved as a JSON representation in a file named `add_item.json`
+- If the file doesn’t exist, it should be created
+- You don’t need to manage file permissions / exceptions.
+
+```bash
 guillaume@ubuntu:~/0x0B$ cat add_item.json
 cat: add_item.json: No such file or directory
 guillaume@ubuntu:~/0x0B$ ./7-add_item.py
@@ -395,13 +396,14 @@ guillaume@ubuntu:~/0x0B$ ./7-add_item.py 89 Python C
 guillaume@ubuntu:~/0x0B$ cat add_item.json ; echo ""
 ["Best", "School", "89", "Python", "C"]
 guillaume@ubuntu:~/0x0B$
-No test cases needed
+```
+
+**No test cases needed**
 
 Repo:
-
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
-File: 7-add_item.py
+File: `7-add_item.py`
 
 ### 8. Class to JSON
 
