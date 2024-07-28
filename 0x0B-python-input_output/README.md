@@ -1,7 +1,7 @@
 # Resources
 
 **Read or watch:**
-- [7.2. Reading and Writing Files]()
+- [7.2. Reading and Writing Files](https://intranet.alxswe.com/rltoken/hFlrZ9E1XROVWcjwwyF52A)
 - [8.7. Predefined Clean-up Actions]()
 - [Dive Into Python 3: Chapter 11. Files]() (*until “11.4 Binary Files” (included)*)
 - [JSON encoder and decoder]()
