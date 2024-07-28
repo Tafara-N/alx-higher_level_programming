@@ -855,7 +855,6 @@ guillaume@ubuntu:~/0x0B$
 **No test cases needed**
 
 Repo:
-
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
 File: `101-stats.py`
