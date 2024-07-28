@@ -680,7 +680,7 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
 File: 11-student.py
 
-12. Pascal's Triangle
+### 12. Pascal's Triangle
 
 **Technical interview preparation:**
 - You are not allowed to google anything
