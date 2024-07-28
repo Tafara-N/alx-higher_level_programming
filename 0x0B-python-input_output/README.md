@@ -256,15 +256,16 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
 File: 4-from_json_string.py
 
-5. Save Object to a file
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+### 5. Save Object to a file
+
 Write a function that writes an Object to a text file, using a JSON representation:
 
-Prototype: def save_to_json_file(my_obj, filename):
-You must use the with statement
-You don’t need to manage exceptions if the object can’t be serialized.
-You don’t need to manage file permission exceptions.
+- Prototype: `def save_to_json_file(my_obj, filename):`
+- You must use the `with` statement
+- You don’t need to manage exceptions if the object can’t be serialized.
+- You don’t need to manage file permission exceptions.
+
+```bash
 guillaume@ubuntu:~/0x0B$ cat 5-main.py
 #!/usr/bin/python3
 save_to_json_file = __import__('5-save_to_json_file').save_to_json_file
@@ -302,13 +303,14 @@ guillaume@ubuntu:~/0x0B$ cat my_dict.json ; echo ""
 guillaume@ubuntu:~/0x0B$ cat my_set.json ; echo ""
 
 guillaume@ubuntu:~/0x0B$
-No test cases needed
+```
+
+**No test cases needed**
 
 Repo:
-
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
-File: 5-save_to_json_file.py
+File: `5-save_to_json_file.py`
 
 ### 6. Create object from a JSON file
 
