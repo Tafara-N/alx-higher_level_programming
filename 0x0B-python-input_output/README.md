@@ -681,17 +681,18 @@ Directory: 0x0B-python-input_output
 File: 11-student.py
 
 12. Pascal's Triangle
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-Technical interview preparation:
 
-You are not allowed to google anything
-Whiteboard first
-Create a function def pascal_triangle(n): that returns a list of lists of integers representing the Pascal’s triangle of n:
+**Technical interview preparation:**
+- You are not allowed to google anything
+- Whiteboard first
 
-Returns an empty list if n <= 0
-You can assume n will be always an integer
-You are not allowed to import any module
+Create a function `def pascal_triangle(n):` that returns a list of lists of integers representing the Pascal’s triangle of `n`:
+
+- Returns an empty list if `n <= 0`
+- You can assume `n` will be always an integer
+- You are not allowed to import any module
+
+```bash
 guillaume@ubuntu:~/0x0B$ cat 12-main.py
 #!/usr/bin/python3
 """
@@ -718,11 +719,12 @@ guillaume@ubuntu:~/0x0B$ ./12-main.py
 [1,3,3,1]
 [1,4,6,4,1]
 guillaume@ubuntu:~/0x0B$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0B-python-input_output
-File: 12-pascal_triangle.py
+File: `12-pascal_triangle.py`
 
 ### 13. Search and update
 
