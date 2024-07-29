@@ -90,7 +90,7 @@ guillaume@ubuntu:~/0x0A$
 
 **Repo:**
 GitHub repository: alx-higher_level_programming
-Directory: 0x0A-python-inheritance
+- Directory: `0x0A-python-inheritance`
 - File: `0-lookup.py`
 
 ### 1. My list
@@ -125,7 +125,7 @@ guillaume@ubuntu:~/0x0A$
 
 **Repo:**
 GitHub repository: alx-higher_level_programming
-Directory: 0x0A-python-inheritance
+- Directory: `0x0A-python-inheritance`
 - File: `1-my_list.py, tests/1-my_list.txt`
 
 ### 2. Exact same object
@@ -157,7 +157,7 @@ guillaume@ubuntu:~/0x0A$
 
 **Repo:**
 GitHub repository: alx-higher_level_programming
-Directory: 0x0A-python-inheritance
+- Directory: `0x0A-python-inheritance`
 - File: `2-is_same_class.py`
 
 ### 3. Same class or inherit from
@@ -190,7 +190,7 @@ guillaume@ubuntu:~/0x0A$
 
 **Repo:**
 GitHub repository: alx-higher_level_programming
-Directory: 0x0A-python-inheritance
+- Directory: `0x0A-python-inheritance`
 - File: `3-is_kind_of_class.py`
 
 ### 4. Only sub class of
@@ -223,7 +223,7 @@ guillaume@ubuntu:~/0x0A$
 
 **Repo:**
 GitHub repository: alx-higher_level_programming
-Directory: 0x0A-python-inheritance
+- Directory: `0x0A-python-inheritance`
 - File: `4-inherits_from.py`
 
 ### 5. Geometry module
@@ -254,7 +254,7 @@ guillaume@ubuntu:~/0x0A$
 
 **Repo:**
 GitHub repository: alx-higher_level_programming
-Directory: 0x0A-python-inheritance
+- Directory: `0x0A-python-inheritance`
 - File: `5-base_geometry.py`
 
 ### 6. Improve Geometry
@@ -285,7 +285,7 @@ guillaume@ubuntu:~/0x0A$
 
 **Repo:**
 GitHub repository: alx-higher_level_programming
-Directory: 0x0A-python-inheritance
+- Directory: `0x0A-python-inheritance`
 - File: `6-base_geometry.py`
 
 ### 7. Integer validator
@@ -333,7 +333,7 @@ guillaume@ubuntu:~/0x0A$
 
 **Repo:**
 GitHub repository: alx-higher_level_programming
-Directory: 0x0A-python-inheritance
+- Directory: `0x0A-python-inheritance`
 - File: `7-base_geometry.py, tests/7-base_geometry.txt`
 
 ### 8. Rectangle
@@ -376,7 +376,7 @@ guillaume@ubuntu:~/0x0A$
 
 **Repo:**
 GitHub repository: alx-higher_level_programming
-Directory: 0x0A-python-inheritance
+- Directory: `0x0A-python-inheritance`
 - File: `8-rectangle.py`
 
 ### 9. Full rectangle
@@ -409,7 +409,7 @@ guillaume@ubuntu:~/0x0A$
 
 **Repo:**
 GitHub repository: alx-higher_level_programming
-Directory: 0x0A-python-inheritance
+- Directory: `0x0A-python-inheritance`
 - File: `9-rectangle.py`
 
 ### 10. Square #1
@@ -441,7 +441,7 @@ guillaume@ubuntu:~/0x0A$
 
 **Repo:**
 GitHub repository: alx-higher_level_programming
-Directory: 0x0A-python-inheritance
+- Directory: `0x0A-python-inheritance`
 - File: `10-square.py`
 
 ### 11. Square #2
@@ -474,7 +474,7 @@ guillaume@ubuntu:~/0x0A$
 
 **Repo:**
 GitHub repository: alx-higher_level_programming
-Directory: 0x0A-python-inheritance
+- Directory: `0x0A-python-inheritance`
 - File: `11-square.py`
 
 ### 12. My integer
@@ -505,7 +505,7 @@ guillaume@ubuntu:~/0x0A$
 
 **Repo:**
 GitHub repository: alx-higher_level_programming
-Directory: 0x0A-python-inheritance
+- Directory: `0x0A-python-inheritance`
 - File: `100-my_int.py`
 
 ### 13. Can I?
@@ -545,5 +545,5 @@ guillaume@ubuntu:~/0x0A$
 
 **Repo:**
 GitHub repository: alx-higher_level_programming
-Directory: 0x0A-python-inheritance
+- Directory: `0x0A-python-inheritance`
 - File: `101-add_attribute.py`
