@@ -259,10 +259,12 @@ File: `5-base_geometry.py`
 
 ### 6. Improve Geometry
 
-Write a class BaseGeometry (based on 5-base_geometry.py).
+Write a class `BaseGeometry` (based on `5-base_geometry.py`).
 
-Public instance method: def area(self): that raises an Exception with the message area() is not implemented
-You are not allowed to import any module
+- Public instance method: `def area(self):` that raises an `Exception` with the message `area() is not implemented`
+- You are not allowed to import any module
+
+```bash
 guillaume@ubuntu:~/0x0A$ cat 6-main.py
 #!/usr/bin/python3
 BaseGeometry = __import__('6-base_geometry').BaseGeometry
@@ -277,17 +279,17 @@ except Exception as e:
 guillaume@ubuntu:~/0x0A$ ./6-main.py
 [Exception] area() is not implemented
 guillaume@ubuntu:~/0x0A$
-No test cases needed
+```
+
+**No test cases needed**
 
 Repo:
-
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
-File: 6-base_geometry.py
+File: `6-base_geometry.py`
 
-7. Integer validator
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
+### 7. Integer validator
+
 Write a class BaseGeometry (based on 6-base_geometry.py).
 
 Public instance method: def area(self): that raises an Exception with the message area() is not implemented
