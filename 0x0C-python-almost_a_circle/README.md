@@ -90,7 +90,7 @@ guillaume@ubuntu:~/$
 
 *Note that this is just an example. The number of tests you create can be different from the above example.*
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
 File: `tests/`
@@ -143,7 +143,7 @@ guillaume@ubuntu:~/$ ./0-main.py
 guillaume@ubuntu:~/$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
 File: `models/base.py, models/__init__.py`
@@ -191,7 +191,7 @@ guillaume@ubuntu:~/$ ./1-main.py
 guillaume@ubuntu:~/$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
 File: `models/rectangle.py`
@@ -242,7 +242,7 @@ guillaume@ubuntu:~/$ ./2-main.py
 guillaume@ubuntu:~/$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
 File: `models/rectangle.py`
@@ -275,7 +275,7 @@ guillaume@ubuntu:~/$ ./3-main.py
 guillaume@ubuntu:~/$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
 File: `models/rectangle.py`
@@ -313,7 +313,7 @@ guillaume@ubuntu:~/$ ./4-main.py
 guillaume@ubuntu:~/$
 ````
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
 File: `models/rectangle.py`
@@ -342,7 +342,7 @@ guillaume@ubuntu:~/$ ./5-main.py
 guillaume@ubuntu:~/$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
 File: `models/rectangle.py`
@@ -379,7 +379,7 @@ $
 guillaume@ubuntu:~/$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
 File: `models/rectangle.py`
@@ -432,7 +432,7 @@ guillaume@ubuntu:~/$ ./7-main.py
 guillaume@ubuntu:~/$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
 File: `models/rectangle.py`
@@ -480,7 +480,7 @@ guillaume@ubuntu:~/$ ./8-main.py
 guillaume@ubuntu:~/$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
 File: `models/rectangle.py`
@@ -551,7 +551,7 @@ guillaume@ubuntu:~/$ ./9-main.py
 guillaume@ubuntu:~/$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
 File: `models/square.py`
@@ -590,7 +590,7 @@ guillaume@ubuntu:~/$ ./10-main.py
 guillaume@ubuntu:~/$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
 File: `models/square.py`
@@ -652,7 +652,7 @@ guillaume@ubuntu:~/$ ./11-main.py
 guillaume@ubuntu:~/$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
 File: `models/square.py`
@@ -698,7 +698,7 @@ guillaume@ubuntu:~/$ ./12-main.py
 False
 guillaume@ubuntu:~/$
 ```
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
 File: `models/rectangle.py`
@@ -744,7 +744,7 @@ False
 guillaume@ubuntu:~/$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
 File: `models/square.py`
@@ -784,7 +784,7 @@ guillaume@ubuntu:~/$ ./14-main.py
 guillaume@ubuntu:~/$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
 File: `models/base.py`
@@ -817,7 +817,7 @@ if __name__ == "__main__":
 guillaume@ubuntu:~/$ ./15-main.py
 [{"y": 8, "x": 2, "id": 1, "width": 10, "height": 7}, {"y": 0, "x": 0, "id": 2, "width": 2, "height": 4}]
 guillaume@ubuntu:~/$
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
 File: `models/base.py`
@@ -855,7 +855,7 @@ guillaume@ubuntu:~/$ ./16-main.py
 guillaume@ubuntu:~/$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
 File: `models/base.py`
@@ -896,7 +896,7 @@ False
 guillaume@ubuntu:~/$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
 File: `models/base.py`
@@ -970,7 +970,7 @@ guillaume@ubuntu:~/$ ./18-main.py
 guillaume@ubuntu:~/$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
 File: `models/base.py`
@@ -1045,7 +1045,7 @@ guillaume@ubuntu:~/$ ./100-main.py
 guillaume@ubuntu:~/$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
 File: `models/`
@@ -1087,7 +1087,7 @@ guillaume@ubuntu:~/$ ./101-main.py
 
 **It is your responsibility to request a review for this task from a peer before the project’s deadline. If no peers have been reviewed, you should request a review from a TA or staff member.**
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
 File: `models/base.py`
