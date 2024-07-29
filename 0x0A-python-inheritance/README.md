@@ -88,7 +88,7 @@ guillaume@ubuntu:~/0x0A$
 
 **No test cases needed**
 
-Repo:
+**Repo:**
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
 - File: `0-lookup.py`
@@ -123,7 +123,7 @@ guillaume@ubuntu:~/0x0A$ ./1-main.py
 guillaume@ubuntu:~/0x0A$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
 - File: `1-my_list.py, tests/1-my_list.txt`
@@ -155,7 +155,7 @@ guillaume@ubuntu:~/0x0A$
 
 **No test cases needed**
 
-Repo:
+**Repo:**
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
 - File: `2-is_same_class.py`
@@ -188,7 +188,7 @@ guillaume@ubuntu:~/0x0A$
 
 **No test cases needed**
 
-Repo:
+**Repo:**
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
 - File: `3-is_kind_of_class.py`
@@ -221,7 +221,7 @@ guillaume@ubuntu:~/0x0A$
 
 **No test cases needed**
 
-Repo:
+**Repo:**
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
 - File: `4-inherits_from.py`
@@ -252,7 +252,7 @@ guillaume@ubuntu:~/0x0A$
 
 **No test cases needed**
 
-Repo:
+**Repo:**
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
 - File: `5-base_geometry.py`
@@ -283,7 +283,7 @@ guillaume@ubuntu:~/0x0A$
 
 **No test cases needed**
 
-Repo:
+**Repo:**
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
 - File: `6-base_geometry.py`
@@ -331,7 +331,7 @@ guillaume@ubuntu:~/0x0A$ ./7-main.py
 guillaume@ubuntu:~/0x0A$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
 - File: `7-base_geometry.py, tests/7-base_geometry.txt`
@@ -374,7 +374,7 @@ guillaume@ubuntu:~/0x0A$
 
 **No test cases needed**
 
-Repo:
+**Repo:**
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
 - File: `8-rectangle.py`
@@ -407,7 +407,7 @@ guillaume@ubuntu:~/0x0A$
 
 **No test cases needed**
 
-Repo:
+**Repo:**
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
 - File: `9-rectangle.py`
@@ -439,7 +439,7 @@ guillaume@ubuntu:~/0x0A$
 
 **No test cases needed**
 
-Repo:
+**Repo:**
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
 - File: `10-square.py`
@@ -472,7 +472,7 @@ guillaume@ubuntu:~/0x0A$
 
 **No test cases needed**
 
-Repo:
+**Repo:**
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
 - File: `11-square.py`
@@ -503,7 +503,7 @@ guillaume@ubuntu:~/0x0A$
 
 **No test cases needed**
 
-Repo:
+**Repo:**
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
 - File: `100-my_int.py`
@@ -543,7 +543,7 @@ guillaume@ubuntu:~/0x0A$
 
 **No test cases needed**
 
-Repo:
+**Repo:**
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
 - File: `101-add_attribute.py`
