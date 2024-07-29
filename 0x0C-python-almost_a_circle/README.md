@@ -70,12 +70,13 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - You can also test file by file by using this command: `python3 -m unittest tests/test_models/test_base.py`
 - We strongly encourage you to work together on test cases so that you don’t miss any edge case
 
-Tasks
-0. If it's not tested it doesn't work
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
+## Tasks
+
+### 0. If it's not tested it doesn't work
+
 All your files, classes and methods must be unit tested and be PEP 8 validated.
 
+```bash
 guillaume@ubuntu:~/$ python3 -m unittest discover tests
 ...................................................................................
 ...................................................................................
@@ -85,13 +86,14 @@ Ran 189 tests in 13.135s
 
 OK
 guillaume@ubuntu:~/$
-Note that this is just an example. The number of tests you create can be different from the above example.
+```
+
+*Note that this is just an example. The number of tests you create can be different from the above example.*
 
 Repo:
-
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
-File: tests/
+File: `tests/`
 
 ### 1. Base class
 
