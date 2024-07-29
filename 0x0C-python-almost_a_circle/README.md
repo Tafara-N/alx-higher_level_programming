@@ -372,18 +372,19 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
 File: models/rectangle.py
 
-8. Update #0
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
-Update the class Rectangle by adding the public method def update(self, *args): that assigns an argument to each attribute:
+### 8. Update #0
 
-1st argument should be the id attribute
-2nd argument should be the width attribute
-3rd argument should be the height attribute
-4th argument should be the x attribute
-5th argument should be the y attribute
+Update the class `Rectangle` by adding the public method `def update(self, *args):` that assigns an argument to each attribute:
+
+- 1st argument should be the `id` attribute
+- 2nd argument should be the `width` attribute
+- 3rd argument should be the `height` attribute
+- 4th argument should be the `x` attribute
+- 5th argument should be the `y` attribute
+
 This type of argument is called a “no-keyword argument” - Argument order is super important.
 
+```bash
 guillaume@ubuntu:~/$ cat 7-main.py
 #!/usr/bin/python3
 """ Doc """
@@ -417,7 +418,7 @@ guillaume@ubuntu:~/$ ./7-main.py
 [Rectangle] (89) 4/10 - 2/3
 [Rectangle] (89) 4/5 - 2/3
 guillaume@ubuntu:~/$
-
+```
 
 Repo:
 GitHub repository: alx-higher_level_programming
