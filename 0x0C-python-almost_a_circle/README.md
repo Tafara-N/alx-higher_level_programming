@@ -831,18 +831,19 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
 File: models/base.py
 
-18. Dictionary to Instance
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
-Update the class Base by adding the class method def create(cls, **dictionary): that returns an instance with all attributes already set:
+### 18. Dictionary to Instance
 
-**dictionary can be thought of as a double pointer to a dictionary
-To use the update method to assign all attributes, you must create a “dummy” instance before:
-Create a Rectangle or Square instance with “dummy” mandatory attributes (width, height, size, etc.)
-Call update instance method to this “dummy” instance to apply your real values
-You must use the method def update(self, *args, **kwargs)
-**dictionary must be used as **kwargs of the method update
-You are not allowed to use eval
+Update the class `Base` by adding the class method `def create(cls, **dictionary):` that returns an instance with all attributes already set:
+
+- `**dictionary` can be thought of as a double pointer to a dictionary
+- To use the `update` method to assign all attributes, you must create a “dummy” instance before:
+	- Create a `Rectangle` or `Square` instance with “dummy” mandatory attributes (width, height, size, etc.)
+	- Call `update` instance method to this “dummy” instance to apply your real values
+- You must use the method `def update(self, *args, **kwargs)`
+- `**dictionary` must be used as `**kwargs` of the method `update`
+- You are not allowed to use `eval`
+
+```bash
 guillaume@ubuntu:~/$ cat 17-main.py
 #!/usr/bin/python3
 """ 17-main """
@@ -864,21 +865,23 @@ guillaume@ubuntu:~/$ ./17-main.py
 False
 False
 guillaume@ubuntu:~/$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
-File: models/base.py
+File: `models/base.py`
 
-19. File to instances
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
-Update the class Base by adding the class method def load_from_file(cls): that returns a list of instances:
+### 19. File to instances
 
-The filename must be: <Class name>.json - example: Rectangle.json
-If the file doesn’t exist, return an empty list
-Otherwise, return a list of instances - the type of these instances depends on cls (current class using this method)
-You must use the from_json_string and create methods (implemented previously)
+Update the class `Base` by adding the class method `def load_from_file(cls):` that returns a list of instances:
+
+- The filename must be: `<Class name>.json` - example: `Rectangle.json`
+- If the file doesn’t exist, return an empty list
+- Otherwise, return a list of instances - the type of these instances depends on `cls` (current class using this method)
+- You must use the `from_json_string` and `create` methods (implemented previously)
+
+```bash
 guillaume@ubuntu:~/$ cat 18-main.py
 #!/usr/bin/python3
 """ 18-main """
@@ -936,22 +939,24 @@ guillaume@ubuntu:~/$ ./18-main.py
 [139785911764976] [Square] (5) 0/0 - 5
 [139785911765032] [Square] (6) 9/1 - 7
 guillaume@ubuntu:~/$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
-File: models/base.py
+File: `models/base.py`
 
-20. JSON ok, but CSV?
-#advanced
-Score: 65.0% (Checks completed: 100.0%)
-Update the class Base by adding the class methods def save_to_file_csv(cls, list_objs): and def load_from_file_csv(cls): that serializes and deserializes in CSV:
+### 20. JSON ok, but CSV?
 
-The filename must be: <Class name>.csv - example: Rectangle.csv
-Has the same behavior as the JSON serialization/deserialization
-Format of the CSV:
-Rectangle: <id>,<width>,<height>,<x>,<y>
-Square: <id>,<size>,<x>,<y>
+Update the class `Base` by adding the class methods `def save_to_file_csv(cls, list_objs):` and `def load_from_file_csv(cls):` that serializes and deserializes in CSV:
+
+- The filename must be: `<Class name>.csv` - example: `Rectangle.csv`
+- Has the same behavior as the JSON serialization/deserialization
+- Format of the CSV:
+- Rectangle: `<id>,<width>,<height>,<x>,<y>`
+- Square: `<id>,<size>,<x>,<y>`
+
+```bash
 guillaume@ubuntu:~/$ cat 100-main.py
 #!/usr/bin/python3
 """ 100-main """
@@ -1009,21 +1014,23 @@ guillaume@ubuntu:~/$ ./100-main.py
 [140268695529232] [Square] (5) 0/0 - 5
 [140268695529176] [Square] (6) 9/1 - 7
 guillaume@ubuntu:~/$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
-File: models/
+File: `models/`
 
-21. Let's draw it
-#advanced
-Score: 100.0% (Checks completed: 100.0%)
-Update the class Base by adding the static method def draw(list_rectangles, list_squares): that opens a window and draws all the Rectangles and Squares:
+### 21. Let's draw it
 
-You must use the Turtle graphics module
-To install it: sudo apt-get install python3-tk
-To make the GUI available outside your vagrant machine, add this line in your Vagrantfile: config.ssh.forward_x11 = true
-No constraints for color, shape etc… be creative!
+Update the class `Base` by adding the static method `def draw(list_rectangles, list_squares):` that opens a window and draws all the `Rectangles` and `Squares`:
+
+- You must use the [Turtle graphics module](https://intranet.alxswe.com/rltoken/d16zMqYw0c7eQje2XgFvFg)
+- To install it: `sudo apt-get install python3-tk`
+- To make the GUI available outside your vagrant machine, add this line in your Vagrantfile: `config.ssh.forward_x11 = true`
+- No constraints for color, shape etc… be creative!
+
+```bash
 guillaume@ubuntu:~/$ cat 101-main.py
 #!/usr/bin/python3
 """ 101-main """
