@@ -21,7 +21,7 @@ You will also learn about:
 - Serialization/Deserialization
 - JSON
 
-[Puppy circling a crate](giphy.mp4)
+![Puppy circling a crate](giphy.mp4)
 
 # Rescources
 
