@@ -379,16 +379,17 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
 File: `8-rectangle.py`
 
-9. Full rectangle
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
-Write a class Rectangle that inherits from BaseGeometry (7-base_geometry.py). (task based on 8-rectangle.py)
+### 9. Full rectangle
 
-Instantiation with width and height: def __init__(self, width, height)::
-width and height must be private. No getter or setter
-width and height must be positive integers validated by integer_validator
-the area() method must be implemented
-print() should print, and str() should return, the following rectangle description: [Rectangle] <width>/<height>
+Write a class `Rectangle` that inherits from `BaseGeometry` (`7-base_geometry.py`). (task based on `8-rectangle.py`)
+
+- Instantiation with `width` and `height`: `def __init__(self, width, height):`:
+	- `width` and `height` must be private. No getter or setter
+	- `width` and `height` must be positive integers validated by `integer_validator`
+- the `area()` method must be implemented
+- `print()` should print, and `str()` should return, the following rectangle description: `[Rectangle] <width>/<height>`
+
+```bash
 guillaume@ubuntu:~/0x0A$ cat 9-main.py
 #!/usr/bin/python3
 Rectangle = __import__('9-rectangle').Rectangle
@@ -402,23 +403,25 @@ guillaume@ubuntu:~/0x0A$ ./9-main.py
 [Rectangle] 3/5
 15
 guillaume@ubuntu:~/0x0A$
-No test cases needed
+```
+
+**No test cases needed**
 
 Repo:
-
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
-File: 9-rectangle.py
+File: `9-rectangle.py`
 
-10. Square #1
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
-Write a class Square that inherits from Rectangle (9-rectangle.py):
+### 10. Square #1
 
-Instantiation with size: def __init__(self, size)::
-size must be private. No getter or setter
-size must be a positive integer, validated by integer_validator
-the area() method must be implemented
+Write a class `Square` that inherits from `Rectangle` (`9-rectangle.py`):
+
+- Instantiation with `size`: `def __init__(self, size):`:
+	- `size` must be private. No getter or setter
+	- size` must be a positive integer, validated by `integer_validator`
+- the `area()` method must be implemented
+
+```bash
 guillaume@ubuntu:~/0x0A$ cat 10-main.py
 #!/usr/bin/python3
 Square = __import__('10-square').Square
@@ -432,17 +435,17 @@ guillaume@ubuntu:~/0x0A$ ./10-main.py
 [Rectangle] 13/13
 169
 guillaume@ubuntu:~/0x0A$
-No test cases needed
+```
+
+**No test cases needed**
 
 Repo:
-
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
-File: 10-square.py
+File: `10-square.py`
 
-11. Square #2
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
+### 11. Square #2
+
 Write a class Square that inherits from Rectangle (9-rectangle.py). (task based on 10-square.py).
 
 Instantiation with size: def __init__(self, size)::
