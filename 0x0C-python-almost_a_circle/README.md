@@ -93,7 +93,7 @@ guillaume@ubuntu:~/$
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
-File: `tests/`
+- File: `tests/`
 
 ### 1. Base class
 
@@ -146,7 +146,7 @@ guillaume@ubuntu:~/$
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
-File: `models/base.py, models/__init__.py`
+- File: `models/base.py, models/__init__.py`
 
 ### 2. First Rectangle
 
@@ -194,7 +194,7 @@ guillaume@ubuntu:~/$
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
-File: `models/rectangle.py`
+- File: `models/rectangle.py`
 
 ### 3. Validate attributes
 
@@ -245,7 +245,7 @@ guillaume@ubuntu:~/$
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
-File: `models/rectangle.py`
+- File: `models/rectangle.py`
 
 ### 4. Area first
 
@@ -278,7 +278,7 @@ guillaume@ubuntu:~/$
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
-File: `models/rectangle.py`
+- File: `models/rectangle.py`
 
 ### 5. Display #0
 
@@ -316,7 +316,7 @@ guillaume@ubuntu:~/$
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
-File: `models/rectangle.py`
+- File: `models/rectangle.py`
 
 ### 6. __str__
 
@@ -345,7 +345,7 @@ guillaume@ubuntu:~/$
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
-File: `models/rectangle.py`
+- File: `models/rectangle.py`
 
 ### 7. Display #1
 
@@ -382,7 +382,7 @@ guillaume@ubuntu:~/$
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
-File: `models/rectangle.py`
+- File: `models/rectangle.py`
 
 ### 8. Update #0
 
@@ -435,7 +435,7 @@ guillaume@ubuntu:~/$
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
-File: `models/rectangle.py`
+- File: `models/rectangle.py`
 
 ### 9. Update #1
 
@@ -483,7 +483,7 @@ guillaume@ubuntu:~/$
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
-File: `models/rectangle.py`
+- File: `models/rectangle.py`
 
 ### 10. And now, the Square!
 
@@ -554,7 +554,7 @@ guillaume@ubuntu:~/$
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
-File: `models/square.py`
+- File: `models/square.py`
 
 ### 11. Square size
 
@@ -593,7 +593,7 @@ guillaume@ubuntu:~/$
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
-File: `models/square.py`
+- File: `models/square.py`
 
 ### 12. Square update
 
@@ -655,7 +655,7 @@ guillaume@ubuntu:~/$
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
-File: `models/square.py`
+- File: `models/square.py`
 
 ### 13. Rectangle instance to dictionary representation
 
@@ -701,7 +701,7 @@ guillaume@ubuntu:~/$
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
-File: `models/rectangle.py`
+- File: `models/rectangle.py`
 
 ### 14. Square instance to dictionary representation
 
@@ -747,7 +747,7 @@ guillaume@ubuntu:~/$
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
-File: `models/square.py`
+- File: `models/square.py`
 
 ### 15. Dictionary to JSON string
 
@@ -787,7 +787,7 @@ guillaume@ubuntu:~/$
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
-File: `models/base.py`
+- File: `models/base.py`
 
 ### 16. JSON string to file
 
@@ -820,7 +820,7 @@ guillaume@ubuntu:~/$
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
-File: `models/base.py`
+- File: `models/base.py`
 
 ### 17. JSON string to dictionary
 
@@ -858,7 +858,7 @@ guillaume@ubuntu:~/$
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
-File: `models/base.py`
+- File: `models/base.py`
 
 ### 18. Dictionary to Instance
 
@@ -899,7 +899,7 @@ guillaume@ubuntu:~/$
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
-File: `models/base.py`
+- File: `models/base.py`
 
 ### 19. File to instances
 
@@ -973,7 +973,7 @@ guillaume@ubuntu:~/$
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
-File: `models/base.py`
+- File: `models/base.py`
 
 ### 20. JSON ok, but CSV?
 
@@ -1048,7 +1048,7 @@ guillaume@ubuntu:~/$
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
-File: `models/`
+- File: `models/`
 
 ### 21. Let's draw it
 
@@ -1090,4 +1090,4 @@ guillaume@ubuntu:~/$ ./101-main.py
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0C-python-almost_a_circle`
-File: `models/base.py`
+- File: `models/base.py`
