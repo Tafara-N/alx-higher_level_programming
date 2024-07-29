@@ -329,20 +329,22 @@ guillaume@ubuntu:~/0x0A$ ./7-main.py
 [ValueError] age must be greater than 0
 [ValueError] distance must be greater than 0
 guillaume@ubuntu:~/0x0A$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
-File: 7-base_geometry.py, tests/7-base_geometry.txt
+File: `7-base_geometry.py, tests/7-base_geometry.txt`
 
-8. Rectangle
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
-Write a class Rectangle that inherits from BaseGeometry (7-base_geometry.py).
+### 8. Rectangle
 
-Instantiation with width and height: def __init__(self, width, height):
-width and height must be private. No getter or setter
-width and height must be positive integers, validated by integer_validator
+Write a class `Rectangle` that inherits from `BaseGeometry` (`7-base_geometry.py`).
+
+- Instantiation with `width` and `height`: `def __init__(self, width, height):`
+	- `width` and `height` must be private. No getter or setter
+	- `width` and `height` must be positive integers, validated by `integer_validator`
+
+```bash
 guillaume@ubuntu:~/0x0A$ cat 8-main.py
 #!/usr/bin/python3
 Rectangle = __import__('8-rectangle').Rectangle
@@ -368,13 +370,14 @@ guillaume@ubuntu:~/0x0A$ ./8-main.py
 [AttributeError] 'Rectangle' object has no attribute 'width'
 [TypeError] height must be an integer
 guillaume@ubuntu:~/0x0A$
-No test cases needed
+```
+
+**No test cases needed**
 
 Repo:
-
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
-File: 8-rectangle.py
+File: `8-rectangle.py`
 
 9. Full rectangle
 mandatory
