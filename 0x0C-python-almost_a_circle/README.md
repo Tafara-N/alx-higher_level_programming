@@ -484,6 +484,7 @@ Write the class `Square` that inherits from `Rectangle`:
 
 As you know, a Square is a special Rectangle, so it makes sense this class Square inherits from Rectangle. Now you have a Square class who has the same attributes and same methods.
 
+```bash
 guillaume@ubuntu:~/$ cat 9-main.py
 #!/usr/bin/python3
 """ 9-main """
