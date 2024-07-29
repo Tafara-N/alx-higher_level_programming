@@ -253,9 +253,11 @@ None
 
 1
 
-Question #7
+### Question #7
+
 What do these lines print?
 
+```python
 class Base():
     """ My base class """
 
@@ -272,17 +274,15 @@ class User(Base):
 b = Base()
 u = User()
 print(u.id)
+```
 
-3
+- [ ] 3
 
+- [ ] 0
 
-0
+- [ ] 1
 
-
-1
-
-
-2
+- [ ] 2
 
 ### Question #8
 
