@@ -48,9 +48,9 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - We strongly encourage you to work together on test cases, so that you don’t miss any edge case
 
 ### Documentation
-- Do not use the words import or from inside your comments, the checker will think you try to import some modules
-Quiz questions
-Great! You've completed the quiz successfully! Keep going! (Show quiz)
+- Do not use the words `import` or `from` inside your comments, the checker will think you try to import some modules
+
+## Quiz questions
 
 ## Tasks
 
