@@ -91,7 +91,7 @@ guillaume@ubuntu:~/0x0A$
 Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
-File: 0-lookup.py
+File: `0-lookup.py`
 
 1. My list
 mandatory
