@@ -463,24 +463,25 @@ guillaume@ubuntu:~/$ ./8-main.py
 [Rectangle] (89) 3/1 - 2/1
 [Rectangle] (89) 1/3 - 4/2
 guillaume@ubuntu:~/$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
-File: models/rectangle.py
+File: `models/rectangle.py`
 
-10. And now, the Square!
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
-Write the class Square that inherits from Rectangle:
+### 10. And now, the Square!
 
-In the file models/square.py
-Class Square inherits from Rectangle
-Class constructor: def __init__(self, size, x=0, y=0, id=None)::
-Call the super class with id, x, y, width and height - this super call will use the logic of the __init__ of the Rectangle class. The width and height must be assigned to the value of size
-You must not create new attributes for this class, use all attributes of Rectangle - As reminder: a Square is a Rectangle with the same width and height
-All width, height, x and y validation must inherit from Rectangle - same behavior in case of wrong data
-The overloading __str__ method should return [Square] (<id>) <x>/<y> - <size> - in our case, width or height
+Write the class `Square` that inherits from `Rectangle`:
+
+- In the file `models/square.py`
+- Class `Square` inherits `from Rectangle`
+- Class constructor: `def __init__(self, size, x=0, y=0, id=None):`:
+	- Call the super class with `id`, `x`, `y`, `width` and `height` - this super call will use the logic of the `__init__` of the `Rectangle` class. The `width` and `height` must be assigned to the value of `size`
+	- You must not create new attributes for this class, use all attributes of `Rectangle` - As reminder: a Square is a Rectangle with the same width and height
+	- All `width`, `height`, `x` and `y` validation must inherit from `Rectangle` - same behavior in case of wrong data
+- The overloading `__str__` method should return `[Square] (<id>) <x>/<y> - <size>` - in our case, `width` or `height`
+
 As you know, a Square is a special Rectangle, so it makes sense this class Square inherits from Rectangle. Now you have a Square class who has the same attributes and same methods.
 
 guillaume@ubuntu:~/$ cat 9-main.py
@@ -532,11 +533,12 @@ guillaume@ubuntu:~/$ ./9-main.py
  ###
  ###
 guillaume@ubuntu:~/$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
-File: models/square.py
+File: `models/square.py`
 
 ### 11. Square size
 
