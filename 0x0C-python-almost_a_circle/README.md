@@ -233,17 +233,18 @@ guillaume@ubuntu:~/$ ./2-main.py
 [TypeError] x must be an integer
 [ValueError] y must be >= 0
 guillaume@ubuntu:~/$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
-File: models/rectangle.py
+File: `models/rectangle.py`
 
-4. Area first
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
-Update the class Rectangle by adding the public method def area(self): that returns the area value of the Rectangle instance.
+### 4. Area first
 
+Update the class `Rectangle` by adding the public method `def area(self):` that returns the area value of the `Rectangle` instance.
+
+```bash
 guillaume@ubuntu:~/$ cat 3-main.py
 #!/usr/bin/python3
 """ 3-main """
