@@ -91,7 +91,7 @@ guillaume@ubuntu:~/0x0A$
 Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
-File: `0-lookup.py`
+- File: `0-lookup.py`
 
 ### 1. My list
 
@@ -126,7 +126,7 @@ guillaume@ubuntu:~/0x0A$
 Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
-File: `1-my_list.py, tests/1-my_list.txt`
+- File: `1-my_list.py, tests/1-my_list.txt`
 
 ### 2. Exact same object
 
@@ -158,7 +158,7 @@ guillaume@ubuntu:~/0x0A$
 Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
-File: `2-is_same_class.py`
+- File: `2-is_same_class.py`
 
 ### 3. Same class or inherit from
 
@@ -191,7 +191,7 @@ guillaume@ubuntu:~/0x0A$
 Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
-File: `3-is_kind_of_class.py`
+- File: `3-is_kind_of_class.py`
 
 ### 4. Only sub class of
 
@@ -224,7 +224,7 @@ guillaume@ubuntu:~/0x0A$
 Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
-File: `4-inherits_from.py`
+- File: `4-inherits_from.py`
 
 ### 5. Geometry module
 
@@ -255,7 +255,7 @@ guillaume@ubuntu:~/0x0A$
 Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
-File: `5-base_geometry.py`
+- File: `5-base_geometry.py`
 
 ### 6. Improve Geometry
 
@@ -286,7 +286,7 @@ guillaume@ubuntu:~/0x0A$
 Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
-File: `6-base_geometry.py`
+- File: `6-base_geometry.py`
 
 ### 7. Integer validator
 
@@ -334,7 +334,7 @@ guillaume@ubuntu:~/0x0A$
 Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
-File: `7-base_geometry.py, tests/7-base_geometry.txt`
+- File: `7-base_geometry.py, tests/7-base_geometry.txt`
 
 ### 8. Rectangle
 
@@ -377,7 +377,7 @@ guillaume@ubuntu:~/0x0A$
 Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
-File: `8-rectangle.py`
+- File: `8-rectangle.py`
 
 ### 9. Full rectangle
 
@@ -410,7 +410,7 @@ guillaume@ubuntu:~/0x0A$
 Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
-File: `9-rectangle.py`
+- File: `9-rectangle.py`
 
 ### 10. Square #1
 
@@ -442,7 +442,7 @@ guillaume@ubuntu:~/0x0A$
 Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
-File: `10-square.py`
+- File: `10-square.py`
 
 ### 11. Square #2
 
@@ -475,14 +475,16 @@ guillaume@ubuntu:~/0x0A$
 Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
-File: `11-square.py`
+- File: `11-square.py`
 
 ### 12. My integer
 
-Write a class MyInt that inherits from int:
+Write a class `MyInt` that inherits from `int`:
 
-MyInt is a rebel. MyInt has == and != operators inverted
-You are not allowed to import any module
+- `MyInt` is a rebel. `MyInt` has `==` and `!=` operators inverted
+- You are not allowed to import any module
+
+```bash
 guillaume@ubuntu:~/0x0A$ cat 100-main.py
 #!/usr/bin/python3
 MyInt = __import__('100-my_int').MyInt
@@ -497,22 +499,24 @@ guillaume@ubuntu:~/0x0A$ ./100-main.py
 False
 True
 guillaume@ubuntu:~/0x0A$
-No test cases needed
+```
+
+**No test cases needed**
 
 Repo:
-
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
-File: 100-my_int.py
+- File: `100-my_int.py`
 
-13. Can I?
-#advanced
-Score: 65.0% (Checks completed: 100.0%)
+### 13. Can I?
+
 Write a function that adds a new attribute to an object if it’s possible:
 
-Raise a TypeError exception, with the message can't add new attribute if the object can’t have new attribute
-You are not allowed to use try/except
-You are not allowed to import any module
+- Raise a `TypeError` exception, with the message `can't add new attribute` if the object can’t have new attribute
+- You are not allowed to use `try/except`
+- You are not allowed to import any module
+
+```bash
 guillaume@ubuntu:~/0x0A$ cat 101-main.py
 #!/usr/bin/python3
 add_attribute = __import__('101-add_attribute').add_attribute
@@ -542,4 +546,4 @@ guillaume@ubuntu:~/0x0A$
 Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
-File: `101-add_attribute.py`
+- File: `101-add_attribute.py`
