@@ -184,20 +184,22 @@ guillaume@ubuntu:~/$ ./1-main.py
 2
 12
 guillaume@ubuntu:~/$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
-File: models/rectangle.py
+File: `models/rectangle.py`
 
-3. Validate attributes
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
-Update the class Rectangle by adding validation of all setter methods and instantiation (id excluded):
+### 3. Validate attributes
 
-If the input is not an integer, raise the TypeError exception with the message: <name of the attribute> must be an integer. Example: width must be an integer
-If width or height is under or equals 0, raise the ValueError exception with the message: <name of the attribute> must be > 0. Example: width must be > 0
-If x or y is under 0, raise the ValueError exception with the message: <name of the attribute> must be >= 0. Example: x must be >= 0
+Update the class `Rectangle` by adding validation of all setter methods and instantiation (`id` excluded):
+
+- If the input is not an integer, raise the `TypeError` exception with the message: `<name of the attribute> must be an integer`. Example: `width must be an integer`
+- If `width` or `height` is under or equals 0, raise the `ValueError` exception with the message: `<name of the attribute> must be > 0`. Example: `width must be > 0`
+- If `x` or `y` is under 0, raise the `ValueError` exception with the message: `<name of the attribute> must be >= 0`. Example: `x must be >= 0`
+
+```bash
 guillaume@ubuntu:~/$ cat 2-main.py
 #!/usr/bin/python3
 """ 2-main """
