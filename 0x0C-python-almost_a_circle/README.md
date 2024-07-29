@@ -265,17 +265,18 @@ guillaume@ubuntu:~/$ ./3-main.py
 20
 56
 guillaume@ubuntu:~/$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
-File: models/rectangle.py
+File: `models/rectangle.py`
 
-5. Display #0
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
-Update the class Rectangle by adding the public method def display(self): that prints in stdout the Rectangle instance with the character # - you don’t need to handle x and y here.
+### 5. Display #0
 
+Update the class `Rectangle` by adding the public method `def display(self):` that prints in stdout the `Rectangle` instance with the character `#` - you don’t need to handle `x` and `y` here.
+
+```bash
 guillaume@ubuntu:~/$ cat 4-main.py
 #!/usr/bin/python3
 """ 4-main """
@@ -302,8 +303,9 @@ guillaume@ubuntu:~/$ ./4-main.py
 ##
 ##
 guillaume@ubuntu:~/$
-Repo:
+````
 
+Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
 File: `models/rectangle.py`
