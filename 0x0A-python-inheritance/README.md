@@ -52,9 +52,11 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ## Quiz questions
 
-Question #0
+### Question #0
+
 What do these lines print?
 
+```python
 class Base():
     """ My base class """
 
@@ -73,18 +75,19 @@ class User(Base):
 
 u = User()
 print(u.id)
+```
 
-89
+- [ ] 89
 
+- [ ] 90
 
-90
+- [ ] 1
 
+### Question #1
 
-1
-
-Question #1
 What do these lines print?
 
+```python
 class Base():
     """ My base class """
 
@@ -103,18 +106,19 @@ class User(Base):
 
 u = User()
 print(u.id)
+```
 
-89
+- [ ] 89
 
+- [ ] 90
 
-90
+- [ ] 1
 
+### Question #2
 
-1
-
-Question #2
 What do these lines print?
 
+```python
 class Base():
     """ My base class """
 
@@ -126,18 +130,19 @@ class Base():
 
 b = Base()
 print(b.id)
+```
 
-None
+- [ ] None
 
+- [ ] 0
 
-0
+- [ ] 1
 
+### Question #3
 
-1
-
-Question #3
 What do these lines print?
 
+```python
 class Base():
     """ My base class """
 
@@ -154,17 +159,15 @@ class User(Base):
 for i in range(4):
     u = User()
 print(u.id)
+```
 
-None
+- [ ] None
 
+- [ ] 4
 
-4
+- [ ] 3
 
-
-3
-
-
-5
+- [ ] 5
 
 ### Question #4
 
