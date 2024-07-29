@@ -629,24 +629,26 @@ guillaume@ubuntu:~/$ ./11-main.py
 [Square] (1) 12/1 - 7
 [Square] (89) 12/1 - 7
 guillaume@ubuntu:~/$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
-File: models/square.py
+File: `models/square.py`
 
-13. Rectangle instance to dictionary representation
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
-Update the class Rectangle by adding the public method def to_dictionary(self): that returns the dictionary representation of a Rectangle:
+### 13. Rectangle instance to dictionary representation
+
+Update the class `Rectangle` by adding the public method `def to_dictionary(self):` that returns the dictionary representation of a `Rectangle`:
 
 This dictionary must contain:
 
-id
-width
-height
-x
-y
+- `id`
+- `width`
+- `height`
+- `x`
+- `y`
+
+```bash
 guillaume@ubuntu:~/$ cat 12-main.py
 #!/usr/bin/python3
 """ 12-main """
