@@ -674,23 +674,24 @@ guillaume@ubuntu:~/$ ./12-main.py
 [Rectangle] (1) 1/9 - 10/2
 False
 guillaume@ubuntu:~/$
+```
 Repo:
-
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
-File: models/rectangle.py
+File: `models/rectangle.py`
 
-14. Square instance to dictionary representation
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
-Update the class Square by adding the public method def to_dictionary(self): that returns the dictionary representation of a Square:
+### 14. Square instance to dictionary representation
+
+Update the class `Square` by adding the public method `def to_dictionary(self):` that returns the dictionary representation of a `Square`:
 
 This dictionary must contain:
 
-id
-size
-x
-y
+- `id`
+- `size`
+- `x`
+- `y`
+
+```bash
 guillaume@ubuntu:~/$ cat 13-main.py
 #!/usr/bin/python3
 """ 13-main """
@@ -718,22 +719,24 @@ guillaume@ubuntu:~/$ ./13-main.py
 [Square] (1) 2/1 - 10
 False
 guillaume@ubuntu:~/$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
-File: models/square.py
+File: `models/square.py`
 
-15. Dictionary to JSON string
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
+### 15. Dictionary to JSON string
+
 JSON is one of the standard formats for sharing data representation.
 
-Update the class Base by adding the static method def to_json_string(list_dictionaries): that returns the JSON string representation of list_dictionaries:
+Update the class `Base` by adding the static method `def to_json_string(list_dictionaries):` that returns the JSON string representation of `list_dictionaries`:
 
-list_dictionaries is a list of dictionaries
-If list_dictionaries is None or empty, return the string: "[]"
-Otherwise, return the JSON string representation of list_dictionaries
+- `list_dictionaries` is a list of dictionaries
+- If `list_dictionaries` is `None` or empty, return the string: `"[]"`
+- Otherwise, return the JSON string representation of `list_dictionaries`
+
+```bash
 guillaume@ubuntu:~/$ cat 14-main.py
 #!/usr/bin/python3
 """ 14-main """
@@ -756,22 +759,24 @@ guillaume@ubuntu:~/$ ./14-main.py
 [{"x": 2, "width": 10, "id": 1, "height": 7, "y": 8}]
 <class 'str'>
 guillaume@ubuntu:~/$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
-File: models/base.py
+File: `models/base.py`
 
-16. JSON string to file
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
-Update the class Base by adding the class method def save_to_file(cls, list_objs): that writes the JSON string representation of list_objs to a file:
+### 16. JSON string to file
 
-list_objs is a list of instances who inherits of Base - example: list of Rectangle or list of Square instances
-If list_objs is None, save an empty list
-The filename must be: <Class name>.json - example: Rectangle.json
-You must use the static method to_json_string (created before)
-You must overwrite the file if it already exists
+Update the class `Base` by adding the class method `def save_to_file(cls, list_objs):` that writes the JSON string representation of `list_objs` to a file:
+
+- `list_objs` is a list of instances who inherits of `Base` - example: list of Rectangle or list of `Square` instances
+- If `list_objs` is `None`, save an empty list
+- The filename must be: `<Class name>.json` - example: `Rectangle.json`
+- You must use the static method `to_json_string` (created before)
+- You must overwrite the file if it already exists
+
+```bash
 guillaume@ubuntu:~/$ cat 15-main.py
 #!/usr/bin/python3
 """ 15-main """
@@ -790,19 +795,19 @@ guillaume@ubuntu:~/$ ./15-main.py
 [{"y": 8, "x": 2, "id": 1, "width": 10, "height": 7}, {"y": 0, "x": 0, "id": 2, "width": 2, "height": 4}]
 guillaume@ubuntu:~/$
 Repo:
-
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
-File: models/base.py
+File: `models/base.py`
 
-17. JSON string to dictionary
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
-Update the class Base by adding the static method def from_json_string(json_string): that returns the list of the JSON string representation json_string:
+### 17. JSON string to dictionary
 
-json_string is a string representing a list of dictionaries
-If json_string is None or empty, return an empty list
-Otherwise, return the list represented by json_string
+Update the class `Base` by adding the static method `def from_json_string(json_string):` that returns the list of the JSON string representation `json_string`:
+
+- `json_string` is a string representing a list of dictionaries
+- If `json_string` is `None` or empty, return an empty list
+- Otherwise, return the list represented by `json_string`
+
+```bash
 guillaume@ubuntu:~/$ cat 16-main.py
 #!/usr/bin/python3
 """ 16-main """
@@ -825,11 +830,12 @@ guillaume@ubuntu:~/$ ./16-main.py
 [<class 'str'>] [{"height": 4, "width": 10, "id": 89}, {"height": 7, "width": 1, "id": 7}]
 [<class 'list'>] [{'height': 4, 'width': 10, 'id': 89}, {'height': 7, 'width': 1, 'id': 7}]
 guillaume@ubuntu:~/$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
-File: models/base.py
+File: `models/base.py`
 
 ### 18. Dictionary to Instance
 
