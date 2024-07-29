@@ -52,6 +52,300 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ## Quiz questions
 
+Question #0
+What do these lines print?
+
+class Base():
+    """ My base class """
+
+    __nb_instances = 0
+
+    def __init__(self):
+        Base.__nb_instances += 1
+        self.id = Base.__nb_instances
+
+class User(Base):
+    """ My User class """
+
+    def __init__(self):
+        self.id = 89
+        super().__init__()
+
+u = User()
+print(u.id)
+
+89
+
+
+90
+
+
+1
+
+Question #1
+What do these lines print?
+
+class Base():
+    """ My base class """
+
+    __nb_instances = 0
+
+    def __init__(self):
+        Base.__nb_instances += 1
+        self.id = Base.__nb_instances
+
+class User(Base):
+    """ My User class """
+
+    def __init__(self):
+        super().__init__()
+        self.id = 89
+
+u = User()
+print(u.id)
+
+89
+
+
+90
+
+
+1
+
+Question #2
+What do these lines print?
+
+class Base():
+    """ My base class """
+
+    __nb_instances = 0
+
+    def __init__(self):
+        Base.__nb_instances += 1
+        self.id = Base.__nb_instances
+
+b = Base()
+print(b.id)
+
+None
+
+
+0
+
+
+1
+
+Question #3
+What do these lines print?
+
+class Base():
+    """ My base class """
+
+    __nb_instances = 0
+
+    def __init__(self):
+        Base.__nb_instances += 1
+        self.id = Base.__nb_instances
+
+class User(Base):
+    """ My User class """
+    pass
+
+for i in range(4):
+    u = User()
+print(u.id)
+
+None
+
+
+4
+
+
+3
+
+
+5
+
+Question #4
+What do these lines print?
+
+class Base():
+    """ My base class """
+
+    __nb_instances = 0
+
+    def __init__(self):
+        Base.__nb_instances += 1
+        self.id = Base.__nb_instances
+
+for i in range(3):
+    b = Base()
+print(b.id)
+
+2
+
+
+None
+
+
+3
+
+
+4
+
+Question #5
+What do these lines print?
+
+class Base():
+    """ My base class """
+
+    __nb_instances = 0
+
+    def __init__(self):
+        Base.__nb_instances += 1
+        self.id = Base.__nb_instances
+
+class User(Base):
+    """ My User class """
+
+    def __init__(self):
+        super().__init__()
+        self.id += 99
+
+u = User()
+print(u.id)
+
+99
+
+
+100
+
+
+1
+
+Question #6
+What do these lines print?
+
+class Base():
+    """ My base class """
+
+    __nb_instances = 0
+
+    def __init__(self):
+        Base.__nb_instances += 1
+        self.id = Base.__nb_instances
+
+class User(Base):
+    """ My User class """
+    pass
+
+u = User()
+print(u.id)
+
+2
+
+
+None
+
+
+0
+
+
+1
+
+Question #7
+What do these lines print?
+
+class Base():
+    """ My base class """
+
+    __nb_instances = 0
+
+    def __init__(self):
+        Base.__nb_instances += 1
+        self.id = Base.__nb_instances
+
+class User(Base):
+    """ My User class """
+    pass
+
+b = Base()
+u = User()
+print(u.id)
+
+3
+
+
+0
+
+
+1
+
+
+2
+
+### Question #8
+
+What do these lines print?
+
+```python
+class Base():
+    """ My base class """
+
+    __nb_instances = 0
+
+    def __init__(self):
+        Base.__nb_instances += 1
+        self.id = Base.__nb_instances
+
+class User(Base):
+    """ My User class """
+
+    def __init__(self):
+        super().__init__()
+
+u = User()
+print(u.id)
+```
+
+- [ ] 2
+
+- [ ] None
+
+- [ ] 0
+
+- [ ] 1
+
+### Question #9
+
+What do these lines print?
+
+```python
+class Base():
+    """ My base class """
+
+    __nb_instances = 0
+
+    def __init__(self):
+        Base.__nb_instances += 1
+        self.id = Base.__nb_instances
+
+class User(Base):
+    """ My User class """
+
+    def __init__(self):
+        self.id = 89
+
+u = User()
+print(u.id)
+```
+
+- [ ] 89
+
+- [ ] 90
+
+- [ ] 1
+
 ## Tasks
 
 ### 0. Lookup
