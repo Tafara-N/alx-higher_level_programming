@@ -93,14 +93,15 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
 File: `0-lookup.py`
 
-1. My list
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
-Write a class MyList that inherits from list:
+### 1. My list
 
-Public instance method: def print_sorted(self): that prints the list, but sorted (ascending sort)
-You can assume that all the elements of the list will be of type int
-You are not allowed to import any module
+Write a class `MyList` that inherits from `list`:
+
+- Public instance method: `def print_sorted(self):` that prints the list, but sorted (ascending sort)
+- You can assume that all the elements of the list will be of type `int`
+- You are not allowed to import any module
+
+```bash
 guillaume@ubuntu:~/0x0A$ cat 1-main.py
 #!/usr/bin/python3
 MyList = __import__('1-my_list').MyList
@@ -120,19 +121,21 @@ guillaume@ubuntu:~/0x0A$ ./1-main.py
 [1, 2, 3, 4, 5]
 [1, 4, 2, 3, 5]
 guillaume@ubuntu:~/0x0A$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
-File: 1-my_list.py, tests/1-my_list.txt
+File: `1-my_list.py, tests/1-my_list.txt`
 
-2. Exact same object
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
-Write a function that returns True if the object is exactly an instance of the specified class ; otherwise False.
+### 2. Exact same object
 
-Prototype: def is_same_class(obj, a_class):
-You are not allowed to import any module
+Write a function that returns `True` if the object is exactly an instance of the specified class ; otherwise `False`.
+
+- Prototype: `def is_same_class(obj, a_class):`
+- You are not allowed to import any module
+
+```bash
 guillaume@ubuntu:~/0x0A$ cat 2-main.py
 #!/usr/bin/python3
 is_same_class = __import__('2-is_same_class').is_same_class
@@ -148,21 +151,23 @@ if is_same_class(a, object):
 guillaume@ubuntu:~/0x0A$ ./2-main.py
 1 is an instance of the class int
 guillaume@ubuntu:~/0x0A$
-No test cases needed
+```
+
+**No test cases needed**
 
 Repo:
-
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
-File: 2-is_same_class.py
+File: `2-is_same_class.py`
 
-3. Same class or inherit from
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
-Write a function that returns True if the object is an instance of, or if the object is an instance of a class that inherited from, the specified class ; otherwise False.
+### 3. Same class or inherit from
 
-Prototype: def is_kind_of_class(obj, a_class):
-You are not allowed to import any module
+Write a function that returns `True` if the object is an instance of, or if the object is an instance of a class that inherited from, the specified class ; otherwise `False`.
+
+- Prototype: `def is_kind_of_class(obj, a_class):`
+- You are not allowed to import any module
+
+```bash
 guillaume@ubuntu:~/0x0A$ cat 3-main.py
 #!/usr/bin/python3
 is_kind_of_class = __import__('3-is_kind_of_class').is_kind_of_class
@@ -179,21 +184,23 @@ guillaume@ubuntu:~/0x0A$ ./3-main.py
 1 comes from int
 1 comes from object
 guillaume@ubuntu:~/0x0A$
-No test cases needed
+```
+
+**No test cases needed**
 
 Repo:
-
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
-File: 3-is_kind_of_class.py
+File: `3-is_kind_of_class.py`
 
-4. Only sub class of
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
-Write a function that returns True if the object is an instance of a class that inherited (directly or indirectly) from the specified class ; otherwise False.
+### 4. Only sub class of
 
-Prototype: def inherits_from(obj, a_class):
-You are not allowed to import any module
+Write a function that returns `True` if the object is an instance of a class that inherited (directly or indirectly) from the specified class ; otherwise `False`.
+
+- Prototype: `def inherits_from(obj, a_class):`
+- You are not allowed to import any module
+
+```bash
 guillaume@ubuntu:~/0x0A$ cat 4-main.py
 #!/usr/bin/python3
 inherits_from = __import__('4-inherits_from').inherits_from
@@ -210,20 +217,22 @@ guillaume@ubuntu:~/0x0A$ ./4-main.py
 True inherited from class int
 True inherited from class object
 guillaume@ubuntu:~/0x0A$
-No test cases needed
+```
+
+**No test cases needed**
 
 Repo:
-
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
-File: 4-inherits_from.py
+File: `4-inherits_from.py`
 
-5. Geometry module
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
-Write an empty class BaseGeometry.
+### 5. Geometry module
 
-You are not allowed to import any module
+Write an empty class `BaseGeometry`.
+
+- You are not allowed to import any module
+
+```bash
 guillaume@ubuntu:~/0x0A$ cat 5-main.py
 #!/usr/bin/python3
 BaseGeometry = __import__('5-base_geometry').BaseGeometry
@@ -239,17 +248,17 @@ guillaume@ubuntu:~/0x0A$ ./5-main.py
 ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__']
 ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__']
 guillaume@ubuntu:~/0x0A$
-No test cases needed
+```
+
+**No test cases needed**
 
 Repo:
-
 GitHub repository: alx-higher_level_programming
 Directory: 0x0A-python-inheritance
-File: 5-base_geometry.py
+File: `5-base_geometry.py`
 
-6. Improve Geometry
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
+### 6. Improve Geometry
+
 Write a class BaseGeometry (based on 5-base_geometry.py).
 
 Public instance method: def area(self): that raises an Exception with the message area() is not implemented
