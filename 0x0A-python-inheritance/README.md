@@ -166,9 +166,11 @@ None
 
 5
 
-Question #4
+### Question #4
+
 What do these lines print?
 
+```python
 class Base():
     """ My base class """
 
@@ -181,17 +183,15 @@ class Base():
 for i in range(3):
     b = Base()
 print(b.id)
+```
 
-2
+- [ ] 2
 
+- [ ] None
 
-None
+- [ ] 3
 
-
-3
-
-
-4
+- [ ] 4
 
 ### Question #5
 
