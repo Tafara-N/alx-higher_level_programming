@@ -306,13 +306,13 @@ Repo:
 
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
-File: models/rectangle.py
+File: `models/rectangle.py`
 
-6. __str__
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
-Update the class Rectangle by overriding the __str__ method so that it returns [Rectangle] (<id>) <x>/<y> - <width>/<height>
+### 6. __str__
 
+Update the class `Rectangle` by overriding the `__str__ `method so that it returns `[Rectangle] (<id>) <x>/<y> - <width>/<height>`
+
+```bash
 guillaume@ubuntu:~/$ cat 5-main.py
 #!/usr/bin/python3
 """ 5-main """
@@ -330,17 +330,18 @@ guillaume@ubuntu:~/$ ./5-main.py
 [Rectangle] (12) 2/1 - 4/6
 [Rectangle] (1) 1/0 - 5/5
 guillaume@ubuntu:~/$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
-File: models/rectangle.py
+File: `models/rectangle.py`
 
-7. Display #1
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
-Update the class Rectangle by improving the public method def display(self): to print in stdout the Rectangle instance with the character # by taking care of x and y
+### 7. Display #1
 
+Update the class `Rectangle` by improving the public method `def display(self):` to print in stdout the `Rectangle` instance with the character `#` by taking care of `x` and `y`
+
+```bash
 guillaume@ubuntu:~/$ cat 6-main.py
 #!/usr/bin/python3
 """ 6-main """
@@ -366,11 +367,12 @@ $
  ###$
  ###$
 guillaume@ubuntu:~/$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
-File: models/rectangle.py
+File: `models/rectangle.py`
 
 ### 8. Update #0
 
