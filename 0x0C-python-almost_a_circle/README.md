@@ -538,13 +538,14 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
 File: models/square.py
 
-11. Square size
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
-Update the class Square by adding the public getter and setter size
+### 11. Square size
 
-The setter should assign (in this order) the width and the height - with the same value
-The setter should have the same value validation as the Rectangle for width and height - No need to change the exception error message (It should be the one from width)
+Update the class `Square` by adding the public getter and setter `size`
+
+- The setter should assign (in this order) the `width` and the `height` - with the same value
+- The setter should have the same value validation as the `Rectangle` for `width` and `height` - No need to change the exception error message (It should be the one from `width`)
+
+```bash
 guillaume@ubuntu:~/$ cat 10-main.py
 #!/usr/bin/python3
 """ 10-main """
@@ -569,25 +570,27 @@ guillaume@ubuntu:~/$ ./10-main.py
 [Square] (1) 0/0 - 10
 [TypeError] width must be an integer
 guillaume@ubuntu:~/$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x0C-python-almost_a_circle
-File: models/square.py
+File: `models/square.py`
 
-12. Square update
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
-Update the class Square by adding the public method def update(self, *args, **kwargs) that assigns attributes:
+### 12. Square update
 
-*args is the list of arguments - no-keyworded arguments
-1st argument should be the id attribute
-2nd argument should be the size attribute
-3rd argument should be the x attribute
-4th argument should be the y attribute
-**kwargs can be thought of as a double pointer to a dictionary: key/value (keyworded arguments)
-**kwargs must be skipped if *args exists and is not empty
-Each key in this dictionary represents an attribute to the instance
+Update the class `Square` by adding the public method `def update(self, *args, **kwargs)` that assigns attributes:
+
+- `*args` is the list of arguments - no-keyworded arguments
+	- 1st argument should be the `id` attribute
+	- 2nd argument should be the `size` attribute
+	- 3rd argument should be the `x` attribute
+	- 4th argument should be the `y` attribute
+- `**kwargs` can be thought of as a double pointer to a dictionary: key/value (keyworded arguments)
+- `**kwargs` must be skipped if `*args` exists and is not empty
+- Each key in this dictionary represents an attribute to the instance
+
+```bash
 guillaume@ubuntu:~/$ cat 11-main.py
 #!/usr/bin/python3
 """ 11-main """
