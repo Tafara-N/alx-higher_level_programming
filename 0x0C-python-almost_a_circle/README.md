@@ -1,39 +1,54 @@
-# 0x0C-python-almost_a_circle
+# Background Context
 
-RESOURCES:
-args/kwargs
+The AirBnB project is a big part of the Higher level curriculum. This project will help you be ready for it.
 
-JSON encoder and decoder
+In this project, you will review everything about Python:
 
-unittest module
+- Import
+- Exceptions
+- Class
+- Private attribute
+- Getter/Setter
+- Class method
+- Static method
+- Inheritance
+- Unittest
+- Read/Write file
 
-Python test cheatsheet
+You will also learn about:
 
-## Learning Objectives
+- `args` and `kwargs`
+- Serialization/Deserialization
+- JSON
 
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+[Puppy circling a crate](giphy.mp4)
 
-### General
+# Rescources
 
-What is Unit testing and how to implement it in a large project
-How to serialize and deserialize a Class
-How to write and read a JSON file
-What is *args and how to use it
-What is **kwargs and how to use it
-How to handle named arguments in a function
+**Read or watch:**
+- [args/kwargs](https://intranet.alxswe.com/rltoken/7gc6UzxSL81HcuAwklUbuQ)
+- [JSON encoder and decoder](https://intranet.alxswe.com/rltoken/rGVU9mt57rVURGnjK6n4_Q)
+- [unittest module](https://intranet.alxswe.com/rltoken/soictNXCPE18ASL3INoeew)
+- [Python test cheatsheet](https://intranet.alxswe.com/rltoken/uI9iskBCcNo5pc7j9Vy86A)
 
-#### Copyright - Plagiarism
+# Learning Objectives
+At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/SBdRhGGBuqzWcwcuKyapSQ), **without the help of Google:**
 
-You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
-You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
-You are not allowed to publish any content of this project.
-Any form of plagiarism is strictly forbidden and will result in removal from the program.
-Requirements
-Python Scripts
-Allowed editors: vi, vim, emacs
-All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
-All your files should end with a new line
-The first line of all your files should be exactly #!/usr/bin/python3
+## General
+- What is Unit testing and how to implement it in a large project
+- How to serialize and deserialize a Class
+- How to write and read a JSON file
+- What is `*args` and how to use it
+- What is `**kwargs` and how to use it
+- How to handle named arguments in a function
+
+# Requirements
+
+## Python Scripts
+- Allowed editors: vi, vim, emacs
+- All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
+- All your files should end with a new line
+- The first line of all your files should be exactly #!/usr/bin/python3
 
 A README.md file, at the root of the folder of the project, is mandatory
 Your code should use the pycodestyle (version 2.8.*)
