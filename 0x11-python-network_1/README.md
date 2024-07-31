@@ -57,7 +57,7 @@ guillaume@ubuntu:~/0x11$
 Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
-File: `0-hbtn_status.py`
+- File: `0-hbtn_status.py`
 
 ### 1. Response header value #0
 
@@ -81,7 +81,7 @@ guillaume@ubuntu:~/0x11$
 Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
-File: `1-hbtn_header.py`
+- File: `1-hbtn_header.py`
 
 ### 2. POST an email #0
 
@@ -104,7 +104,7 @@ guillaume@ubuntu:~/0x11$
 Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
-File: `2-post_email.py`
+- File: `2-post_email.py`
 
 ### 3. Error code #0
 
@@ -133,7 +133,7 @@ guillaume@ubuntu:~/0x11$
 Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
-File: `3-error_code.py`
+- File: `3-error_code.py`
 
 ### 4. What's my status? #1
 
@@ -154,7 +154,7 @@ guillaume@ubuntu:~/0x11$
 Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
-File: `4-hbtn_status.py`
+- File: `4-hbtn_status.py`
 
 ### 5. Response header value #1
 
@@ -177,7 +177,7 @@ guillaume@ubuntu:~/0x11$
 Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
-File: `5-hbtn_header.py`
+- File: `5-hbtn_header.py`
 
 ### 6. POST an email #1
 
@@ -199,7 +199,7 @@ guillaume@ubuntu:~/0x11$
 Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
-File: `6-post_email.py`
+- File: `6-post_email.py`
 
 ### 7. Error code #1
 
@@ -227,7 +227,7 @@ guillaume@ubuntu:~/0x11$
 Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
-File: `7-error_code.py`
+- File: `7-error_code.py`
 
 ### 8. Search API
 
@@ -259,7 +259,7 @@ guillaume@ubuntu:~/0x11$
 Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
-File: `8-json_api.py`
+- File: `8-json_api.py`
 
 ### 9. My GitHub!
 
@@ -283,7 +283,7 @@ guillaume@ubuntu:~/0x11$
 Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
-File: `10-my_github.py`
+- File: `10-my_github.py`
 
 ### 10. Time for an interview!
 
@@ -325,4 +325,4 @@ guillaume@ubuntu:~/0x11$
 Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
-File: `100-github_commits.py`
+- File: `100-github_commits.py`
