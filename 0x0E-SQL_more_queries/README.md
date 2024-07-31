@@ -1,5 +1,8 @@
-![SQL](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/66988091.jpg)  
-# Resources  
+![SQL Joins](66988091.jpg)
+
+
+# Resources
+
 ## Read or watch:
 - [How To Create a New User and Grant Permissions in MySQL](https://intranet.alxswe.com/rltoken/RniBKj48bnIN8xpXhGl1yA)
 - [How To Use MySQL GRANT Statement To Grant Privileges To a User](https://intranet.alxswe.com/rltoken/lhaKcRpljC_zRu1NRTpU6Q)
@@ -20,7 +23,7 @@
 - [Normalization](https://intranet.alxswe.com/rltoken/mqBhYoSYbhH5ZZrhDcY0kA)
 - [ER Modeling](https://intranet.alxswe.com/rltoken/R0exkJmf-2ddKjGfa8D0dA)
 
-## Learning Objectives  
+## Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/0qci3VdIVdKJXldEZ6zAjA), **without the help of Google:**
 
 ## General
@@ -33,7 +36,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - What are subqueries
 - What are `JOIN` and `UNION`
 
-### Quiz questions  
+### Quiz questions
 ## Question #0
 
 What DCL means?
@@ -104,26 +107,26 @@ Is it possible to give only insert access to a table to a user?
 
 - [ ] Yes
 
-## Tasks  
+## Tasks
 ### 1. My privileges!
 
 Write a script that lists all privileges of the MySQL users `user_0d_1` and `user_0d_2` on your server (in `localhost`).
 
 ```shell
 guillaume@ubuntu:~/$ cat 0-privileges.sql | mysql -hlocalhost -uroot -p
-Enter password: 
+Enter password:
 ERROR 1141 (42000) at line 3: There is no such grant defined for user 'user_0d_1' on host 'localhost'
-guillaume@ubuntu:~/$ 
+guillaume@ubuntu:~/$
 guillaume@ubuntu:~/$ echo "CREATE USER 'user_0d_1'@'localhost';" |  mysql -hlocalhost -uroot -p
-Enter password: 
+Enter password:
 guillaume@ubuntu:~/$ echo "GRANT ALL PRIVILEGES ON *.* TO 'user_0d_1'@'localhost';" |  mysql -hlocalhost -uroot -p
-Enter password: 
+Enter password:
 guillaume@ubuntu:~/$ cat 0-privileges.sql | mysql -hlocalhost -uroot -p
-Enter password: 
-Grants for user_0d_1@localhost                                                                                                
-GRANT SELECT, INSERT, UPDA..., DROP ROLE ON *.* TO `user_0d_1`@`localhost`                                                                                                                             
-GRANT APPLICATION_PASSWORD_ADMIN,AUDIT...,XA_RECOVER_ADMIN ON *.* TO `user_0d_1`@`localhost`                                        
-ERROR 1141 (42000) at line 4: There is no such grant defined for user 'user_0d_2' on host 'localhost'              
+Enter password:
+Grants for user_0d_1@localhost
+GRANT SELECT, INSERT, UPDA..., DROP ROLE ON *.* TO `user_0d_1`@`localhost`
+GRANT APPLICATION_PASSWORD_ADMIN,AUDIT...,XA_RECOVER_ADMIN ON *.* TO `user_0d_1`@`localhost`
+ERROR 1141 (42000) at line 4: There is no such grant defined for user 'user_0d_2' on host 'localhost'
 guillaume@ubuntu:~/$
 ```
 
@@ -142,12 +145,12 @@ If the user `user_0d_1` already exists, your script should not fail
 
 ```shell
 guillaume@ubuntu:~/$ cat 1-create_user.sql | mysql -hlocalhost -uroot -p
-Enter password: 
+Enter password:
 guillaume@ubuntu:~/$ cat 0-privileges.sql | mysql -hlocalhost -uroot -p
-Enter password: 
-Grants for user_0d_1@localhost                                                                                                
-GRANT SELECT, INSERT..., DROP ROLE ON *.* TO `user_0d_1`@`localhost`                                                                                                                             
-GRANT APPLICATION_PASSWORD_ADMIN,...,XA_RECOVER_ADMIN ON *.* TO `user_0d_1`@`localhost`                                        
+Enter password:
+Grants for user_0d_1@localhost
+GRANT SELECT, INSERT..., DROP ROLE ON *.* TO `user_0d_1`@`localhost`
+GRANT APPLICATION_PASSWORD_ADMIN,...,XA_RECOVER_ADMIN ON *.* TO `user_0d_1`@`localhost`
 ERROR 1141 (42000) at line 4: There is no such grant defined for user 'user_0d_2' on host 'localhost'
 guillaume@ubuntu:~/$
 ```
@@ -167,15 +170,15 @@ Write a script that creates the database `hbtn_0d_2` and the user `user_0d_2`.
 
 ```shell
 guillaume@ubuntu:~/$ cat 2-create_read_user.sql | mysql -hlocalhost -uroot -p
-Enter password: 
+Enter password:
 guillaume@ubuntu:~/$ cat 0-privileges.sql | mysql -hlocalhost -uroot -p
-Enter password: 
-Grants for user_0d_1@localhost                                                                                                
-GRANT SELECT, ..., DROP ROLE ON *.* TO `user_0d_1`@`localhost`                                                                                                                             
-GRANT APPLICATION_PASSWORD_ADMIN,...,XA_RECOVER_ADMIN ON *.* TO `user_0d_1`@`localhost`                                        
-Grants for user_0d_2@localhost                                                                                                
-GRANT USAGE ON *.* TO `user_0d_2`@`localhost`                                                                                 
-GRANT SELECT ON `hbtn_0d_2`.* TO `user_0d_2`@`localhost`  
+Enter password:
+Grants for user_0d_1@localhost
+GRANT SELECT, ..., DROP ROLE ON *.* TO `user_0d_1`@`localhost`
+GRANT APPLICATION_PASSWORD_ADMIN,...,XA_RECOVER_ADMIN ON *.* TO `user_0d_1`@`localhost`
+Grants for user_0d_2@localhost
+GRANT USAGE ON *.* TO `user_0d_2`@`localhost`
+GRANT SELECT ON `hbtn_0d_2`.* TO `user_0d_2`@`localhost`
 guillaume@ubuntu:~/$
 ```
 
@@ -196,18 +199,18 @@ Write a script that creates the table `force_name` on your MySQL server.
 
 ```shell
 guillaume@ubuntu:~/$ cat 3-force_name.sql | mysql -hlocalhost -uroot -p hbtn_0d_2
-Enter password: 
+Enter password:
 guillaume@ubuntu:~/$ echo 'INSERT INTO force_name (id, name) VALUES (89, "Best School");' | mysql -hlocalhost -uroot -p hbtn_0d_2
-Enter password: 
+Enter password:
 guillaume@ubuntu:~/$ echo 'SELECT * FROM force_name;' | mysql -hlocalhost -uroot -p hbtn_0d_2
-Enter password: 
+Enter password:
 id  name
 89  Best School
 guillaume@ubuntu:~/$ echo 'INSERT INTO force_name (id) VALUES (333);' | mysql -hlocalhost -uroot -p hbtn_0d_2
-Enter password: 
+Enter password:
 ERROR 1364 (HY000) at line 1: Field 'name' doesn't have a default value
 guillaume@ubuntu:~/$ echo 'SELECT * FROM force_name;' | mysql -hlocalhost -uroot -p hbtn_0d_2
-Enter password: 
+Enter password:
 id  name
 89  Best School
 guillaume@ubuntu:~/$
@@ -229,17 +232,17 @@ Write a script that creates the table `id_not_null` on your MySQL server.
 
 ```shell
 guillaume@ubuntu:~/$ cat 4-never_empty.sql | mysql -hlocalhost -uroot -p hbtn_0d_2
-Enter password: 
+Enter password:
 guillaume@ubuntu:~/$ echo 'INSERT INTO id_not_null (id, name) VALUES (89, "Best School");' | mysql -hlocalhost -uroot -p hbtn_0d_2
-Enter password: 
+Enter password:
 guillaume@ubuntu:~/$ echo 'SELECT * FROM id_not_null;' | mysql -hlocalhost -uroot -p hbtn_0d_2
-Enter password: 
+Enter password:
 id  name
 89  Best School
 guillaume@ubuntu:~/$ echo 'INSERT INTO id_not_null (name) VALUES ("Best");' | mysql -hlocalhost -uroot -p hbtn_0d_2
-Enter password: 
+Enter password:
 guillaume@ubuntu:~/$ echo 'SELECT * FROM id_not_null;' | mysql -hlocalhost -uroot -p hbtn_0d_2
-Enter password: 
+Enter password:
 id  name
 89  Best School
 1   Best
@@ -263,18 +266,18 @@ Write a script that creates the table `unique_id` on your MySQL server.
 
 ```shell
 guillaume@ubuntu:~/$ cat 5-unique_id.sql | mysql -hlocalhost -uroot -p hbtn_0d_2
-Enter password: 
+Enter password:
 guillaume@ubuntu:~/$ echo 'INSERT INTO unique_id (id, name) VALUES (89, "Best School");' | mysql -hlocalhost -uroot -p hbtn_0d_2
-Enter password: 
+Enter password:
 guillaume@ubuntu:~/$ echo 'SELECT * FROM unique_id;' | mysql -hlocalhost -uroot -p hbtn_0d_2
-Enter password: 
+Enter password:
 id  name
 89  Best School
 guillaume@ubuntu:~/$ echo 'INSERT INTO unique_id (id, name) VALUES (89, "Best");' | mysql -hlocalhost -uroot -p hbtn_0d_2
-Enter password: 
+Enter password:
 ERROR 1062 (23000) at line 1: Duplicate entry '89' for key 'unique_id.id'
 guillaume@ubuntu:~/$ echo 'SELECT * FROM unique_id;' | mysql -hlocalhost -uroot -p hbtn_0d_2
-Enter password: 
+Enter password:
 id  name
 89  Best School
 guillaume@ubuntu:~/$
@@ -297,11 +300,11 @@ Write a script that creates the database `hbtn_0d_usa` and the table `states` (i
 
 ```shell
 guillaume@ubuntu:~/$ cat 6-states.sql | mysql -hlocalhost -uroot -p
-Enter password: 
+Enter password:
 guillaume@ubuntu:~/$ echo 'INSERT INTO states (name) VALUES ("California"), ("Arizona"), ("Texas");' | mysql -hlocalhost -uroot -p hbtn_0d_usa
-Enter password: 
+Enter password:
 guillaume@ubuntu:~/$ echo 'SELECT * FROM states;' | mysql -hlocalhost -uroot -p hbtn_0d_usa
-Enter password: 
+Enter password:
 id  name
 1   California
 2   Arizona
@@ -327,18 +330,18 @@ Write a script that creates the database `hbtn_0d_usa` and the table `cities` (i
 
 ```shell
 guillaume@ubuntu:~/$ cat 7-cities.sql | mysql -hlocalhost -uroot -p
-Enter password: 
+Enter password:
 guillaume@ubuntu:~/$ echo 'INSERT INTO cities (state_id, name) VALUES (1, "San Francisco");' | mysql -hlocalhost -uroot -p hbtn_0d_usa
-Enter password: 
+Enter password:
 guillaume@ubuntu:~/$ echo 'SELECT * FROM cities;' | mysql -hlocalhost -uroot -p hbtn_0d_usa
-Enter password: 
+Enter password:
 id  state_id    name
 1   1   San Francisco
 guillaume@ubuntu:~/$ echo 'INSERT INTO cities (state_id, name) VALUES (10, "Paris");' | mysql -hlocalhost -uroot -p hbtn_0d_usa
-Enter password: 
+Enter password:
 ERROR 1452 (23000) at line 1: Cannot add or update a child row: a foreign key constraint fails (`hbtn_0d_usa`.`cities`, CONSTRAINT `cities_ibfk_1` FOREIGN KEY (`state_id`) REFERENCES `states` (`id`))
 guillaume@ubuntu:~/$ echo 'SELECT * FROM cities;' | mysql -hlocalhost -uroot -p hbtn_0d_usa
-Enter password: 
+Enter password:
 id  state_id    name
 1   1   San Francisco
 guillaume@ubuntu:~/$
@@ -360,14 +363,14 @@ Write a script that lists all the cities of California that can be found in the 
 
 ```shell
 guillaume@ubuntu:~/$ echo 'SELECT * FROM states;' | mysql -hlocalhost -uroot -p hbtn_0d_usa
-Enter password: 
+Enter password:
 id  name
 1   California
 2   Arizona
 3   Texas
 4   Utah
 guillaume@ubuntu:~/$ echo 'SELECT * FROM cities;' | mysql -hlocalhost -uroot -p hbtn_0d_usa
-Enter password: 
+Enter password:
 id  state_id    name
 1   1   San Francisco
 2   1   San Jose
@@ -376,7 +379,7 @@ id  state_id    name
 7   3   Houston
 8   3   Dallas
 guillaume@ubuntu:~/$ cat 8-cities_of_california_subquery.sql | mysql -hlocalhost -uroot -p hbtn_0d_usa
-Enter password: 
+Enter password:
 id  name
 1   San Francisco
 2   San Jose
@@ -399,14 +402,14 @@ Write a script that lists all cities contained in the database `hbtn_0d_usa`.
 
 ```shell
 guillaume@ubuntu:~/$ echo 'SELECT * FROM states;' | mysql -hlocalhost -uroot -p hbtn_0d_usa
-Enter password: 
+Enter password:
 id  name
 1   California
 2   Arizona
 3   Texas
 4   Utah
 guillaume@ubuntu:~/$ echo 'SELECT * FROM cities;' | mysql -hlocalhost -uroot -p hbtn_0d_usa
-Enter password: 
+Enter password:
 id  state_id    name
 1   1   San Francisco
 2   1   San Jose
@@ -415,7 +418,7 @@ id  state_id    name
 7   3   Houston
 8   3   Dallas
 guillaume@ubuntu:~/$ cat 9-cities_by_state_join.sql | mysql -hlocalhost -uroot -p hbtn_0d_usa
-Enter password: 
+Enter password:
 id  name    name
 1   San Francisco   California
 2   San Jose    California
@@ -444,7 +447,7 @@ Write a script that lists all shows contained in `hbtn_0d_tvshows` that have at 
 
 ```shell
 guillaume@ubuntu:~/$ cat 10-genre_id_by_show.sql | mysql -hlocalhost -uroot -p hbtn_0d_tvshows
-Enter password: 
+Enter password:
 title   genre_id
 Breaking Bad    1
 Breaking Bad    6
@@ -487,7 +490,7 @@ Write a script that lists all shows contained in the database `hbtn_0d_tvshows`.
 
 ```shell
 guillaume@ubuntu:~/$ cat 11-genre_id_all_shows.sql | mysql -hlocalhost -uroot -p hbtn_0d_tvshows
-Enter password: 
+Enter password:
 title   genre_id
 Better Call Saul    NULL
 Breaking Bad    1
@@ -531,7 +534,7 @@ Write a script that lists all shows contained in `hbtn_0d_tvshows` without a gen
 
 ```shell
 guillaume@ubuntu:~/$ cat 12-no_genre.sql | mysql -hlocalhost -uroot -p hbtn_0d_tvshows
-Enter password: 
+Enter password:
 title   genre_id
 Better Call Saul    NULL
 Homeland    NULL
@@ -559,7 +562,7 @@ Write a script that lists all genres from `hbtn_0d_tvshows` and displays the num
 
 ```shell
 guillaume@ubuntu:~/$ cat 13-count_shows_by_genre.sql | mysql -hlocalhost -uroot -p hbtn_0d_tvshows
-Enter password: 
+Enter password:
 genre   number_of_shows
 Drama   5
 Comedy  4
@@ -591,7 +594,7 @@ Write a script that uses the `hbtn_0d_tvshows` database to lists all genres of t
 
 ```shell
 guillaume@ubuntu:~/$ cat 14-my_genres.sql | mysql -hlocalhost -uroot -p hbtn_0d_tvshows
-Enter password: 
+Enter password:
 name
 Crime
 Drama
@@ -620,7 +623,7 @@ Write a script that lists all Comedy shows in the database `hbtn_0d_tvshows`.
 
 ```shell
 guillaume@ubuntu:~/$ cat 15-comedy_only.sql | mysql -hlocalhost -uroot -p hbtn_0d_tvshows
-Enter password: 
+Enter password:
 title
 New Girl
 Silicon Valley
@@ -648,7 +651,7 @@ Write a script that lists all shows, and all genres linked to that show, from th
 
 ```shell
 guillaume@ubuntu:~/$ cat 16-shows_by_genre.sql | mysql -hlocalhost -uroot -p hbtn_0d_tvshows
-Enter password: 
+Enter password:
 title   name
 Better Call Saul    NULL
 Breaking Bad    Crime
@@ -693,7 +696,7 @@ Write a script that uses the `hbtn_0d_tvshows` database to list all genres not l
 
 ```shell
 guillaume@ubuntu:~/$ cat 100-not_my_genres.sql | mysql -hlocalhost -uroot -p hbtn_0d_tvshows
-Enter password: 
+Enter password:
 name
 Adventure
 Comedy
@@ -720,7 +723,7 @@ Write a script that lists all shows without the genre `Comedy` in the database `
 
 ```shell
 guillaume@ubuntu:~/$ cat 101-not_a_comedy.sql | mysql -hlocalhost -uroot -p hbtn_0d_tvshows
-Enter password: 
+Enter password:
 title
 Better Call Saul
 Breaking Bad
@@ -749,7 +752,7 @@ Write a script that lists all shows from `hbtn_0d_tvshows_rate` by their rating.
 
 ```shell
 guillaume@ubuntu:~/$ cat 102-rating_shows.sql | mysql -hlocalhost -uroot -p hbtn_0d_tvshows_rate
-Enter password: 
+Enter password:
 title   rating
 Better Call Saul    163
 Homeland    145
@@ -782,7 +785,7 @@ Write a script that lists all genres in the database `hbtn_0d_tvshows_rate` by t
 
 ```shell
 guillaume@ubuntu:~/$ cat 103-rating_genres.sql | mysql -hlocalhost -uroot -p hbtn_0d_tvshows_rate
-Enter password: 
+Enter password:
 name    rating
 Drama   150
 Comedy  92
