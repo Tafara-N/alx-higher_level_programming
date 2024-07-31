@@ -1,4 +1,5 @@
 # Background Context
+
 JavaScript is used for many things. Here, you will use JavaScript for 2 reasons:
 
 - Scripting (same as we did with Python)
@@ -9,6 +10,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 ![Please run](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/303/Javascript-535.png.jpeg)
 
 # Resources
+
 ## Read or watch:
 - [Writing JavaScript Code](https://intranet.alxswe.com/rltoken/3HLjEesLsmyWfRUWnxgUGg)
 - [Variables](https://intranet.alxswe.com/rltoken/zgOWmcpVLZFEmFlmuwayyg)
@@ -46,6 +48,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - How to import a file
 
 ## Requirements
+
 ## General
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your files will be interpreted on Ubuntu 20.04 LTS using `node` (version 14.x)
@@ -57,9 +60,10 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - The length of your files will be tested using `wc`
 
 # More Info
+
 ## Install Node 14
 
-```
+```bash
 $ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 $ sudo apt-get install -y nodejs
 ```
@@ -67,9 +71,75 @@ $ sudo apt-get install -y nodejs
 ## Install semi-standard
 [Documentation](https://intranet.alxswe.com/rltoken/35q5Pc6A6KWPyd3kGeRQFg)
 
-```
+```bash
 $ sudo npm install semistandard --global
 ```
+
+## Quiz questions
+
+### Question #0
+
+Does Javascript have `String` as a native datatype?
+
+- [ ] No
+
+- [ ] Yes
+
+### Question #1
+
+Does Javascript have `Dictionary` as a native datatype?
+
+- [ ] No
+
+- [ ] Yes
+
+**Tips:**
+
+> Everything is `Object` and `Object` type in Javascript is powerful.
+
+### Question #2
+
+Does Javascript have `Array` as a native datatype?
+
+- [ ] No
+
+- [ ] Yes
+
+### Question #3
+
+Does Javascript have `Set` as a native datatype?
+
+- [ ] No
+
+- [ ] Yes
+
+### Question #4
+
+What does `let` mean? (please check all true answers)
+
+- [ ] It’s the keyword to define a variable that can be re-assign during the execution
+
+- [ ] It’s the keyword to define a variable in the local scope
+
+- [ ] It’s the keyword to define a global variable
+
+- [ ] It’s the keyword to define a constant variable
+
+- [ ] It’s the keyword to define a variable with optionally initializing it to a value
+
+### Question #5
+
+What does `const` mean? (please check all true answers)
+
+- [ ] It’s the keyword to define a variable that can be re-assign during the execution
+
+- [ ] It’s the keyword to define a variable in the local scope
+
+- [ ] It’s the keyword to define a global variable
+
+- [ ] It’s the keyword to define a constant variable
+
+- [ ] It’s the keyword to define a variable with optionally initializing it to a value
 
 # Tasks
 
