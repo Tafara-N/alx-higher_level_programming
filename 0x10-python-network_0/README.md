@@ -1,4 +1,5 @@
 # Resources
+
 ## Read or watch:
 
 - [HTTP (HyperText Transfer Protocol)](https://intranet.alxswe.com/rltoken/rAon_EpQ6PGl8N0plySn4A) (except: “TRACE” Request Method, “CONNECT” Request Method, Language Negotiation and “Options MultiView” and Character Set Negotiation)
@@ -27,6 +28,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - What happens when you type google.com in your browser (Application level)
 
 # Requirements
+
 ## General
 - Allowed editors: `vi`, `vim`, `emacs`
 - A `README.md` file, at the root of the folder of the project, is mandatory
@@ -56,7 +58,7 @@ The size must be displayed in bytes
 
 Please test your script in the sandbox provided, using the web server running on port 5000
 
-```
+```bash
 guillaume@ubuntu:~/0x10$ ./0-body_size.sh 0.0.0.0:5000
 10
 guillaume@ubuntu:~/0x10$
@@ -76,7 +78,7 @@ Display only body of a `200` status code response
 
 Please test your script in the sandbox provided, using the web server running on port 5000
 
-```
+```bash
 guillaume@ubuntu:~/0x10$ ./1-body.sh 0.0.0.0:5000/route_1 ; echo ""
 Route 2
 guillaume@ubuntu:~/0x10$
@@ -95,7 +97,7 @@ Write a Bash script that sends a `DELETE` request to the URL passed as the first
 
 Please test your script in the sandbox provided, using the web server running on port 5000
 
-```
+```bash
 guillaume@ubuntu:~/0x10$ ./2-delete.sh 0.0.0.0:5000/route_3 ; echo ""
 I'm a DELETE request
 guillaume@ubuntu:~/0x10$
@@ -114,7 +116,7 @@ Write a Bash script that takes in a URL and displays all HTTP methods the server
 
 Please test your script in the sandbox provided, using the web server running on port 5000
 
-```
+```bash
 guillaume@ubuntu:~/0x10$ ./3-methods.sh 0.0.0.0:5000/route_4
 OPTIONS, HEAD, PUT
 guillaume@ubuntu:~/0x10$
@@ -134,7 +136,7 @@ Write a Bash script that takes in a URL as an argument, sends a `GET` request to
 
 Please test your script in the sandbox provided, using the web server running on port 5000
 
-```
+```bash
 guillaume@ubuntu:~/0x10$ ./4-header.sh 0.0.0.0:5000/route_5 ; echo ""
 Hello School!
 guillaume@ubuntu:~/0x10$
@@ -155,7 +157,7 @@ Write a Bash script that takes in a URL, sends a `POST` request to the passed UR
 
 Please test your script in the sandbox provided, using the web server running on port 5000
 
-```
+```bash
 guillaume@ubuntu:~/0x10$ ./5-post_params.sh 0.0.0.0:5000/route_6 ; echo ""
 POST params:
     email: test@gmail.com
@@ -184,7 +186,7 @@ Write a function that finds **a peak** in a list of unsorted integers.
 - `6-peak.txt` must contain the complexity of your algorithm: `O(log(n))`, `O(n)`, `O(nlog(n))` or `O(n2)`
 - **Note**: there may be more than one peak in the list
 
-```
+```bash
 guillaume@ubuntu:~/0x10$ cat 6-main.py
 #!/usr/bin/python3
 """ Test function find_peak """
@@ -224,7 +226,7 @@ Write a Bash script that sends a request to a URL passed as an argument, and dis
 
 Please test your script in the sandbox provided, using the web server running on port 5000
 
-```
+```bash
 guillaume@ubuntu:~/0x10$ ./100-status_code.sh 0.0.0.0:5000 ; echo ""
 200
 guillaume@ubuntu:~/0x10$
@@ -247,7 +249,7 @@ Write a Bash script that sends a JSON `POST` request to a URL passed as the firs
 
 Please test your scripts in the sandbox provided, using the web server running on port 5000
 
-```
+```bash
 guillaume@ubuntu:~/0x10$ cat my_json_0
 {
     "name": "John Doe",
@@ -285,7 +287,7 @@ Write a Bash script that makes a request to `0.0.0.0:5000/catch_me` that causes 
 
 Please test your script in the sandbox provided, using the web server running on port 5000
 
-```
+```bash
 guillaume@ubuntu:~/0x10$ ./102-catch_me.sh ; echo ""
 You got me!
 guillaume@ubuntu:~/0x10$
