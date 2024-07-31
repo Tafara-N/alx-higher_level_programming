@@ -151,7 +151,7 @@ Write a script that prints “JavaScript is amazing”:
 - You must use `console.log(...)` to print all output
 - You are not allowed to use `var`
 
-```
+```bash
 guillaume@ubuntu:~/0x12$ ./0-javascript_is_amazing.js
 JavaScript is amazing
 guillaume@ubuntu:~/0x12$
@@ -174,7 +174,7 @@ Write a script that prints 3 lines:
 - You must use `console.log(...)` to print all output
 - You are not allowed to use `var`
 
-```
+```bash
 guillaume@ubuntu:~/0x12$ ./1-multi_languages.js
 C is fun
 Python is cool
@@ -199,7 +199,7 @@ Write a script that prints a message depending of the number of arguments passed
 
 Reference: [process.argv](https://intranet.alxswe.com/rltoken/5kTYi3rxb6KM1_pivm-tXg)
 
-```
+```bash
 guillaume@ubuntu:~/0x12$ ./2-arguments.js
 No argument
 guillaume@ubuntu:~/0x12$ ./2-arguments.js Best
@@ -223,7 +223,7 @@ Write a script that prints the first argument passed to it:
 - You are not allowed to use `var`
 - You are not allowed to use `length`
 
-```
+```bash
 guillaume@ubuntu:~/0x12$ ./3-value_argument.js
 No argument
 guillaume@ubuntu:~/0x12$ ./3-value_argument.js School
@@ -243,7 +243,7 @@ Write a script that prints two arguments passed to it, in the following format: 
 - You must use `console.log(...)` to print all output
 - You are not allowed to use `var`
 
-```
+```bash
 guillaume@ubuntu:~/0x12$ ./4-concat.js c cool
 c is cool
 guillaume@ubuntu:~/0x12$ ./4-concat.js c
@@ -267,7 +267,7 @@ Write a script that prints `My number: <first argument converted in integer>` if
 - You are not allowed to use `var`
 - You are not allowed to use `try/catch`
 
-```
+```bash
 guillaume@ubuntu:~/0x12$ ./5-to_integer.js
 Not a number
 guillaume@ubuntu:~/0x12$ ./5-to_integer.js 89
@@ -299,7 +299,7 @@ Write a script that prints 3 lines: (like 1-multi_languages.js) but by using an 
 - You can use only one `console.log`
 - You must use a loop (`while`, `for`, etc.)
 
-```
+```bash
 guillaume@ubuntu:~/0x12$ ./6-multi_languages_loop.js
 C is fun
 Python is cool
@@ -323,7 +323,7 @@ Write a script that prints `x` times “C is fun”
 - You can use only two `console.log`
 - You must use a loop (`while`, `for`, etc.)
 
-```
+```bash
 guillaume@ubuntu:~/0x12$ ./7-multi_c.js 2
 C is fun
 C is fun
@@ -355,7 +355,7 @@ Write a script that prints a square
 - You are not allowed to use `var`
 - You must use a loop (`while`, `for`, etc.)
 
-```
+```bash
 guillaume@ubuntu:~/0x12$ ./8-square.js
 Missing size
 guillaume@ubuntu:~/0x12$ ./8-square.js School
@@ -389,7 +389,7 @@ Write a script that prints the addition of 2 integers
 - You must use `console.log(...)` to print all output
 - You are not allowed to use `var`
 
-```
+```bash
 guillaume@ubuntu:~/0x12$ ./9-add.js
 NaN
 guillaume@ubuntu:~/0x12$ ./9-add.js 1
@@ -417,7 +417,7 @@ Write a script that computes and prints a factorial
 - You must use `console.log(...)` to print all output
 - You are not allowed to use `var`
 
-```
+```bash
 guillaume@ubuntu:~/0x12$ ./10-factorial.js
 1
 guillaume@ubuntu:~/0x12$ ./10-factorial.js 3
@@ -444,7 +444,7 @@ Write a script that searches the second biggest integer in the list of arguments
 - You must use `console.log(...)` to print all output
 - You are not allowed to use `var`
 
-```
+```bash
 guillaume@ubuntu:~/0x12$ ./11-second_biggest.js
 0
 guillaume@ubuntu:~/0x12$ ./11-second_biggest.js 1
@@ -499,7 +499,7 @@ Write a function that returns the addition of 2 integers.
 
 [Tip](https://intranet.alxswe.com/rltoken/1k6VPdLchwtGubOfPyGL1Q)
 
-```
+```bash
 guillaume@ubuntu:~/0x12$ cat 13-main.js
 #!/usr/bin/node
 const add = require('./13-add').add;
@@ -518,7 +518,7 @@ guillaume@ubuntu:~/0x12
 
 Write a file that modifies the value of `myVar` to `333`
 
-```
+```bash
 guillaume@ubuntu:~/0x12$ cat 100-main.js
 #!/usr/bin/node
 myVar = 89;
@@ -550,7 +550,7 @@ Write a function that executes `x` times a function.
 - Prototype: `function (x, theFunction)`
 - You are not allowed to use `var`
 
-```
+```bash
 guillaume@ubuntu:~/0x12$ cat 101-main.js
 #!/usr/bin/node
 const callMeMoby = require('./101-call_me_moby').callMeMoby;
@@ -577,7 +577,7 @@ Write a function that increments and calls a function.
 - Prototype: `function (number, theFunction)`
 - You are not allowed to use `var`
 
-```
+```bash
 guillaume@ubuntu:~/0x12$ cat 102-main.js
 #!/usr/bin/node
 const addMeMaybe = require('./102-add_me_maybe').addMeMaybe;
@@ -600,7 +600,7 @@ Update this script by adding a new function `incr` that increments the integer `
 
 - You are not allowed to use `var`
 
-```
+```bash
 guillaume@ubuntu:~/0x12$ cat 103-object_fct.js
 #!/usr/bin/node
 const myObject = {
