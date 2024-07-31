@@ -4,9 +4,11 @@
 
 - [Databases](https://intranet.alxswe.com/concepts/37)
 
-![SQL](https://benjdd.com/assets/memes/sql-meme-1.jpg)
+![SQL Query](rtcwz.jpg)
 
-## Resources
+
+# Resources
+
 ## Read or watch:
 - [What is Database & SQL?](https://intranet.alxswe.com/rltoken/yyRKTEdRkYEVlRgZPbasjw)
 - [A Basic MySQL Tutorial](https://intranet.alxswe.com/rltoken/sV2PtK5YfQsXWW1malRZ5Q)
@@ -19,7 +21,7 @@
 - [MySQL 8.0 SQL Statement Syntax](https://intranet.alxswe.com/rltoken/HmdmLiYBM0Q34iCYPWd9XQ)
 - [installing MySQL in Ubuntu 20.04](https://intranet.alxswe.com/rltoken/IpYI9rgbwfjxOAQQgpHCmQ)
 
-## Learning Objectives
+# Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/-zY4kpQMjYkkbqlEb9W37A), **without the help of Google:**
 
 ## General
@@ -35,8 +37,9 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - What are `subqueries`
 - How to use MySQL functions
 
-## Requirements
-### General
+# Requirements
+
+## General
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your files will be executed on Ubuntu 20.04 LTS using `MySQL 8.0` (version 8.0.25)
 - All your files should end with a new line
@@ -46,7 +49,8 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - A `README.md` file, at the root of the folder of the project, is mandatory
 - The length of your files will be tested using `wc`
 
-## More Info  
+## More Info
+
 ### Comments for your SQL file:
 
 ```shell
@@ -90,7 +94,8 @@ Bye
 $
 ```
 
-## Use “container-on-demand” to run MySQL  
+## Use “container-on-demand” to run MySQL
+
 ## In the container, credentials are `root/root`
 
 - Ask for container `Ubuntu 20.04`
@@ -99,15 +104,15 @@ $
 - In the container, you should start MySQL before playing with it:
 
 ```shell
-$ service mysql start                                                   
- * Starting MySQL database server mysqld 
+$ service mysql start
+ * Starting MySQL database server mysqld
 $
-$ cat 0-list_databases.sql | mysql -uroot -p                               
-Database                                                                                   
-information_schema                                                                         
-mysql                                                                                      
-performance_schema                                                                         
-sys                      
+$ cat 0-list_databases.sql | mysql -uroot -p
+Database
+information_schema
+mysql
+performance_schema
+sys
 $
 ```
 
@@ -117,11 +122,11 @@ $
 
 ```shell
 $ echo "CREATE DATABASE hbtn_0d_tvshows;" | mysql -uroot -p
-Enter password: 
+Enter password:
 $ curl "https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/hbtn_0d_tvshows.sql" -s | mysql -uroot -p hbtn_0d_tvshows
-Enter password: 
+Enter password:
 $ echo "SELECT * FROM tv_genres" | mysql -uroot -p hbtn_0d_tvshows
-Enter password: 
+Enter password:
 id  name
 1   Drama
 2   Mystery
@@ -134,7 +139,8 @@ id  name
 $
 ```
 
-![SQL JOINS](https://i.stack.imgur.com/qGCWC.png)  
+![SQL JOINS](https://i.stack.imgur.com/qGCWC.png)
+
 ### Quiz questions
 
 ## Question #0
@@ -313,13 +319,13 @@ Write a script that lists all databases of your MySQL server.
 
 ```shell
 guillaume@ubuntu:~/$ cat 0-list_databases.sql | mysql -hlocalhost -uroot -p
-Enter password: 
-Database                                                                                     
-hbtn_0c_0                                                                                    
-information_schema                                                                           
-mysql                                                                                        
-performance_schema                                                                           
-sys        
+Enter password:
+Database
+hbtn_0c_0
+information_schema
+mysql
+performance_schema
+sys
 guillaume@ubuntu:~/$
 ```
 
@@ -337,16 +343,16 @@ Write a script that creates the database `hbtn_0c_0` in your MySQL server.
 
 ```shell
 guillaume@ubuntu:~/$ cat 1-create_database_if_missing.sql | mysql -hlocalhost -uroot -p
-Enter password: 
+Enter password:
 guillaume@ubuntu:~/$ cat 0-list_databases.sql | mysql -hlocalhost -uroot -p
-Enter password: 
+Enter password:
 Database
 information_schema
 hbtn_0c_0
 mysql
 performance_schema
 guillaume@ubuntu:~/$ cat 1-create_database_if_missing.sql | mysql -hlocalhost -uroot -p
-Enter password: 
+Enter password:
 guillaume@ubuntu:~/$
 ```
 
@@ -364,22 +370,22 @@ Write a script that deletes the database `hbtn_0c_0` in your MySQL server.
 
 ```shell
 guillaume@ubuntu:~/$ cat 0-list_databases.sql | mysql -hlocalhost -uroot -p
-Enter password: 
-Database                                                                                     
-hbtn_0c_0                                                                                    
-information_schema                                                                           
-mysql                                                                                        
-performance_schema                                                                           
-sys        
+Enter password:
+Database
+hbtn_0c_0
+information_schema
+mysql
+performance_schema
+sys
 guillaume@ubuntu:~/$ cat 2-remove_database.sql | mysql -hlocalhost -uroot -p
-Enter password: 
+Enter password:
 guillaume@ubuntu:~/$ cat 0-list_databases.sql | mysql -hlocalhost -uroot -p
-Enter password: 
-Database                                                                                                                                                                  
-information_schema                                                                           
-mysql                                                                                        
-performance_schema                                                                           
-sys        
+Enter password:
+Database
+information_schema
+mysql
+performance_schema
+sys
 guillaume@ubuntu:~/$
 ```
 
@@ -396,42 +402,42 @@ Write a script that lists all the tables of a database in your MySQL server.
 
 ```shell
 guillaume@ubuntu:~/$ cat 3-list_tables.sql | mysql -hlocalhost -uroot -p mysql
-Enter password: 
-Tables_in_mysql                                                                              
-columns_priv                                                                                 
-component                                                                                    
-db                                                                                           
-default_roles                                                                                
-engine_cost                                                                                  
-func                                                                                         
-general_log                                                                                  
-global_grants                                                                                
-gtid_executed                                                                                
-help_category                                                                                
-help_keyword                                                                                 
-help_relation                                                                                
-help_topic                                                                                   
-innodb_index_stats                                                                           
-innodb_table_stats                                                                           
-password_history                                                                             
-plugin                                                                                       
-procs_priv                                                                                   
-proxies_priv                                                                                 
-replication_asynchronous_connection_failover                                                 
-replication_asynchronous_connection_failover_managed                                         
-role_edges                                                                                   
-server_cost                                                                                  
-servers                                                                                      
-slave_master_info                                                                            
-slave_relay_log_info                                                                         
-slave_worker_info                                                                            
-slow_log                                                                                     
-tables_priv                                                                                  
-time_zone                                                                                    
-time_zone_leap_second                                                                        
-time_zone_name                                                                               
-time_zone_transition                                                                         
-time_zone_transition_type                                                                    
+Enter password:
+Tables_in_mysql
+columns_priv
+component
+db
+default_roles
+engine_cost
+func
+general_log
+global_grants
+gtid_executed
+help_category
+help_keyword
+help_relation
+help_topic
+innodb_index_stats
+innodb_table_stats
+password_history
+plugin
+procs_priv
+proxies_priv
+replication_asynchronous_connection_failover
+replication_asynchronous_connection_failover_managed
+role_edges
+server_cost
+servers
+slave_master_info
+slave_relay_log_info
+slave_worker_info
+slow_log
+tables_priv
+time_zone
+time_zone_leap_second
+time_zone_name
+time_zone_transition
+time_zone_transition_type
 user
 guillaume@ubuntu:~/$
 ```
@@ -454,12 +460,12 @@ Write a script that creates a table called `first_table` in the current database
 
 ```shell
 guillaume@ubuntu:~/$ cat 4-first_table.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password: 
+Enter password:
 guillaume@ubuntu:~/$ cat 3-list_tables.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password: 
+Enter password:
 Tables_in_hbtn_0c_0
 first_table
-guillaume@ubuntu:~/$ 
+guillaume@ubuntu:~/$
 ```
 
 **Repo:**
@@ -476,10 +482,10 @@ Write a script that prints the full description of the table `first_table` from 
 
 ```shell
 guillaume@ubuntu:~/$ cat 5-full_table.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password: 
-Table   Create Table                                                                         
-first_table     CREATE TABLE `first_table` (\n  `id` int DEFAULT NULL,\n  `name` varchar(256) DEFAULT NULL\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci        
-guillaume@ubuntu:~/$ 
+Enter password:
+Table   Create Table
+first_table     CREATE TABLE `first_table` (\n  `id` int DEFAULT NULL,\n  `name` varchar(256) DEFAULT NULL\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+guillaume@ubuntu:~/$
 ```
 
 **Repo:**
@@ -496,7 +502,7 @@ Write a script that lists all rows of the table `first_table` from the database 
 
 ```shell
 guillaume@ubuntu:~/$ cat 6-list_values.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password: 
+Enter password:
 guillaume@ubuntu:~/$
 ```
 
@@ -516,17 +522,17 @@ The database name will be passed as an argument of the `mysql` command
 
 ```shell
 guillaume@ubuntu:~/$ cat 7-insert_value.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password: 
+Enter password:
 guillaume@ubuntu:~/$ cat 6-list_values.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password: 
+Enter password:
 id  name
 89  Best School
 guillaume@ubuntu:~/$ cat 7-insert_value.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password: 
+Enter password:
 guillaume@ubuntu:~/$ cat 7-insert_value.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password: 
+Enter password:
 guillaume@ubuntu:~/$ cat 6-list_values.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password: 
+Enter password:
 id  name
 89  Best School
 89  Best School
@@ -547,7 +553,7 @@ Write a script that displays the number of records with `id = 89` in the table `
 
 ```shell
 guillaume@ubuntu:~/$ cat 8-count_89.sql | mysql -hlocalhost -uroot -p hbtn_0c_0 | tail -1
-Enter password: 
+Enter password:
 3
 guillaume@ubuntu:~/$
 ```
@@ -577,7 +583,7 @@ Write a script that creates a table `second_table` in the database `hbtn_0c_0` i
 
 ```shell
 guillaume@ubuntu:~/$ cat 9-full_creation.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password: 
+Enter password:
 guillaume@ubuntu:~/$
 ```
 
@@ -596,7 +602,7 @@ Write a script that lists all records of the table `second_table` of the databas
 
 ```shell
 guillaume@ubuntu:~/$ cat 10-top_score.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password: 
+Enter password:
 score   name
 14  Bob
 10  John
@@ -620,7 +626,7 @@ Write a script that lists all records with a `score >= 10` in the table `second_
 
 ```shell
 guillaume@ubuntu:~/$ cat 11-best_score.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password: 
+Enter password:
 score   name
 14  Bob
 10  John
@@ -641,9 +647,9 @@ Write a script that updates the score of Bob to `10` in the table `second_table`
 
 ```shell
 guillaume@ubuntu:~/$ cat 12-no_cheating.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password: 
+Enter password:
 guillaume@ubuntu:~/$ cat 10-top_score.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password: 
+Enter password:
 score   name
 10  John
 10  Bob
@@ -665,9 +671,9 @@ Write a script that removes all records with a `score <= 5` in the table `second
 
 ```shell
 guillaume@ubuntu:~/$ cat 13-change_class.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password: 
+Enter password:
 guillaume@ubuntu:~/$ cat 10-top_score.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password: 
+Enter password:
 score   name
 10  John
 10  Bob
@@ -689,7 +695,7 @@ Write a script that computes the score average of all records in the table `seco
 
 ```shell
 guillaume@ubuntu:~/$ cat 14-average.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password: 
+Enter password:
 average
 9.3333
 guillaume@ubuntu:~/$
@@ -712,7 +718,7 @@ Write a script that lists the number of records with the same score in the table
 
 ```shell
 guillaume@ubuntu:~/$ cat 15-groups.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password: 
+Enter password:
 score   number
 10  2
 8   1
@@ -736,7 +742,7 @@ In this example, new data have been added to the table `second_table`.
 
 ```shell
 guillaume@ubuntu:~/$ cat 16-no_link.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password: 
+Enter password:
 score   name
 18  Aria
 12  Aria
@@ -761,10 +767,10 @@ Write a script that converts `hbtn_0c_0` database to UTF8 (`utf8mb4`, collate `u
 - Field `name` in `first_table`
 
 ```shell
-guillaume@ubuntu:~/$ cat 100-move_to_utf8.sql | mysql -hlocalhost -uroot -p 
-Enter password: 
+guillaume@ubuntu:~/$ cat 100-move_to_utf8.sql | mysql -hlocalhost -uroot -p
+Enter password:
 guillaume@ubuntu:~/$ cat 5-full_table.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password: 
+Enter password:
 Table   Create Table
 first_table CREATE TABLE `first_table` (\n  `id` int(11) DEFAULT NULL,\n  `name` varchar(256) COLLATE utf8mb4_unicode_ci DEFAULT NULL\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
 guillaume@ubuntu:~/$
@@ -783,7 +789,7 @@ Write a script that displays the average temperature (Fahrenheit) by city ordere
 
 ```shell
 guillaume@ubuntu:~/$ cat 101-avg_temperatures.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password: 
+Enter password:
 city    avg_temp
 Chandler    72.8627
 Gilbert 71.8088
@@ -820,7 +826,7 @@ Write a script that displays the top 3 of cities temperature during July and Aug
 
 ```shell
 guillaume@ubuntu:~/$ cat 102-top_city.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password: 
+Enter password:
 city    avg_temp
 Naperville  76.9412
 San Diego   73.7941
@@ -841,7 +847,7 @@ Write a script that displays the max temperature of each state (ordered by State
 
 ```shell
 guillaume@ubuntu:~/$ cat 103-max_state.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password: 
+Enter password:
 state   max_temp
 AZ  110
 CA  110
