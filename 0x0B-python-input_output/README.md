@@ -84,7 +84,7 @@ guillaume@ubuntu:~/0x0B$
 
 **No test cases needed**
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0B-python-input_output`
 File: `0-read_file.py`
@@ -117,7 +117,7 @@ guillaume@ubuntu:~/0x0B$
 
 **No test cases needed**
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0B-python-input_output`
 File: `1-write_file.py`
@@ -156,7 +156,7 @@ guillaume@ubuntu:~/0x0B$
 
 **No test cases needed**
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0B-python-input_output`
 File: `2-append_write.py`
@@ -211,7 +211,7 @@ guillaume@ubuntu:~/0x0B$
 
 **No test cases needed**
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0B-python-input_output`
 File: `3-to_json_string.py`
@@ -262,7 +262,7 @@ guillaume@ubuntu:~/0x0B$
 
 **No test cases needed**
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0B-python-input_output`
 File: `4-from_json_string.py`
@@ -318,7 +318,7 @@ guillaume@ubuntu:~/0x0B$
 
 **No test cases needed**
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0B-python-input_output`
 File: `5-save_to_json_file.py`
@@ -383,7 +383,7 @@ guillaume@ubuntu:~/0x0B$
 
 **No test cases needed**
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0B-python-input_output`
 File: `6-load_from_json_file.py`
@@ -415,7 +415,7 @@ guillaume@ubuntu:~/0x0B$
 
 **No test cases needed**
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0B-python-input_output`
 File: `7-add_item.py`
@@ -515,7 +515,7 @@ guillaume@ubuntu:~/0x0B$
 
 **No test cases needed**
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0B-python-input_output`
 File: `8-class_to_json.py`
@@ -563,7 +563,7 @@ guillaume@ubuntu:~/0x0B$
 
 **No test cases needed**
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0B-python-input_output`
 File: `9-student.py`
@@ -607,7 +607,7 @@ guillaume@ubuntu:~/0x0B$
 
 **No test cases needed**
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0B-python-input_output`
 File: `10-student.py`
@@ -700,7 +700,7 @@ guillaume@ubuntu:~/0x0B$
 
 **No test cases needed**
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0B-python-input_output`
 File: `11-student.py`
@@ -746,7 +746,7 @@ guillaume@ubuntu:~/0x0B$ ./12-main.py
 guillaume@ubuntu:~/0x0B$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0B-python-input_output`
 File: `12-pascal_triangle.py`
@@ -798,7 +798,7 @@ guillaume@ubuntu:~/0x0B$
 
 **No test cases needed**
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0B-python-input_output`
 File: `100-append_after.py`
@@ -883,7 +883,7 @@ guillaume@ubuntu:~/0x0B$
 
 **No test cases needed**
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x0B-python-input_output`
 File: `101-stats.py`
