@@ -86,7 +86,7 @@ guillaume@ubuntu:~/0x0B$
 
 Repo:
 - GitHub repository: `alx-higher_level_programming`
-Directory: 0x0B-python-input_output
+- Directory: `0x0B-python-input_output`
 File: `0-read_file.py`
 
 ### 1. Write to a file
@@ -119,7 +119,7 @@ guillaume@ubuntu:~/0x0B$
 
 Repo:
 - GitHub repository: `alx-higher_level_programming`
-Directory: 0x0B-python-input_output
+- Directory: `0x0B-python-input_output`
 File: `1-write_file.py`
 
 ### 2. Append to a file
@@ -158,7 +158,7 @@ guillaume@ubuntu:~/0x0B$
 
 Repo:
 - GitHub repository: `alx-higher_level_programming`
-Directory: 0x0B-python-input_output
+- Directory: `0x0B-python-input_output`
 File: `2-append_write.py`
 
 ### 3. To JSON string
@@ -213,7 +213,7 @@ guillaume@ubuntu:~/0x0B$
 
 Repo:
 - GitHub repository: `alx-higher_level_programming`
-Directory: 0x0B-python-input_output
+- Directory: `0x0B-python-input_output`
 File: `3-to_json_string.py`
 
 ### 4. From JSON string to Object
@@ -264,7 +264,7 @@ guillaume@ubuntu:~/0x0B$
 
 Repo:
 - GitHub repository: `alx-higher_level_programming`
-Directory: 0x0B-python-input_output
+- Directory: `0x0B-python-input_output`
 File: `4-from_json_string.py`
 
 ### 5. Save Object to a file
@@ -320,7 +320,7 @@ guillaume@ubuntu:~/0x0B$
 
 Repo:
 - GitHub repository: `alx-higher_level_programming`
-Directory: 0x0B-python-input_output
+- Directory: `0x0B-python-input_output`
 File: `5-save_to_json_file.py`
 
 ### 6. Create object from a JSON file
@@ -385,7 +385,7 @@ guillaume@ubuntu:~/0x0B$
 
 Repo:
 - GitHub repository: `alx-higher_level_programming`
-Directory: 0x0B-python-input_output
+- Directory: `0x0B-python-input_output`
 File: `6-load_from_json_file.py`
 
 ### 7. Load, add, save
@@ -417,7 +417,7 @@ guillaume@ubuntu:~/0x0B$
 
 Repo:
 - GitHub repository: `alx-higher_level_programming`
-Directory: 0x0B-python-input_output
+- Directory: `0x0B-python-input_output`
 File: `7-add_item.py`
 
 ### 8. Class to JSON
@@ -517,7 +517,7 @@ guillaume@ubuntu:~/0x0B$
 
 Repo:
 - GitHub repository: `alx-higher_level_programming`
-Directory: 0x0B-python-input_output
+- Directory: `0x0B-python-input_output`
 File: `8-class_to_json.py`
 
 ### 9. Student to JSON
@@ -565,7 +565,7 @@ guillaume@ubuntu:~/0x0B$
 
 Repo:
 - GitHub repository: `alx-higher_level_programming`
-Directory: 0x0B-python-input_output
+- Directory: `0x0B-python-input_output`
 File: `9-student.py`
 
 ### 10. Student to JSON with filter
@@ -609,7 +609,7 @@ guillaume@ubuntu:~/0x0B$
 
 Repo:
 - GitHub repository: `alx-higher_level_programming`
-Directory: 0x0B-python-input_output
+- Directory: `0x0B-python-input_output`
 File: `10-student.py`
 
 ### 11. Student to disk and reload
@@ -702,7 +702,7 @@ guillaume@ubuntu:~/0x0B$
 
 Repo:
 - GitHub repository: `alx-higher_level_programming`
-Directory: 0x0B-python-input_output
+- Directory: `0x0B-python-input_output`
 File: `11-student.py`
 
 ### 12. Pascal's Triangle
@@ -748,7 +748,7 @@ guillaume@ubuntu:~/0x0B$
 
 Repo:
 - GitHub repository: `alx-higher_level_programming`
-Directory: 0x0B-python-input_output
+- Directory: `0x0B-python-input_output`
 File: `12-pascal_triangle.py`
 
 ### 13. Search and update
@@ -800,7 +800,7 @@ guillaume@ubuntu:~/0x0B$
 
 Repo:
 - GitHub repository: `alx-higher_level_programming`
-Directory: 0x0B-python-input_output
+- Directory: `0x0B-python-input_output`
 File: `100-append_after.py`
 
 ### 14. Log parsing
@@ -885,5 +885,5 @@ guillaume@ubuntu:~/0x0B$
 
 Repo:
 - GitHub repository: `alx-higher_level_programming`
-Directory: 0x0B-python-input_output
+- Directory: `0x0B-python-input_output`
 File: `101-stats.py`
