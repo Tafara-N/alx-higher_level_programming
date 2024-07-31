@@ -54,7 +54,7 @@ Body response:$
 guillaume@ubuntu:~/0x11$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
 - File: `0-hbtn_status.py`
@@ -78,7 +78,7 @@ guillaume@ubuntu:~/0x11$ ./1-hbtn_header.py https://alx-intranet.hbtn.io
 guillaume@ubuntu:~/0x11$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
 - File: `1-hbtn_header.py`
@@ -101,7 +101,7 @@ Your email is: hr@holbertonschool.com
 guillaume@ubuntu:~/0x11$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
 - File: `2-post_email.py`
@@ -130,7 +130,7 @@ Error code: 500
 guillaume@ubuntu:~/0x11$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
 - File: `3-error_code.py`
@@ -151,7 +151,7 @@ Body response:$
 guillaume@ubuntu:~/0x11$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
 - File: `4-hbtn_status.py`
@@ -174,7 +174,7 @@ eaceaf35-bc0f-4f74-994a-7be0728ec654
 guillaume@ubuntu:~/0x11$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
 - File: `5-hbtn_header.py`
@@ -196,7 +196,7 @@ Your email is: hr@holbertonschool.com
 guillaume@ubuntu:~/0x11$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
 - File: `6-post_email.py`
@@ -224,7 +224,7 @@ Error code: 500
 guillaume@ubuntu:~/0x11$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
 - File: `7-error_code.py`
@@ -256,7 +256,7 @@ guillaume@ubuntu:~/0x11$ ./8-json_api.py b
 guillaume@ubuntu:~/0x11$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
 - File: `8-json_api.py`
@@ -280,7 +280,7 @@ None
 guillaume@ubuntu:~/0x11$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
 - File: `10-my_github.py`
@@ -322,7 +322,7 @@ guillaume@ubuntu:~/0x11$
 
 **Be careful: only 60 requests by hour by IP for unauthenticated requests [Rate limit](https://intranet.alxswe.com/rltoken/S2DhgB0xP5IPy_93vBcRhw)**
 
-Repo:
+**Repo:**
 GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
 - File: `100-github_commits.py`
