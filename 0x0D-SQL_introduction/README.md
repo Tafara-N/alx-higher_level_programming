@@ -139,8 +139,6 @@ id  name
 $
 ```
 
-![SQL JOINS](https://i.stack.imgur.com/qGCWC.png)
-
 ### Quiz questions
 
 ## Question #0
