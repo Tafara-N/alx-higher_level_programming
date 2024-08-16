@@ -1,5 +1,37 @@
-# Concepts
----
+# Introduction to programming in `Python`, `JavaScript` and `SQL`.
+
+## Table of Content
+- [Author](#author)
+- [Description](#description)
+___
+
+- [Almost A Circle](0x0C-python-almost_a_circle/README.md)
+- [Classes](0x06-python-classes/README.md)
+- [Data Structures: I](0x03-python-data_structures/README.md)
+- [Data Structures: II](0x04-python-more_data_structures/README.md)
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+
+___
+
+- [Requirements](#requirements)
+
+# Description
+
+## Concepts
+
 *For this project, we expect you to look at this concept:*
 
 [Python programming](https://intranet.alxswe.com/concepts/550)
@@ -7,7 +39,7 @@
 ## Author’s disclaimer
 
 ![Python](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/231/48a9fdbd67c84a328a9df9ec8d93b9ac2458ac37721d7d53e51a27fb2bdc5263.jpg)
----
+
 ```
 Welcome to the Python world!
 
@@ -20,9 +52,10 @@ Enjoy!
 
 - Guillaume
 ```
----
-## Resources
-**Read or watch:**  
+
+# Resources
+
+**Read or watch:**
 - [The Python tutorial](https://intranet.alxswe.com/rltoken/JsFCs_NBzMAR7-XPAZ9BoA) (only the first three chapters below)
 - [Whetting Your Appetite](https://intranet.alxswe.com/rltoken/kifRlLG2iMX5AZiW8lrCMg)
 - [Using the Python Interpreter](https://intranet.alxswe.com/rltoken/RVpfAuagCo9SdfYeoHd6jg)
@@ -47,14 +80,9 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - What are indexing and slicing in Python
 - What is the official Python coding style and how to check your code with `pycodestyle`
 
-### Copyright - Plagiarism  
-- You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
-- You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
-- You are not allowed to publish any content of this project.
-- Any form of plagiarism is strictly forbidden and will result in removal from the program.
+# Requirements
 
-## Requirements  
-### Python Scripts  
+## Python Scripts
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
 - All your files should end with a new line
@@ -65,7 +93,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - All your files must be executable
 - The length of your files will be tested using `wc`
 
-### Python Test Cases
+## Python Test Cases
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your files should end with a new line
 - All your test files should be inside a folder `tests`
@@ -93,7 +121,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - The first line of all your files should be exactly `#!/bin/bash`
 - All your files must be executable
 
-**C Scripts**  
+### C Scripts
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 - All your files should end with a new line
@@ -105,8 +133,8 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - Don’t forget to push your header file
 - All your header files should be include guarded
 
-## More Info  
-**Zen**  
+## More Info
+**Zen**
 
 ```
 The Zen of Python, by Tim Peters
@@ -131,7 +159,12 @@ If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 ```
-**Pycodestyle**  
+
+**Pycodestyle**
 `Pycodestyle` is now the [new standard of Python style code](https://intranet.alxswe.com/rltoken/UQ25jC6sA5XqZl6ZZIdAaw)
 
 ![Monty](https://miro.medium.com/v2/resize:fit:640/format:webp/1*ZSykfSA9hTOCc2PETCa8mA.jpeg)
+
+## Author
+
+**Tafara Nyamhunga  - [Github](https://github.com/tafara-n) / [Twitter](https://twitter.com/tafaranyamhunga)**
