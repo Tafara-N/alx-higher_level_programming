@@ -6,24 +6,31 @@
 ___
 
 - [Almost A Circle](0x0C-python-almost_a_circle/README.md)
-- [Classes](0x06-python-classes/README.md)
+- [Classes: I](0x06-python-classes/README.md)
+- [Classes: II](0x08-python-more_classes/README.md)
 - [Data Structures: I](0x03-python-data_structures/README.md)
 - [Data Structures: II](0x04-python-more_data_structures/README.md)
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+- [Everything Is Object](0x09-python-everything_is_object/README.md)
+- [Exceptions](0x05-python-exceptions/README.md)
+- [Hello World](0x00-python-hello_world/README.md)
+- [If, Else, Loops and Functions](0x01-python-if_else_loops_functions/README.md)
+- [Import Modules](0x02-python-import_modules/README.md)
+- [Inheritance](0x0A-python-inheritance/README.md)
+- [Input and Output](0x0B-python-input_output/README.md)
+- [Network: I](0x10-python-network_0/README.md)
+- [Network: II](0x11-python-network_1/README.md)
+- [Object Relational Mapping](0x0F-python-object_relational_mapping/README.md)
+- [Test Driven Development](0x07-python-test_driven_development/README.md)
+___
 
+- [JavaScript: Warm Up](0x12-javascript-warm_up/README.md)
+- [JavaScript: Objects, Scopes, Closures](0x13-javascript_objects_scopes_closures/README.md)
+- [JavaScript: Web Scrapping](0x14-javascript-web_scraping/README.md)
+- [JavaScript: Web jQuery](0x15-javascript-web_jquery/README.md)
+___
+
+- [SQL: Introduction](0x0D-SQL_introduction/README.md)
+- [SQL: More Queries](0x0E-SQL_more_queries/README.md)
 ___
 
 - [Requirements](#requirements)
