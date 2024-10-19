@@ -737,7 +737,7 @@ Write the Python function `def magic_calculation(a, b):` that does exactly the s
              11 RETURN_VALUE
 ```
 
-- Tip: [Python bytecode](https://intranet.alxswe.com/rltoken/B38QeZHREbvgq-wY7Ze3vQ)
+- Tip: [Python bytecode](https://docs.python.org/3/library/dis.html)
 
 **Repo:**
 - GitHub repository: `alx-python-higher_level_programming`
