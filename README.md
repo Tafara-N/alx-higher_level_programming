@@ -170,7 +170,7 @@ Namespaces are one honking great idea -- let's do more of those!
 **Pycodestyle**
 `Pycodestyle` is now the [new standard of Python style code](https://intranet.alxswe.com/rltoken/UQ25jC6sA5XqZl6ZZIdAaw)
 
-![Monty](https://miro.medium.com/v2/resize:fit:640/format:webp/1*ZSykfSA9hTOCc2PETCa8mA.jpeg)
+![Monty](images/monty.jpeg)
 
 ## Author
 
