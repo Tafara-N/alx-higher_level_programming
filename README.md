@@ -72,7 +72,6 @@ Enjoy!
 - [Pycodestyle – Style Guide for Python Code](https://intranet.alxswe.com/rltoken/tgYt-0zVy1T4sDlE9ohxnA)
 
 ## Learning Objectives
----
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/TYWTMEj3W1HhTHqMKu8kWA), **without the help of Google:**
 
 ## General
@@ -141,6 +140,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - All your header files should be include guarded
 
 ## More Info
+
 **Zen**
 
 ```
