@@ -168,7 +168,7 @@ Namespaces are one honking great idea -- let's do more of those!
 ```
 
 **Pycodestyle**
-`Pycodestyle` is now the [new standard of Python style code](https://intranet.alxswe.com/rltoken/UQ25jC6sA5XqZl6ZZIdAaw)
+`Pycodestyle` is now the [new standard of Python style code](https://github.com/PyCQA/pycodestyle/issues/466)
 
 ![Monty](images/monty.jpeg)
 
