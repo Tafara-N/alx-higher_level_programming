@@ -174,4 +174,4 @@ Namespaces are one honking great idea -- let's do more of those!
 
 ## Author
 
-**Tafara Nyamhunga  - [Github](https://github.com/tafara-n) / [Twitter](https://twitter.com/tafaranyamhunga)**
+**Tafara Nyamhunga - [Github](https://github.com/tafara-n) / [Twitter](https://twitter.com/tafaranyamhunga)**
