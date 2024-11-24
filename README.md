@@ -64,7 +64,7 @@ Enjoy!
 
 **Read or watch:**
 - [The Python tutorial](https://intranet.alxswe.com/rltoken/JsFCs_NBzMAR7-XPAZ9BoA) (only the first three chapters below)
-- [Whetting Your Appetite]()
+- [Whetting Your Appetite](https://docs.python.org/3/tutorial/appetite.html)
 - [Using the Python Interpreter](https://docs.python.org/3/tutorial/interpreter.html)
 - [An Informal Introduction to Python](https://docs.python.org/3/tutorial/introduction.html) (*Read up until “3.1.2. Strings” included*)
 - [How To Use String Formatters in Python 3](https://realpython.com/python-f-strings/)
