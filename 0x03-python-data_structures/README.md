@@ -815,7 +815,7 @@ Since we now know a bit of C, we can look at what is happening under the hood of
 
 - All your files will be interpreted/compiled on Ubuntu 14.04 LTS
 
-![Aww](aww.gif)
+![Aww](images/aww.gif)
 
 Create a C function that prints some basic info about Python lists.
 
