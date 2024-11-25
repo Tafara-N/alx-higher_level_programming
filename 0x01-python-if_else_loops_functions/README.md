@@ -447,6 +447,7 @@ Write a function that checks for lowercase character.
 - You are not allowed to import any module
 - You are not allowed to use `str.upper()` and `str.isupper()`
 - [Tips: ord()](https://docs.python.org/3.4/library/functions.html?highlight=ord#ord)
+
 You don’t need to understand `__import__`
 
 ```shell
