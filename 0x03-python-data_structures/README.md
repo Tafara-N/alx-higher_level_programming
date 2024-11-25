@@ -214,7 +214,7 @@ Write a function that prints all integers of a list.
 - You are not allowed to cast integers into strings
 - You have to use `str.format()` to print integers
 
-```python
+```bash
 guillaume@ubuntu:~/0x03$ cat 0-main.py
 #!/usr/bin/python3
 print_list_integer = __import__('0-print_list_integer').print_list_integer
