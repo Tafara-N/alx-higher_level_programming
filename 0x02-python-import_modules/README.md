@@ -539,7 +539,7 @@ Write the Python function `def magic_calculation(a, b):` that does exactly the s
             110 RETURN_VALUE
 ```
 
-- Tip: [Python bytecode](https://intranet.alxswe.com/rltoken/FMdg7W8NKJZKRuFGG8mzmg)
+- Tip: [Python bytecode](https://docs.python.org/3/library/dis.html)
 
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
