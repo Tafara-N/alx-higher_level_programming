@@ -362,7 +362,7 @@ guillaume@ubuntu:~/py/0x00$
 - Directory: `0x00-python-hello_world`
 - File: `5-print_string.py`
 
-## 6. Play with strings
+### 6. Play with strings
 
 Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/6-concat.py) to print Welcome to Holberton School!
 
@@ -384,7 +384,7 @@ guillaume@ubuntu:~/py/0x00$
 - Directory: `0x00-python-hello_world`
 - File: `6-concat.py`
 
-## 7. Copy - Cut - Paste
+### 7. Copy - Cut - Paste
 
 Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/7-edges.py)
 
@@ -410,7 +410,7 @@ guillaume@ubuntu:~/py/0x00$
 - Directory: `0x00-python-hello_world`
 - File: `7-edges.py`
 
-## 8. Create a new sentence
+### 8. Create a new sentence
 
 Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/8-concat_edges.py) to print `object-oriented programming with Python`, followed by a new line.
 
