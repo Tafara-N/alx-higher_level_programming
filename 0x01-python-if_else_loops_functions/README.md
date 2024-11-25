@@ -63,9 +63,9 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 **`Note:`** you do not need to understand lists yet.
 
-### Quiz questions
+## Quiz questions
 
-## Question #0
+### Question #0
 
 What do these lines print?
 
