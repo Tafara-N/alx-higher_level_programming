@@ -180,7 +180,7 @@ else:
 
 - [ ] School
 
-## Question #7
+### Question #7
 
 What do these lines print?
 
