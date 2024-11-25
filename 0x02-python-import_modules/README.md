@@ -321,7 +321,7 @@ guillaume@ubuntu:~/0x02$
 
 Remember how you did (or did not) do it in C? `#pythoniscool`
 
-- ![Python is cool](amazed_cat.jpg)
+- ![Python is cool](images/amazed_cat.jpg)
 
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
