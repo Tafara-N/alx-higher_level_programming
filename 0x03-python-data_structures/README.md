@@ -828,7 +828,7 @@ Create a C function that prints some basic info about Python lists.
     - listobject.h
     - object.h
     - [Common Object Structures](https://docs.python.org/3/c-api/structures.html)
-    - [List Objects](https://intranet.alxswe.com/rltoken/7V1HlQRESjCqrKrw_O_Urw)
+    - [List Objects](https://docs.python.org/3/c-api/list.html)
 
 ```shell
 julien@ubuntu:~/CPython$ gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,PyList -o libPyList.so -fPIC -I/usr/include/python3.4 100-print_python_list_info.c
