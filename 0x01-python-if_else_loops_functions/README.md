@@ -197,7 +197,7 @@ for i in range(4):
 
 - [ ] 0 1 2 3
 
-## Question #8
+### Question #8
 
 What do these lines print?
 
