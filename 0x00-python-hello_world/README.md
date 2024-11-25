@@ -22,6 +22,7 @@ Enjoy!
 ```
 
 ## Resources
+
 **Read or watch:**
 - [The Python tutorial](https://intranet.alxswe.com/rltoken/JsFCs_NBzMAR7-XPAZ9BoA) (only the first three chapters below)
 - [Whetting Your Appetite](https://intranet.alxswe.com/rltoken/kifRlLG2iMX5AZiW8lrCMg)
