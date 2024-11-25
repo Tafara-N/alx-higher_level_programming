@@ -304,7 +304,7 @@ Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/3-p
     - followed by a new line
 - You are not allowed to cast the variable `number` into a string
 - Your code must be 3 lines long
-- You have to use f-strings [tips](https://intranet.alxswe.com/rltoken/Ju0J8BxkuPX5yKZctyKfsQ)
+- You have to use f-strings [tips](https://realpython.com/python-f-strings/)
 
 ```shell
 guillaume@ubuntu:~/py/0x00$ ./3-print_number.py
@@ -316,7 +316,7 @@ guillaume@ubuntu:~/py/0x00$
 - Directory: `0x00-python-hello_world`
 - File: `3-print_number.py`
 
-## 4. Print float
+### 4. Print float
 
 Complete the source code in order to print the float stored in the variable `number` with a precision of 2 digits.
 
