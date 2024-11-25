@@ -264,7 +264,7 @@ guillaume@ubuntu:~/0x01$
 
 This program will assign a random signed number to the variable `number` each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable `number`.
 
-- You can find the source code [here](https://intranet.alxswe.com/rltoken/Vku0ZPFeDPuXUKD8nZ4mOQ)
+- You can find the source code [here](https://github.com/alx-tools/0x01.py/blob/master/1-last_digit_py)
 - The variable `number` will store a different value every time you will run this program
 - You don’t have to understand what `import`, `random.randint do`. **Please do not touch this code**. This line should not change: `number = random.randint(-10000, 10000)`
 - The output of the program should be:
