@@ -238,7 +238,7 @@ What does this command line print?
 
 ## Tasks
 
-## 0. Run Python file
+### 0. Run Python file
 
 Write a Shell script that runs a Python script.
 
@@ -260,7 +260,7 @@ guillaume@ubuntu:~/py/0x00$
 - Directory: `0x00-python-hello_world`
 - File: `0-run`
 
-## 1. Run inline
+### 1. Run inline
 
 Write a Shell script that runs Python code.
 
@@ -277,7 +277,7 @@ guillaume@ubuntu:~/py/0x00$
 - Directory: `0x00-python-hello_world`
 - File: `1-run_inline`
 
-## 2. Hello, print
+### 2. Hello, print
 
 Write a Python script that prints exactly `"Programming is like building a multilingual puzzle`, followed by a new line.
 
@@ -294,7 +294,7 @@ guillaume@ubuntu:~/py/0x00$
 - Directory: `0x00-python-hello_world`
 - File: `2-print.py`
 
-## 3. Print integer
+### 3. Print integer
 
 Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/3-print_number.py) in order to print the integer stored in the variable `number`, followed by `Battery street`, followed by a new line.
 
