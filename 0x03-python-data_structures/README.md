@@ -1,7 +1,7 @@
 # Resources
 
 **Read or watch:**
-- [3.1.3. Lists](https://intranet.alxswe.com/rltoken/VarQbHxfmbnpGnaGp3Nb_A)
+- [3.1.3. Lists](https://docs.python.org/3/tutorial/introduction.html#lists)
 - [Data structures](https://intranet.alxswe.com/rltoken/2aa8Mp-V2eSieGeX3OX8yQ) (*until `5.3. Tuples and Sequences` included*)
 - [Learn to Program 6 : Lists](https://intranet.alxswe.com/rltoken/BX2_CuHj1sq4eYGiXbCYSg)
 
