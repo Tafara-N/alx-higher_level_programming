@@ -72,9 +72,9 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
 - We strongly encourage you to work together on test cases, so that you don’t miss any edge case
 
-### Quiz questions
+## Quiz questions
 
-## Question #0
+### Question #0
 
 What does this command line print?
 
@@ -91,7 +91,7 @@ What does this command line print?
 
 - [ ] cool
 
-## Question #1
+### Question #1
 
 What does this command line print?
 
@@ -110,7 +110,7 @@ What does this command line print?
 
 - [ ] Python
 
-## Question #2
+### Question #2
 
 Who created Python?
 
@@ -120,7 +120,7 @@ Who created Python?
 
 - [ ] Guido van Rossum
 
-## Question #3
+### Question #3
 
 What does this command line print?
 
@@ -136,7 +136,7 @@ What does this command line print?
 
 - [ ] 98 Battery street, San Francisco
 
-## Question #4
+### Question #4
 
 What does this command line print?
 
@@ -152,7 +152,7 @@ What does this command line print?
 
 - [ ] Holberton school
 
-## Question #5
+### Question #5
 
 What does this command line print?
 
@@ -169,7 +169,7 @@ What does this command line print?
 
 - [ ] o
 
-## Question #6
+### Question #6
 
 What does this command line print?
 
@@ -185,7 +185,7 @@ What does this command line print?
 
 - [ ] 9 Battery street
 
-## Question #7
+### Question #7
 
 What does this command line print?
 
@@ -202,7 +202,7 @@ What does this command line print?
 
 - [ ] o
 
-## Question #8
+### Question #8
 
 What does this command line print?
 
@@ -219,7 +219,7 @@ What does this command line print?
 
 - [ ] Python is
 
-## Question #9
+### Question #9
 
 What does this command line print?
 
