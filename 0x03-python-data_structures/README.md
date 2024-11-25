@@ -602,7 +602,7 @@ guillaume@ubuntu:~/0x03$
 
 Complete the source code in order to switch value of `a` and `b`
 
-- You can find the source code [here](https://intranet.alxswe.com/rltoken/9kg8R2hfPSN5pClcVAeGlA)
+- You can find the source code [here](https://github.com/alx-tools/0x03.py/blob/master/12-switch_py)
 - Your code should be inserted where the comment is (line 4)
 - Your program should be exactly 5 lines long
 
