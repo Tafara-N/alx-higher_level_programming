@@ -114,7 +114,7 @@ else:
 
 - [ ] Holberton
 
-## Question #3
+### Question #3
 
 What do these lines print?
 
