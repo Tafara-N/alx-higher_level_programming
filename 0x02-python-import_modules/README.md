@@ -9,8 +9,7 @@
 - `python3`
 
 # Learning Objectives
-
-At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/wwTE_cGg7Ug-Vp3IQ6tmXA), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](), **without the help of Google:**
 
 ## General
 - Why Python programming is awesome
