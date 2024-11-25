@@ -8,7 +8,7 @@
 **man or help:**
 - `python3`
 
-## Learning Objectives
+# Learning Objectives
 
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/wwTE_cGg7Ug-Vp3IQ6tmXA), **without the help of Google:**
 
