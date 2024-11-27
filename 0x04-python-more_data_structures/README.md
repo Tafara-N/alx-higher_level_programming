@@ -843,7 +843,7 @@ guillaume@ubuntu:~/0x04$
 Create two C functions that print some basic info about Python lists and
 Python bytes objects.
 
-![Ni! Ni! Ni!](ni.gif)
+![Ni! Ni! Ni!](images/ni.gif)
 
 Python lists:
 - Prototype: `void print_python_list(PyObject *p);`
