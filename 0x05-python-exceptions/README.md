@@ -501,7 +501,7 @@ Write the Python function `def magic_calculation(a, b):` that does exactly the s
 
 Create three C functions that print some basic info about Python lists, Python bytes an Python float objects.
 
-![Confusion](confusion.gif)
+![Confusion](images/confusion.gif)
 
 Python lists:
 - Prototype: `void print_python_list(PyObject *p);`
