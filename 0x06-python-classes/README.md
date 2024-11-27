@@ -8,7 +8,7 @@ As usual, make sure you type (never copy and paste), test, understand all exampl
 
 Read or watch the below resources in the order presented.
 
-## Resources
+# Resources
 
 **Read or watch:**
 - [Object Oriented Programming](https://intranet.alxswe.com/rltoken/i49z6HxrBGRNnixo7ZWbEQ) (*Read everything until the paragraph “Inheritance” excluded. You do NOT have to learn about class attributes, `classmethod` and `staticmethod` yet*)
