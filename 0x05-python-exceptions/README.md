@@ -2,7 +2,7 @@
 
 **Read or watch:**
 - [Errors and Exceptions](https://docs.python.org/3/tutorial/errors.html)
-- [Learn to Program 11 Static & Exception Handling](https://intranet.alxswe.com/rltoken/xASzXarhF1sBhzYkJ14LvQ) (*starting at minute 7*)
+- [Learn to Program 11 Static & Exception Handling](https://www.youtube.com/watch?v=7vbgD-3s-w4) (*starting at minute 7*)
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/ER6JIfkhcpsfFWZNN_BBvg), **without the help of Google:**
