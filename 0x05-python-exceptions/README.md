@@ -4,7 +4,7 @@
 - [Errors and Exceptions](https://intranet.alxswe.com/rltoken/Yj7sDOzmKwICSHr7WEAW3A)
 - [Learn to Program 11 Static & Exception Handling](https://intranet.alxswe.com/rltoken/xASzXarhF1sBhzYkJ14LvQ) (*starting at minute 7*)
 
-## Learning Objectives
+# Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/ER6JIfkhcpsfFWZNN_BBvg), **without the help of Google:**
 
 ## General
