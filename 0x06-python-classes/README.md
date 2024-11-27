@@ -840,7 +840,7 @@ Disassembly of circumference:
              17 RETURN_VALUE
 ```
 
-- Tip: [Python bytecode](https://intranet.alxswe.com/rltoken/l0hEn4L06ZhFg5HzGPbEhQ)
+- Tip: [Python bytecode](https://docs.python.org/3/library/dis.html)
 
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
