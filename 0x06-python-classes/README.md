@@ -18,7 +18,7 @@ Read or watch the below resources in the order presented.
 - [Python Classes and Objects](https://www.youtube.com/watch?v=apACNr7DC_s)
 - [Object Oriented Programming](https://www.youtube.com/watch?v=-DP1i2ZU9gk)
 
-## Learning Objectives
+# Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
 ## General
@@ -44,7 +44,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - How to use the `getattr` function
 
 # More Info
-**Documentation is now mandatory!** Each module, class, and method must contain docstring as comments. [Example Google Style Python Docstrings](https://intranet.alxswe.com/rltoken/dOO785g5EQYkRU2E1wri0g)
+**Documentation is now mandatory!** Each module, class, and method must contain docstring as comments. [Example Google Style Python Docstrings](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
 
 ## Quiz questions
 
