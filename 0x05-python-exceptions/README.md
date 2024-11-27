@@ -1,7 +1,7 @@
 # Resources
 
 **Read or watch:**
-- [Errors and Exceptions](https://intranet.alxswe.com/rltoken/Yj7sDOzmKwICSHr7WEAW3A)
+- [Errors and Exceptions](https://docs.python.org/3/tutorial/errors.html)
 - [Learn to Program 11 Static & Exception Handling](https://intranet.alxswe.com/rltoken/xASzXarhF1sBhzYkJ14LvQ) (*starting at minute 7*)
 
 # Learning Objectives
