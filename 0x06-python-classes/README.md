@@ -16,7 +16,7 @@ Read or watch the below resources in the order presented.
 - [Properties vs. Getters and Setters](https://python-course.eu/oop/properties-vs-getters-and-setters.php)
 - [Learn to Program 9 : Object Oriented Programming](https://www.youtube.com/watch?v=1AGyBuVCTeE)
 - [Python Classes and Objects](https://www.youtube.com/watch?v=apACNr7DC_s)
-- [Object Oriented Programming](https://intranet.alxswe.com/rltoken/-vVnWzwR3a3X0H8Oia78Ug)
+- [Object Oriented Programming](https://www.youtube.com/watch?v=-DP1i2ZU9gk)
 
 ## Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/WxAcwZ7gFDS8MKYqhB9Gzw), **without the help of Google:**
