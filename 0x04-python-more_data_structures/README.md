@@ -1,7 +1,7 @@
 # Resources
 
 **Read or watch:**
-- [Data structures](https://intranet.alxswe.com/rltoken/GmgoSUtBbHBW8suWkws51g)
+- [Data structures](https://docs.python.org/3/tutorial/datastructures.html)
 - [Lambda, filter, reduce and map](https://intranet.alxswe.com/rltoken/53f4kKVT0-jyzrJstOSJWg)
 - [Learn to Program 12 Lambda Map Filter Reduce](https://intranet.alxswe.com/rltoken/v9eyFryhkYmxDI13iTx2VA)
 
