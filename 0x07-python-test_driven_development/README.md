@@ -18,7 +18,7 @@ Starting from today:
 # Resources
 
 **Read or watch:**
-- [doctest — Test interactive Python examples](https://intranet.alxswe.com/rltoken/BwZJVq2MQ1_Vg_3gphoitQ) (*until “26.2.3.7. Warnings” included*)
+- [doctest — Test interactive Python examples](https://docs.python.org/3/library/doctest.html) (*until “26.2.3.7. Warnings” included*)
 - [doctest – Testing through documentation](https://pymotw.com/3/doctest/)
 - [Unit Tests in Python](https://www.youtube.com/watch?v=1Lfv5tUGsn8)
 - [Unittest module](https://www.youtube.com/watch?v=6tNS--WetLI)
