@@ -552,7 +552,7 @@ guillaume@ubuntu:~/0x07$
 
 ### 7. Lazy matrix multiplication
 
-Write a function that multiplies 2 matrices by using the module [NumPy](https://intranet.alxswe.com/rltoken/sXnBuOVSyhKEGt-biOyOWg)
+Write a function that multiplies 2 matrices by using the module [NumPy](https://numpy.org/)
 
 To install it: `pip3 install numpy==1.15.0`
 
