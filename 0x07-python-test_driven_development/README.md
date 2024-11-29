@@ -25,7 +25,7 @@ Starting from today:
 - [Interactive and Non-interactive tests](https://intranet.alxswe.com/rltoken/lB65hNMXBziXy4A0YLIOog)
 
 # Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/tYtzLvssHW_9zR6SZQlNrQ), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
 ## General
 - Why Python programming is awesome
