@@ -589,7 +589,7 @@ Create a function that prints Python strings.
 - Prototype: `void print_python_string(PyObject *p);`
 - Format: see example
 - If `p` is not a valid string, print an error message (see example)
-- Read: [Unicode HOWTO](https://intranet.alxswe.com/rltoken/UkkHHaILiYf9d_a3nc4Bxw)
+- Read: [Unicode HOWTO](https://docs.python.org/3/howto/unicode.html)
 
 About:
 - Python version: 3.4
