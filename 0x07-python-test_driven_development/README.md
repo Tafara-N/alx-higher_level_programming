@@ -511,7 +511,7 @@ guillaume@ubuntu:~/0x07$
 
 Write a function that multiplies 2 matrices:
 
-- Read: [Matrix multiplication - only Matrix product (two matrices)](https://intranet.alxswe.com/rltoken/Qw_rYR3lYYL5DHDH-iCWCA)
+- Read: [Matrix multiplication - only Matrix product (two matrices)](https://en.wikipedia.org/wiki/Matrix_multiplication)
 
 - Prototype: `def matrix_mul(m_a, m_b):`
 
