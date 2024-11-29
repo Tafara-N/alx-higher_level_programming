@@ -184,10 +184,9 @@ import sys
 
 - [ ] Yes
 
-```
-Tips:
-Docstring must be before import statements
-```
+> Tips:
+
+> Docstring must be before import statements
 
 ## Tasks
 
