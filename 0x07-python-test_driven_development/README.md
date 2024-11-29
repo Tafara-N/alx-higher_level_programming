@@ -24,10 +24,10 @@ Starting from today:
 - [Unittest module](https://intranet.alxswe.com/rltoken/1v-d9Ol13JabJq8UI6MIPg)
 - [Interactive and Non-interactive tests](https://intranet.alxswe.com/rltoken/lB65hNMXBziXy4A0YLIOog)
 
-## Learning Objectives
+# Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/tYtzLvssHW_9zR6SZQlNrQ), **without the help of Google:**
 
-### General
+## General
 - Why Python programming is awesome
 - What’s an interactive test
 - Why tests are important
