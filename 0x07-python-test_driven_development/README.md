@@ -583,7 +583,7 @@ guillaume@ubuntu:~/0x07$
 
 ### 8. CPython #3: Python Strings
 
-![CPython](cpython.gif)
+![CPython](images/cpython.gif)
 
 Create a function that prints Python strings.
 - Prototype: `void print_python_string(PyObject *p);`
