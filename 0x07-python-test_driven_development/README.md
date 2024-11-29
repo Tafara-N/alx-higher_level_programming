@@ -4,7 +4,7 @@
 
 - [Never forget a test](https://intranet.alxswe.com/concepts/47)
 
-![TDD](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/246/giphy-4.gif)
+![TDD](images//giphy-4.gif)
 
 ## Background Context
 
