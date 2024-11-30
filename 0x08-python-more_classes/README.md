@@ -8,7 +8,7 @@
 - [Properties vs. Getters and Setters](https://intranet.alxswe.com/rltoken/xjpk-jUNe0uGEzcNXbwIHQ) (*Mainly the last part “Public instead of Private Attributes”*)
 - [str vs repr](https://intranet.alxswe.com/rltoken/iu1ILT-t6FMuZvk7vRvfuQ)
 
-## Learning Objectives
+# Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/hOViVT2nJU8jeBxvw52bjw), **without the help of Google:**
 
 ## General
