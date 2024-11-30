@@ -1,7 +1,7 @@
 # Resources
 
 **Read or watch:**
-- [Object Oriented Programming](https://intranet.alxswe.com/rltoken/M-MFweENpRdEfRto_Gzlvg) (*Read everything until the paragraph “Inheritance” (excluded)*)
+- [Object Oriented Programming](https://python.swaroopch.com/oop.html) (*Read everything until the paragraph “Inheritance” (excluded)*)
 - [Object-Oriented Programming](https://intranet.alxswe.com/rltoken/_Awd8Gn4SBdq2FRd_bY8KA) (*Please be careful: in most of the following paragraphs, the author shows the way you should not use or write a class, in order to help you better understand some concepts and how everything works in Python 3. Make sure you read only the following paragraphs: “General Introduction,” “First-class Everything,” “A Minimal Class in Python,” “Attributes,” “Methods,” “The `__init__` Method,” “Data Abstraction, Data Encapsulation, and Information Hiding,” “`__str__`- and `__repr__`-Methods,” “Public- Protected- and Private Attributes,” & “Destructor”*)
 - [Class and Instance Attributes](https://intranet.alxswe.com/rltoken/SGQIevRxW6lTgr4jGDzXbw)
 - [classmethods and staticmethods](https://intranet.alxswe.com/rltoken/Ij1EnTg02gtIknOkNv4xGA)
