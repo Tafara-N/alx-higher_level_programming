@@ -922,7 +922,7 @@ where N must be an integer greater or equal to `4`
     - You don’t have to print the solutions in a specific order
 - You are only allowed to import the `sys` module
 
-Read: [Queen](https://en.wikipedia.org/wiki/Queen_%28chess%29), [Backtracking](https://intranet.alxswe.com/rltoken/TGXZXdY2Awg8m4mSjlrjjA)
+Read: [Queen](https://en.wikipedia.org/wiki/Queen_%28chess%29), [Backtracking](https://en.wikipedia.org/wiki/Backtracking)
 
 ```shell
 julien@ubuntu:~/0x08. N Queens$ ./101-nqueens.py 4
