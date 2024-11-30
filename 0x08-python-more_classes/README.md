@@ -9,7 +9,7 @@
 - [str vs repr](https://shipit.dev/posts/python-str-vs-repr.html)
 
 # Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/hOViVT2nJU8jeBxvw52bjw), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
 ## General
 - Why Python programming is awesome
