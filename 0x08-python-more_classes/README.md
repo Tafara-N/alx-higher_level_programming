@@ -6,7 +6,7 @@
 - [Class and Instance Attributes](https://python-course.eu/oop/class-instance-attributes.php)
 - [classmethods and staticmethods](https://www.youtube.com/watch?v=rq8cL2XMM5M)
 - [Properties vs. Getters and Setters](https://python-course.eu/oop/properties-vs-getters-and-setters.php) (*Mainly the last part “Public instead of Private Attributes”*)
-- [str vs repr](https://intranet.alxswe.com/rltoken/iu1ILT-t6FMuZvk7vRvfuQ)
+- [str vs repr](https://shipit.dev/posts/python-str-vs-repr.html)
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/hOViVT2nJU8jeBxvw52bjw), **without the help of Google:**
