@@ -904,9 +904,9 @@ guillaume@ubuntu:~/0x08$
 
 ### 10. N queens
 
-![Hudith Polgar](Judit-photo1_602x433.jpg)
+![Hudith Polgar](images/Judit-photo1_602x433.jpg)
 
-Chess grandmaster [Judit Polgár](https://intranet.alxswe.com/rltoken/bsRwbt64OvYjWaClriv0jg), the strongest female chess player of all time
+Chess grandmaster [Judit Polgár](https://en.wikipedia.org/wiki/Judit_Polg%C3%A1r), the strongest female chess player of all time
 
 
 The N queens puzzle is the challenge of placing N non-attacking queens on an N×N chessboard. Write a program that solves the N queens problem.
