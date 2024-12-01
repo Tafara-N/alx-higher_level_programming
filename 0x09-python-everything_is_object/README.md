@@ -46,7 +46,7 @@ All your answers should be only one line in a file. No space before or after the
 - [Immutable vs mutable types](https://stackoverflow.com/questions/8056130/immutable-vs-mutable-types)
 - [Mutation](https://www.composingprograms.com/pages/24-mutable-data.html) (*Only this chapter*)
 - [9.12. Cloning lists](https://www.openbookproject.net/thinkcs/python/english2e/ch09.html#cloning-lists)
-- [Python tuples: immutable but potentially changing](https://intranet.alxswe.com/rltoken/NZIom4L-tS0HjpY_uEVr9A)
+- [Python tuples: immutable but potentially changing](https://www.oreilly.com/radar/)
 
 ## Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/J02m-YVaLqu3rtRDGfg5NQ), **without the help of Google:**
