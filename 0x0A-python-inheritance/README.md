@@ -4,7 +4,7 @@
 - [Inheritance](https://docs.python.org/3/tutorial/classes.html#inheritance)
 - [Multiple inheritance](https://docs.python.org/3/tutorial/classes.html#multiple-inheritance)
 - [Inheritance in Python](https://www.geeksforgeeks.org/inheritance-in-python/)
-- [Learn to Program 10 : Inheritance Magic Methods](https://intranet.alxswe.com/rltoken/CFBGj9h1gP3eNLnEm2Ehhg)
+- [Learn to Program 10 : Inheritance Magic Methods](https://www.youtube.com/watch?v=d8kCdLCi6Lk)
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](), **without the help of Google:**
