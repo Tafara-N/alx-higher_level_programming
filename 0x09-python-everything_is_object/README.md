@@ -44,7 +44,7 @@ All your answers should be only one line in a file. No space before or after the
 - [9.10. Objects and values](https://www.openbookproject.net/thinkcs/python/english2e/ch09.html#objects-and-values)
 - [9.11. Aliasing](https://www.openbookproject.net/thinkcs/python/english2e/ch09.html#aliasing)
 - [Immutable vs mutable types](https://stackoverflow.com/questions/8056130/immutable-vs-mutable-types)
-- [Mutation](https://intranet.alxswe.com/rltoken/6d5UiQ__13J1EU8BdddCyg) (*Only this chapter*)
+- [Mutation](https://www.composingprograms.com/pages/24-mutable-data.html) (*Only this chapter*)
 - [9.12. Cloning lists](https://intranet.alxswe.com/rltoken/-Gi4PX4srBYFKpZ5Er6sqA)
 - [Python tuples: immutable but potentially changing](https://intranet.alxswe.com/rltoken/NZIom4L-tS0HjpY_uEVr9A)
 
