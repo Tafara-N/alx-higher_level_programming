@@ -7,7 +7,7 @@
 - [Learn to Program 10 : Inheritance Magic Methods](https://intranet.alxswe.com/rltoken/CFBGj9h1gP3eNLnEm2Ehhg)
 
 # Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/UJKcx5DE4cRGNq4Ayi-g9g), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](), **without the help of Google:**
 
 ## General
 - Why Python programming is awesome
