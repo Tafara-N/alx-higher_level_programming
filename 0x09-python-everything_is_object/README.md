@@ -42,7 +42,7 @@ All your answers should be only one line in a file. No space before or after the
 
 **Read or watch:**
 - [9.10. Objects and values](https://www.openbookproject.net/thinkcs/python/english2e/ch09.html#objects-and-values)
-- [9.11. Aliasing](https://intranet.alxswe.com/rltoken/Ro-7kVXtmWyAeOXEw7RhSg)
+- [9.11. Aliasing](https://www.openbookproject.net/thinkcs/python/english2e/ch09.html#aliasing)
 - [Immutable vs mutable types](https://intranet.alxswe.com/rltoken/X1lEmkwQRWI3fP4W7bq_qw)
 - [Mutation](https://intranet.alxswe.com/rltoken/6d5UiQ__13J1EU8BdddCyg) (*Only this chapter*)
 - [9.12. Cloning lists](https://intranet.alxswe.com/rltoken/-Gi4PX4srBYFKpZ5Er6sqA)
