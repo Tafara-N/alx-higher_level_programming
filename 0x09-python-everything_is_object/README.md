@@ -48,7 +48,7 @@ All your answers should be only one line in a file. No space before or after the
 - [9.12. Cloning lists](https://www.openbookproject.net/thinkcs/python/english2e/ch09.html#cloning-lists)
 - [Python tuples: immutable but potentially changing](https://www.oreilly.com/radar/)
 
-## Learning Objectives
+# Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
 ## General
