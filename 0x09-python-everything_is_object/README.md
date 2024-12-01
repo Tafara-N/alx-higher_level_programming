@@ -49,7 +49,7 @@ All your answers should be only one line in a file. No space before or after the
 - [Python tuples: immutable but potentially changing](https://www.oreilly.com/radar/)
 
 ## Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/J02m-YVaLqu3rtRDGfg5NQ), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
 ## General
 - Why Python programming is awesome
