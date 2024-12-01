@@ -677,7 +677,7 @@ Assuming we are using a CPython implementation of Python3 with default options/c
 
 Hint: `NSMALLPOSINTS`, `NSMALLNEGINTS`
 
-![Poof](poof.gif)
+![Poof](images/poof.gif)
 
 **Repo:**
 - GitHub repository: `alx-higher_level_programming`
