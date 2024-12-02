@@ -3,7 +3,7 @@
 **Read or watch:**
 - [7.2. Reading and Writing Files](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 - [8.7. Predefined Clean-up Actions](https://docs.python.org/3/tutorial/errors.html#predefined-clean-up-actions)
-- [Dive Into Python 3: Chapter 11. Files](https://intranet.alxswe.com/rltoken/0osPfNU5d3Shh9PFWgYm9A) (*until “11.4 Binary Files” (included)*)
+- [Dive Into Python 3: Chapter 11. Files](resources/dive_into_python3.pdf) (*until “11.4 Binary Files” (included)*)
 - [JSON encoder and decoder](https://intranet.alxswe.com/rltoken/l0B9_pFn1tgBvE7FrT14Zw)
 - [Learn to Program 8 : Reading / Writing Files](https://intranet.alxswe.com/rltoken/ZvtAdnUzjnEVu1sjg3m_tQ)
 - [Automate the Boring Stuff with Python](https://intranet.alxswe.com/rltoken/Ej8YjhxLXpzHW7_rNMd9XQ) (*ch. 8 p 180-183 and ch. 14 p 326-333*)
