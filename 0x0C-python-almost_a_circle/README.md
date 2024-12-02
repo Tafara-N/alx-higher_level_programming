@@ -1054,7 +1054,7 @@ guillaume@ubuntu:~/$
 
 Update the class `Base` by adding the static method `def draw(list_rectangles, list_squares):` that opens a window and draws all the `Rectangles` and `Squares`:
 
-- You must use the [Turtle graphics module](https://intranet.alxswe.com/rltoken/d16zMqYw0c7eQje2XgFvFg)
+- You must use the [Turtle graphics module](https://docs.python.org/3.0/library/turtle.html)
 - To install it: `sudo apt-get install python3-tk`
 - To make the GUI available outside your vagrant machine, add this line in your Vagrantfile: `config.ssh.forward_x11 = true`
 - No constraints for color, shape etc… be creative!
