@@ -32,7 +32,7 @@ You will also learn about:
 - [Python test cheatsheet](https://www.pythonsheets.com/notes/python-tests.html)
 
 # Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/SBdRhGGBuqzWcwcuKyapSQ), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
 ## General
 - What is Unit testing and how to implement it in a large project
