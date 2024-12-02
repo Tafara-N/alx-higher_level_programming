@@ -28,7 +28,7 @@ You will also learn about:
 **Read or watch:**
 - [args/kwargs](https://yasoob.me/2013/08/04/args-and-kwargs-in-python-explained/)
 - [JSON encoder and decoder](https://docs.python.org/3/library/json.html)
-- [unittest module](https://intranet.alxswe.com/rltoken/soictNXCPE18ASL3INoeew)
+- [unittest module](https://docs.python.org/3.4/library/unittest.html#module-unittest)
 - [Python test cheatsheet](https://intranet.alxswe.com/rltoken/uI9iskBCcNo5pc7j9Vy86A)
 
 # Learning Objectives
