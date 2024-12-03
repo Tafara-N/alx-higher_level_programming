@@ -51,7 +51,7 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 - [SQLAlchemy](https://docs.sqlalchemy.org/en/13/)
 - [mysqlclient/MySQLdb](https://github.com/PyMySQL/mysqlclient)
 - [Introduction to SQLAlchemy](https://www.youtube.com/watch?v=woKYyhLCcnU)
-- [Flask SQLAlchemy](https://intranet.alxswe.com/rltoken/B-xIdMtGvpus8vHxAIRrPg)
+- [Flask SQLAlchemy](https://www.youtube.com/playlist?list=PLXmMXHVSvS-BlLA5beNJojJLlpE0PJgCW)
 - [10 common stumbling blocks for SQLAlchemy newbies](https://intranet.alxswe.com/rltoken/deIzPMrfK8Ixqm-AboFHWg)
 - [Python SQLAlchemy Cheatsheet](https://intranet.alxswe.com/rltoken/dZfUNK3lJicGMK5PU0bE7Q)
 - [SQLAlchemy ORM Tutorial for Python Developers](https://intranet.alxswe.com/rltoken/hNxBKC8lHge5XjsRO8ksHQ) (**Warning**: *This tutorial is with PostgreSQL, but the concept of SQLAlchemy is the same with MySQL*)
