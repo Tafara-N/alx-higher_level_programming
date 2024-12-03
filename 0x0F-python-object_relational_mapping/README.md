@@ -609,7 +609,7 @@ Write a script that adds the `State` object “Louisiana” to the database `hbt
 - Print the new `states.id` after creation
 - Your code should not be executed when imported
 
-```
+```bash
 guillaume@ubuntu:~/0x0F$ ./11-model_state_insert.py root root hbtn_0e_6_usa
 6
 guillaume@ubuntu:~/0x0F$ ./7-model_state_fetch_all.py root root hbtn_0e_6_usa
