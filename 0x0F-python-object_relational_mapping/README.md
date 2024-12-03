@@ -319,7 +319,7 @@ Write a script that lists all `cities` from the database `hbtn_0e_4_usa`
 - Results must be displayed as they are in the example below
 - Your code should not be executed when imported
 
-```
+```bash
 guillaume@ubuntu:~/0x0F$ cat 4-cities_by_state.sql
 -- Create states table in hbtn_0e_4_usa with some data
 CREATE DATABASE IF NOT EXISTS hbtn_0e_4_usa;
