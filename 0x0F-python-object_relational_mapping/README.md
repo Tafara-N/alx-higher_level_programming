@@ -56,7 +56,7 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 - [Python SQLAlchemy Cheatsheet](https://www.pythonsheets.com/notes/python-sqlalchemy.html)
 - [SQLAlchemy ORM Tutorial for Python Developers](https://auth0.com/blog/sqlalchemy-orm-tutorial-for-python-developers/) (**Warning**: *This tutorial is with PostgreSQL, but the concept of SQLAlchemy is the same with MySQL*)
 - [SQLAlchemy Tutorial](https://overiq.com/sqlalchemy-101/)
-- [Python Virtual Environments: A primer](https://intranet.alxswe.com/rltoken/OXle6kXpmD88D0WbgbTWqg)
+- [Python Virtual Environments: A primer](https://realpython.com/python-virtual-environments-a-primer/)
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/vPPdh3HKg3t23YFxUqHpFg), **without the help of Google:**
