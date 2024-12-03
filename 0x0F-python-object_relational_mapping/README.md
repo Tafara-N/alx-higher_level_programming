@@ -58,7 +58,7 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 - [SQLAlchemy Tutorial](https://overiq.com/sqlalchemy-101/)
 - [Python Virtual Environments: A primer](https://realpython.com/python-virtual-environments-a-primer/)
 
-# Learning Objectives
+## Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
 ## General
