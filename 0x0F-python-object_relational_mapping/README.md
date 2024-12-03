@@ -151,7 +151,7 @@ Write a script that lists all `states` from the database `hbtn_0e_0_usa`:
 - Results must be displayed as they are in the example below
 - Your code should not be executed when imported
 
-```
+```bash
 guillaume@ubuntu:~/0x0F$ cat 0-select_states.sql
 -- Create states table in hbtn_0e_0_usa with some data
 CREATE DATABASE IF NOT EXISTS hbtn_0e_0_usa;
