@@ -46,7 +46,7 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 **Read or watch:**
 - [Object-relational mappers](https://www.fullstackpython.com/object-relational-mappers-orms.html)
 - [mysqlclient/MySQLdb documentation](https://mysqlclient.readthedocs.io/) (*please don’t pay attention to `_mysql`*)
-- [MySQLdb tutorial](https://intranet.alxswe.com/rltoken/TdUSYFNGbXJG1WjCEoq5FA)
+- [MySQLdb tutorial](https://www.mikusa.com/python-mysql-docs/index.html)
 - [SQLAlchemy tutorial](https://intranet.alxswe.com/rltoken/YyL5hsscviNH04XGW-XpfA)
 - [SQLAlchemy](https://intranet.alxswe.com/rltoken/j9azWF2Db_2rNolTxOF3SA)
 - [mysqlclient/MySQLdb](https://intranet.alxswe.com/rltoken/0zLhY9KqKjn-zmdb7X598Q)
