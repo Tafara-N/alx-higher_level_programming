@@ -529,7 +529,7 @@ Write a script that prints the first `State` object from the database `hbtn_0e_6
 - If the table `states` is empty, print `Nothing` followed by a new line
 - Your code should not be executed when imported
 
-```
+```bash
 guillaume@ubuntu:~/0x0F$ ./8-model_state_fetch_first.py root root hbtn_0e_6_usa
 1: California
 guillaume@ubuntu:~/0x0F$
