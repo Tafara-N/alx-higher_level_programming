@@ -442,7 +442,7 @@ Write a python file that contains the class definition of a `State` and an insta
 - Your script should connect to a MySQL server running on `localhost` at port `3306`
 - **WARNING**: all classes who inherit from `Base` **must** be imported before calling `Base.metadata.create_all(engine)`
 
-```
+```bash
 guillaume@ubuntu:~/0x0F$ cat 6-model_state.sql
 -- Create database hbtn_0e_6_usa
 CREATE DATABASE IF NOT EXISTS hbtn_0e_6_usa;
