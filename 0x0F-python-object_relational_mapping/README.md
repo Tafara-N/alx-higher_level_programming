@@ -554,7 +554,7 @@ Write a script that lists all `State` objects that contain the letter `a` from t
 - The results must be displayed as they are in the example below
 - Your code should not be executed when imported
 
-```
+```bash
 guillaume@ubuntu:~/0x0F$ ./9-model_state_filter_a.py root root hbtn_0e_6_usa
 1: California
 2: Arizona
