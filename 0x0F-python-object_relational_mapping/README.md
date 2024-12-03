@@ -119,7 +119,7 @@ $ python3
 
 ## Install SQLAlchemy module version 1.4.x
 
-```
+```shell
 $ sudo pip3 install SQLAlchemy
 ...
 $ python3
