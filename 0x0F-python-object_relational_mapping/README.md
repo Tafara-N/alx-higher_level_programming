@@ -669,7 +669,7 @@ Write a script that deletes all `State` objects with a name containing the lette
 - Your script should connect to a MySQL server running on localhost at port 3306
 - Your code should not be executed when imported
 
-```
+```bash
 guillaume@ubuntu:~/0x0F$ ./13-model_state_delete_a.py root root hbtn_0e_6_usa
 guillaume@ubuntu:~/0x0F$ ./7-model_state_fetch_all.py root root hbtn_0e_6_usa
 2: New Mexico
