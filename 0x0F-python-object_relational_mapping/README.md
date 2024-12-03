@@ -49,7 +49,7 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 - [MySQLdb tutorial](https://www.mikusa.com/python-mysql-docs/index.html)
 - [SQLAlchemy tutorial](https://docs.sqlalchemy.org/en/13/orm/tutorial.html)
 - [SQLAlchemy](https://docs.sqlalchemy.org/en/13/)
-- [mysqlclient/MySQLdb](https://intranet.alxswe.com/rltoken/0zLhY9KqKjn-zmdb7X598Q)
+- [mysqlclient/MySQLdb](https://github.com/PyMySQL/mysqlclient)
 - [Introduction to SQLAlchemy](https://intranet.alxswe.com/rltoken/pw50Bl1Bj84wksxm018dwA)
 - [Flask SQLAlchemy](https://intranet.alxswe.com/rltoken/B-xIdMtGvpus8vHxAIRrPg)
 - [10 common stumbling blocks for SQLAlchemy newbies](https://intranet.alxswe.com/rltoken/deIzPMrfK8Ixqm-AboFHWg)
