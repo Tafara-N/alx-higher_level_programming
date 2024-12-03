@@ -899,7 +899,7 @@ Write a script that lists all `City` objects from the database `hbtn_0e_101_usa`
 <city id>: <city name> -> <state name>
 ```
 
-```
+```bash
 guillaume@ubuntu:~/0x0F$ ./102-relationship_cities_states_list.py root root hbtn_0e_101_usa
 1: San Francisco -> California
 2: San Jose -> California
