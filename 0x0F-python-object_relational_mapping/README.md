@@ -50,7 +50,7 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 - [SQLAlchemy tutorial](https://docs.sqlalchemy.org/en/13/orm/tutorial.html)
 - [SQLAlchemy](https://docs.sqlalchemy.org/en/13/)
 - [mysqlclient/MySQLdb](https://github.com/PyMySQL/mysqlclient)
-- [Introduction to SQLAlchemy](https://intranet.alxswe.com/rltoken/pw50Bl1Bj84wksxm018dwA)
+- [Introduction to SQLAlchemy](https://www.youtube.com/watch?v=woKYyhLCcnU)
 - [Flask SQLAlchemy](https://intranet.alxswe.com/rltoken/B-xIdMtGvpus8vHxAIRrPg)
 - [10 common stumbling blocks for SQLAlchemy newbies](https://intranet.alxswe.com/rltoken/deIzPMrfK8Ixqm-AboFHWg)
 - [Python SQLAlchemy Cheatsheet](https://intranet.alxswe.com/rltoken/dZfUNK3lJicGMK5PU0bE7Q)
