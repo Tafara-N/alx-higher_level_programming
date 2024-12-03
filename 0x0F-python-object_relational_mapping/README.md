@@ -583,7 +583,7 @@ Write a script that prints the `State` object with the `name` passed as argument
 - If no state has the name you searched for, display `Not found`
 - Your code should not be executed when imported
 
-```
+```bash
 guillaume@ubuntu:~/0x0F$ ./10-model_state_my_get.py root root hbtn_0e_6_usa Texas
 3
 guillaume@ubuntu:~/0x0F$ ./10-model_state_my_get.py root root hbtn_0e_6_usa Illinois
