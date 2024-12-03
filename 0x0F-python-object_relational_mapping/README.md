@@ -825,7 +825,8 @@ Write a script that lists all `State` objects, and corresponding `City` objects,
 <tabulation><city id>: <city name>
 ```
 
-```guillaume@ubuntu:~/0x0F$ cat 101-relationship_states_cities_list.sql
+```bash
+guillaume@ubuntu:~/0x0F$ cat 101-relationship_states_cities_list.sql
 -- Create states table in hbtn_0e_101_usa with some data
 CREATE DATABASE IF NOT EXISTS hbtn_0e_101_usa;
 USE hbtn_0e_101_usa;
