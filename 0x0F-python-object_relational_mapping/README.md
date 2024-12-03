@@ -492,7 +492,7 @@ Write a script that lists all `State` objects from the database `hbtn_0e_6_usa`
 - The results must be displayed as they are in the example below
 - Your code should not be executed when imported
 
-```
+```bash
 guillaume@ubuntu:~/0x0F$ cat 7-model_state_fetch_all.sql
 -- Insert states
 INSERT INTO states (name) VALUES ("California"), ("Arizona"), ("Texas"), ("New York"), ("Nevada");
