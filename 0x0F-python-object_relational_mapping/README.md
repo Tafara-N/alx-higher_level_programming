@@ -384,7 +384,7 @@ Write a script that takes in the name of a state as an argument and lists all `c
 - The results must be displayed as they are in the example below
 - Your code should not be executed when imported
 
-```
+```bash
 guillaume@ubuntu:~/0x0F$ cat 4-cities_by_state.sql
 -- Create states table in hbtn_0e_4_usa with some data
 CREATE DATABASE IF NOT EXISTS hbtn_0e_4_usa;
