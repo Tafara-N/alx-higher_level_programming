@@ -778,7 +778,7 @@ Write a script that creates the `State` “California” with the `City` “San 
 - You must use the `cities` relationship for all `State` objects
 - Your code should not be executed when imported
 
-```
+```bash
 guillaume@ubuntu:~/0x0F$ cat 100-relationship_states_cities.sql
 -- Create the database hbtn_0e_100_usa
 CREATE DATABASE IF NOT EXISTS hbtn_0e_100_usa;
