@@ -429,12 +429,12 @@ guillaume@ubuntu:~/0x0F$
 
 ### 6. First state model
 
-![IGNORE SQL](https://github.com/Tafara-N/Project-Images/blob/main/alx-higher_level_programming/0x0F-python-object_relational_mapping/images/ignore_sql.jpg)
+![IGNORE SQL](images/ignore_sql.jpg)
 
 Write a python file that contains the class definition of a `State` and an instance `Base = declarative_base()`:
 
 - `State` class:
-    - inherits from `Base` [Tips](https://intranet.alxswe.com/rltoken/SFKIwNZ3IG6_4TL6dEsIuA)
+    - inherits from `Base` [Tips](https://docs.sqlalchemy.org/en/13/orm/extensions/declarative/basic_use.html)
     - links to the MySQL table `states`
     - class attribute `id` that represents a column of an auto-generated, unique integer, can’t be null and is a primary key
     - class attribute `name` that represents a column of a string with maximum 128 characters and can’t be null
