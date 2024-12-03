@@ -706,7 +706,7 @@ Next, write a script `14-model_city_fetch_by_state.py` that prints all City obje
 - Results must be display as they are in the example below (`<state name>: (<city id>) <city name>`)
 - Your code should not be executed when imported
 
-```
+```bash
 guillaume@ubuntu:~/0x0F$ cat 14-model_city_fetch_by_state.sql
 -- Create database hbtn_0e_14_usa, tables states and cities + some data
 CREATE DATABASE IF NOT EXISTS hbtn_0e_14_usa;
