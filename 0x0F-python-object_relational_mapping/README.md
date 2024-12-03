@@ -59,7 +59,7 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 - [Python Virtual Environments: A primer](https://realpython.com/python-virtual-environments-a-primer/)
 
 # Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/vPPdh3HKg3t23YFxUqHpFg), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
 ## General
 - Why Python programming is awesome
